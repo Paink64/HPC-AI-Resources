@@ -41,7 +41,7 @@ Before proceeding, ensure you have:
    - Execute the following command to load the Singularity module:
 
      ```bash
-     module load singularity
+     module load singularitypro
      ```
 
 2. **Verify Singularity Availability**:
