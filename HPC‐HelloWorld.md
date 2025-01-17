@@ -48,7 +48,7 @@ Before we begin, ensure you have:
    - After logging into Expanse, use the following command to list your available projects:
 
      ```bash
-     /cm/shared/apps/sdsc/current/bin/expanse-client user
+     expanse-client user
      ```
 
    - This command will display information about your user account, including the projects you're associated with. Look for the `Project` or `Account` field to find your project ID.
