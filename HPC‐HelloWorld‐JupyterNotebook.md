@@ -17,10 +17,8 @@ By the end of this tutorial, you'll:
 
 Before we begin, ensure you have:
 
-- **An Expanse Account**:
-  - If not, you can request one through the [ACCESS Allocation Request System](https://access-ci.org/about/get-started/#start) or request a Trial Account from SDSC by contacting consult@sdsc.edu.
-- **Basic Unix Knowledge**:
-  - Familiarize yourself with basic Unix commands. A helpful resource is available [here](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/basic_linux_skills_expanse).
+- **An Expanse Account**: If not, request one through the ACCESS Allocation Request System or contact consult@sdsc.edu for a Trial Account.
+- **Basic Unix Knowledge**: Familiarize yourself with basic Unix commands. A helpful resource is available here.
 
 ## 🔑 Step 1: Accessing Expanse
 
@@ -31,7 +29,7 @@ Before we begin, ensure you have:
    - Use the following command to connect to Expanse:
 
      ```bash
-     ssh your_username@expanse.sdsc.edu
+     ssh your_username@login.expanse.sdsc.edu
      ```
 
    - Replace `your_username` with your actual Expanse username. If prompted, enter your password.
@@ -46,31 +44,27 @@ Before we begin, ensure you have:
      ```
 
 2. **Verify Galyleo Availability**:
-   - Confirm that Galyleo is available in your PATH:
+   - Confirm that Galyleo is available in your PATH by echoing the PATH variable:
 
      ```bash
-     which galyleo
+     echo $PATH
      ```
 
-   - This should return the path to the Galyleo executable.
+   - This will display the directories included in your PATH. Ensure that the path to Galyleo is listed among them.
 
-## 🔧 Step 3: Loading Necessary Modules
+## 🆔 Step 3: Identifying Your Project ID
 
-1. **Load the Galyleo Module**:
-   - Load the Galyleo module for your session:
+1. **List Available Projects**:
+   - To view your valid project IDs, run the following command:
 
      ```bash
-     module load galyleo/0.7.4
+     expanse-client
      ```
 
-2. **Confirm Loaded Modules**:
-   - Verify that Galyleo and other necessary modules are loaded:
+   - This will display a list of projects associated with your account.
 
-     ```bash
-     module list
-     ```
-
-   - Ensure that `galyleo/0.7.4` is listed among the loaded modules.
+2. **Select the Appropriate Project ID**:
+   - Identify the project ID you intend to use for your session.
 
 ## 🚀 Step 4: Launching JupyterLab
 
@@ -78,10 +72,10 @@ Before we begin, ensure you have:
    - Start JupyterLab with the specified resources:
 
      ```bash
-     galyleo launch --account your_account_id --partition shared --cpus 1 --memory 2 --time-limit 00:30:00 --env-modules cpu/0.17.3b,anaconda3/2021.05 --interface lab
+     galyleo launch --account your_project_id --partition shared --cpus 1 --memory 2 --time-limit 00:30:00 --env-modules cpu/0.17.3b,anaconda3/2021.05 --interface lab
      ```
 
-   - Replace `your_account_id` with your actual project or account ID.
+   - Replace `your_project_id` with the project ID identified in Step 3.
 
 2. **Access JupyterLab**:
    - After launching, Galyleo will provide a URL. Open this URL in your web browser to access JupyterLab.
