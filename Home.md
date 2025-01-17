@@ -6,10 +6,10 @@ The **HPC-AI-Resources** repository is dedicated to providing resources and tuto
 
 ## Table of Contents
 
-- [HPC-AnyImage-Docker](HPC-AnyImage-Docker)
-- [HPC-HelloWorld-Docker](HPC-HelloWorld-Docker)
-- [HPC-HelloWorld-JupyterNotebook](HPC-HelloWorld-JupyterNotebook)
-- [HPC-HelloWorld-Python](HPC-HelloWorld-Python)
+- [HPC-AnyImage-Docker](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/HPC%E2%80%90AnyImage%E2%80%90Docker)
+- [HPC-HelloWorld-Docker](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/HPC%E2%80%90HelloWorld%E2%80%90Docker)
+- [HPC-HelloWorld-JupyterNotebook](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/HPC%E2%80%90HelloWorld%E2%80%90JupyterNotebook)
+- [HPC-HelloWorld-Python](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/HPC%E2%80%90HelloWorld%E2%80%90Python)
 
 ## Getting Started
 
