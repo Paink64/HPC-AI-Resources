@@ -107,7 +107,7 @@ Before we begin, ensure you have:
      ```
 
 2. **Add the Following Content**:
-   - Replace `your_project_id` with the project ID identified earlier:
+   - Replace `your_project_id` with the project ID identified earlier in Step 2:
 
      ```bash
      #!/bin/bash
