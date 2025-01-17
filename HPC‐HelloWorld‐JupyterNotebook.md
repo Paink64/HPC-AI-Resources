@@ -72,7 +72,7 @@ Before we begin, ensure you have:
    - Start JupyterLab with the specified resources:
 
      ```bash
-     galyleo launch --account your_project_id --partition shared --cpus 1 --memory 2 --time-limit 00:30:00 --env-modules cpu/0.17.3b,anaconda3/2021.05 --interface lab
+     galyleo launch --account your_project_id --partition debug --cpus 1 --memory 2 --time-limit 00:30:00 --env-modules cpu/0.17.3b,anaconda3/2021.05 --interface lab
      ```
 
    - Replace `your_project_id` with the project ID identified in Step 3.
