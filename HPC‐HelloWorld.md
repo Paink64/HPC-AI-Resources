@@ -21,7 +21,7 @@ Before we begin, ensure you have:
 - **An Expanse Account**:
   - If not, you can request one through the [ACCESS Allocation Request System](https://access-ci.org/about/get-started/#start) or request a Trial Account from SDSC by contacting consult@sdsc.edu.
 - **Basic Unix Knowledge**:
-  - Familiarize yourself with basic Unix commands. A helpful resource is available [here](https://github.com/sdsc-hpc-training-org/basic_skills).
+  - Familiarize yourself with basic Unix commands. A helpful resource is available [here](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/basic_linux_skills_expanse).
 
 ---
 
