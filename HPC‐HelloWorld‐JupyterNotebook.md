@@ -17,8 +17,8 @@ By the end of this tutorial, you'll:
 
 Before we begin, ensure you have:
 
-- **An Expanse Account**: If not, request one through the ACCESS Allocation Request System or contact consult@sdsc.edu for a Trial Account.
-- **Basic Unix Knowledge**: Familiarize yourself with basic Unix commands. A helpful resource is available here.
+- **An Expanse Account**: If not, request one through the [ACCESS Allocation Request System](https://access-ci.org/about/get-started/#start) or contact consult@sdsc.edu for a Trial Account.
+- **Basic Unix Knowledge**: Familiarize yourself with basic Unix commands. A helpful resource is available [here](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/basic_linux_skills_expanse).
 
 ## 🔑 Step 1: Accessing Expanse
 
