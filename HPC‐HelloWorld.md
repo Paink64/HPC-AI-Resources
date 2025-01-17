@@ -97,9 +97,9 @@ Before we begin, ensure you have:
 
 ---
 
-## 📝 Step 4: Writing the SLURM Batch Script
+## 📝 Step 4: Running the "Hello, World!" Program
 
-1. **Create the Batch Script**:
+1. **Create a SLURM Batch Script: SLURM manages job submissions on Expanse. Create the Batch Script**:
    - Create a new file named `hello_job.slurm`:
 
      ```bash
