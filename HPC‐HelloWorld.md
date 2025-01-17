@@ -61,12 +61,12 @@ Before we begin, ensure you have:
      ╭───┬────────────┬───────┬─────────┬──────────────┬──────┬───────────┬─────────────────╮
      │   │ NAME       │ STATE │ PROJECT │ TG PROJECT   │ USED │ AVAILABLE │ USED BY PROJECT │
      ├───┼────────────┼───────┼─────────┼──────────────┼──────┼───────────┼─────────────────┤
-     │ 1 │ your_username │ allow │ csd589  │ TG-TRA180027 │    5 │     50000 │               5 │
-     │ 2 │ your_username │ allow │ sds196  │ TG-TRA230015 │    0 │     40000 │           10182 │
+     │ 1 │ username   │ allow │ csd123  │ TG-TRA123456 │    5 │     50000 │               5 │
+     │ 2 │ username   │ allow │ sds456  │ TG-TRA789012 │    0 │     40000 │           10182 │
      ╰───┴────────────┴───────┴─────────┴──────────────┴──────┴───────────┴─────────────────╯
      ```
 
-   - In this example, `csd589` and `sds196` are your project IDs.
+   - In this example, `csd123` and `sds456` are your project IDs.
 
 ---
 
