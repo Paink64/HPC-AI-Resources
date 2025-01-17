@@ -58,7 +58,7 @@ Before we begin, ensure you have:
    - To view your valid project IDs, run the following command:
 
      ```bash
-     expanse-client
+     expanse-client user
      ```
 
    - This will display a list of projects associated with your account.
