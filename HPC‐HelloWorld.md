@@ -120,7 +120,7 @@ Before we begin, ensure you have:
      #SBATCH --time=00:05:00
 
      module load cpu
-     module load python
+     module load python3
 
      python hello.py
      ```
