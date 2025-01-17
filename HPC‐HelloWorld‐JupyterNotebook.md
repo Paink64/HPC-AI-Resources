@@ -1,4 +1,4 @@
-# Running a "Hello, World!" Program on UCSD Expanse with Jupyter Notebook Using Galyleo Shell
+# 🚀 Running a "Hello, World!" Program on UCSD Expanse with Jupyter Notebook Using Galyleo Shell 🌟
 
 Embarking on your High-Performance Computing (HPC) journey with Jupyter Notebooks on UC San Diego's Expanse supercomputer is both exciting and rewarding. Let's dive into a step-by-step guide to creating and running a simple "Hello, World!" program using Jupyter Notebook via the Galyleo shell. Ready? Let's go! 🎉
 
@@ -122,4 +122,4 @@ You've successfully run your first Python "Hello, World!" program on Expanse usi
 
 For a visual walkthrough, you might find this webinar helpful:
 
-[SDSC Webinar: Running Jupyter Notebooks on Expanse](https://www.youtube.com/watch?v=LTyV4eMMO7w&utm_source=chatgpt.com)
+[SDSC Webinar: Running Jupyter Notebooks on Expanse](https://www.youtube.com/watch?v=LTyV4eMMO7w)
