@@ -1,4 +1,4 @@
-# 🚀 Hello, Future HPC Enthusiast! Welcome to Expanse! 🌟
+# 🚀 Welcome to Your First Python Program on Expanse! 🌟
 
 Embarking on your High-Performance Computing (HPC) journey is both exciting and rewarding. Let's dive into a simple "Hello, World!" tutorial using Python on UC San Diego's Expanse supercomputer. We'll guide you step-by-step, making it engaging and straightforward. Ready? Let's go! 🎉
 
@@ -9,6 +9,7 @@ Embarking on your High-Performance Computing (HPC) journey is both exciting and 
 By the end of this tutorial, you'll:
 
 - **Log in** to Expanse.
+- **Identify** your project ID.
 - **Write** a simple Python "Hello, World!" program.
 - **Submit** and **run** your program on Expanse.
 
@@ -21,7 +22,7 @@ Before we begin, ensure you have:
 - **An Expanse Account**:
   - If not, you can request one through the [ACCESS Allocation Request System](https://access-ci.org/about/get-started/#start) or request a Trial Account from SDSC by contacting consult@sdsc.edu.
 - **Basic Unix Knowledge**:
-  - Familiarize yourself with basic Unix commands. A helpful resource is available [here](https://github.com/sdsc-hpc-training-org/basic_skills/tree/master/basic_linux_skills_expanse).
+  - Familiarize yourself with basic Unix commands. A helpful resource is available [here](https://github.com/sdsc-hpc-training-org/basic_skills).
 
 ---
 
@@ -41,7 +42,35 @@ Before we begin, ensure you have:
 
 ---
 
-## 📝 Step 2: Writing the "Hello, World!" Program
+## 🆔 Step 2: Identifying Your Project ID
+
+1. **Use the `expanse-client` Utility**:
+   - After logging into Expanse, use the following command to list your available projects:
+
+     ```bash
+     /cm/shared/apps/sdsc/current/bin/expanse-client user
+     ```
+
+   - This command will display information about your user account, including the projects you're associated with. Look for the `Project` or `Account` field to find your project ID.
+
+   - For example, the output might look like:
+
+     ```
+     Resource  expanse
+
+     ╭───┬────────────┬───────┬─────────┬──────────────┬──────┬───────────┬─────────────────╮
+     │   │ NAME       │ STATE │ PROJECT │ TG PROJECT   │ USED │ AVAILABLE │ USED BY PROJECT │
+     ├───┼────────────┼───────┼─────────┼──────────────┼──────┼───────────┼─────────────────┤
+     │ 1 │ your_username │ allow │ csd589  │ TG-TRA180027 │    5 │     50000 │               5 │
+     │ 2 │ your_username │ allow │ sds196  │ TG-TRA230015 │    0 │     40000 │           10182 │
+     ╰───┴────────────┴───────┴─────────┴──────────────┴──────┴───────────┴─────────────────╯
+     ```
+
+   - In this example, `csd589` and `sds196` are your project IDs.
+
+---
+
+## 📝 Step 3: Writing the "Hello, World!" Program
 
 1. **Create a Directory**:
    - Organize your work by creating a new directory:
@@ -68,22 +97,24 @@ Before we begin, ensure you have:
 
 ---
 
-## 🚀 Step 3: Running the Program
+## 📝 Step 4: Writing the SLURM Batch Script
 
-1. **Create a SLURM Batch Script**:
-   - SLURM manages job submissions on Expanse. Create a script named `hello_job.slurm`:
+1. **Create the Batch Script**:
+   - Create a new file named `hello_job.slurm`:
 
      ```bash
      nano hello_job.slurm
      ```
 
-   - Add the following content:
+2. **Add the Following Content**:
+   - Replace `your_project_id` with the project ID identified earlier:
 
      ```bash
      #!/bin/bash
      #SBATCH --job-name=hello_exp
      #SBATCH --output=hello_output.txt
      #SBATCH --partition=debug
+     #SBATCH --account=your_project_id
      #SBATCH --nodes=1
      #SBATCH --ntasks=1
      #SBATCH --time=00:05:00
@@ -96,14 +127,18 @@ Before we begin, ensure you have:
 
    - Save and exit the editor.
 
-2. **Submit the Job**:
+---
+
+## 🚀 Step 5: Running the Program
+
+1. **Submit the Job**:
    - Submit your job to the queue:
 
      ```bash
      sbatch hello_job.slurm
      ```
 
-3. **Check Job Status**:
+2. **Check Job Status**:
    - Monitor your job's status:
 
      ```bash
@@ -112,7 +147,7 @@ Before we begin, ensure you have:
 
      Replace `your_username` with your actual username.
 
-4. **View Output**:
+3. **View Output**:
    - Once the job completes, view the output:
 
      ```bash
