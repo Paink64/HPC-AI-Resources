@@ -1,6 +1,6 @@
 <html>
 <body>
-<!--StartFragment--><html><head></head><body><p>Here’s a <strong>beginner-friendly, engaging guide</strong> for implementing <strong>RAG (Retrieval-Augmented Generation) in Jupyter</strong> with <strong>FAISS or Chroma</strong>—structured like the example you shared, using a <strong>conversational tone, emojis, and visuals</strong>.</p>
+<!--StartFragment--><html><head></head><body>
 <hr>
 <h1>🌟 Implementing RAG in Jupyter: A Beginner’s Guide 🚀</h1>
 <p>Welcome! 🎉 In this guide, you'll learn how to <strong>combine Large Language Models (LLMs) with a retrieval system</strong> to make AI smarter using <strong>Retrieval-Augmented Generation (RAG)</strong>. Even if you're new to this, don’t worry—we’ll break it down <strong>step by step</strong> with <strong>examples, visualizations, and code snippets</strong>! 😊</p>
