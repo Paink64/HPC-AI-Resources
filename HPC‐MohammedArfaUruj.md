@@ -99,5 +99,6 @@ plt.show()
 ✅ <strong>Enhances transparency</strong> by citing sources.</p>
 <p>RAG is <strong>powerful for chatbots, search engines, and knowledge systems</strong>—making AI <strong>smarter, more accurate, and more reliable</strong>.</p>
 <p>🚀 <strong>Ready to build your own RAG-powered AI?</strong> Try implementing this in Jupyter today! 🎉</p></body></html><!--EndFragment-->
+<p>📌 Official Lab Guide: 👉 [HPC-AI Lab - Mohammed Arfa Uruj](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/HPC%E2%80%90MohammedArfaUruj%E2%80%90Lab)</p>
 </body>
 </html>
