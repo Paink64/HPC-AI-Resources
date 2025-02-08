@@ -1,4 +1,4 @@
-# Welcome to the HPC-AI-Resources Wiki
+# Welcome to the HPC-AI Resources for STEM and Non-STEM Researchers
 
 ## Repository Overview
 
