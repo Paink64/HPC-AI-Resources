@@ -77,7 +77,7 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
         - To see the first few rows of the dataset, type:
           ```python
           # Show the first 5 rows of the dataset
-          data.head()
+          display(data.head())
 
           # Print a confirmation message
           print("First 5 rows of the dataset displayed! 🎉")
