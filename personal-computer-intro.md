@@ -28,6 +28,8 @@ Welcome to your **AI and High-Performance Computing (HPC)** journey! 🚀 In thi
 
 ## 📝 **Topics Covered** 📚
 
+---
+
 ### 1. **Command Terminal Basics** ⌨️
    - **What is the Terminal?** 🤔
      - The terminal is like a **text-based remote control** for your computer. Instead of clicking icons, you type commands to make things happen.
@@ -39,6 +41,8 @@ Welcome to your **AI and High-Performance Computing (HPC)** journey! 🚀 In thi
      - **macOS**:
        1. Open **Spotlight Search** (press `Cmd + Space`).
        2. Type `Terminal` and press `Enter`.
+     - **Linux**:
+       1. Press `Ctrl + Alt + T` to open the terminal.
 
 ---
 
