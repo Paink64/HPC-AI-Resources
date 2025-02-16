@@ -78,9 +78,6 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
           ```python
           # Show the first 5 rows of the dataset
           data.head()
-
-          # Print a confirmation message
-          print("First 5 rows of the dataset displayed! 🎉")
           ```
         - Press `Shift + Enter` to run the code.
         - **What Happened?** 🎉
@@ -95,9 +92,6 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
           ```python
           # Check the number of rows and columns in the dataset
           print("Number of rows and columns:", data.shape)
-
-          # Print a confirmation message
-          print("Dataset size checked! 🎉")
           ```
         - Press `Shift + Enter` to run the code.
         - **What Happened?** 🎉
