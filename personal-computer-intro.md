@@ -39,26 +39,6 @@ Welcome to your **AI and High-Performance Computing (HPC)** journey! 🚀 In thi
      - **macOS**:
        1. Open **Spotlight Search** (press `Cmd + Space`).
        2. Type `Terminal` and press `Enter`.
-     - **Linux**:
-       1. Press `Ctrl + Alt + T` to open the terminal.
-
-   - **Basic Commands** 🛠️
-     - `cd`: Move to a folder.
-       ```bash
-       cd Documents  # Go to the "Documents" folder
-       ```
-     - `ls`: See what’s in a folder.
-       ```bash
-       ls  # Show files and folders
-       ```
-     - `mkdir`: Make a new folder.
-       ```bash
-       mkdir my_folder  # Create a folder named "my_folder"
-       ```
-     - `pwd`: Show where you are.
-       ```bash
-       pwd  # Display the current folder path
-       ```
 
 ---
 
@@ -104,19 +84,20 @@ Welcome to your **AI and High-Performance Computing (HPC)** journey! 🚀 In thi
           - Open your browser and go to `http://localhost:8888`.
           - Enter the token from the terminal to start coding!
 
-   - **Write Your First Python Script** 🐍
-     1. Create a new notebook in Jupyter.
-     2. Type this code:
-        ```python
-        print("Hello, AI World!")
-        ```
-     3. Press `Shift + Enter` to run the code.
+---
+
+## 📚 **Additional Resources** 📖
+- [Command Terminal Cheat Sheet](/resources/terminal-cheatsheet)
+- [Docker Documentation](https://docs.docker.com/)
+- [Jupyter Notebook Tutorial](https://jupyter.org/try)
 
 ---
 
-## 🎯 **Hands-On Activity** 🛠️
-Let’s get started with a quick exercise:
-1. Open your terminal (see instructions above).
-2. Run this command to launch the Docker environment:
-   ```bash
-   docker run -p 8888:8888 jupyter/scipy-notebook:latest
+## ➡️ **Next Steps** 🚀
+Ready to dive deeper? Head over to the next section:  
+[⚙️ Accessing the Pre-Built Docker Environment](personal-computer-docker-access)
+
+---
+
+## ❓ **Questions?** 🤔
+If you have any questions or run into issues, feel free to ask for help. Let’s get started on your AI journey! 🚀
