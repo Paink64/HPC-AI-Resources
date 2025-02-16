@@ -136,7 +136,7 @@ Welcome to your **AI and High-Performance Computing (HPC)** journey! 🚀 In thi
 
 ## ➡️ **Next Steps** 🚀
 Ready to dive deeper? Head over to the next section:  
-[⚙️ Accessing the Pre-Built Docker Environment](personal-computer-docker-access)
+[📊 Data Exploration & Management](personal-computer-data-exploration)
 
 ---
 
