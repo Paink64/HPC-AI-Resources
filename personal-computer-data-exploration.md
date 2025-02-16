@@ -39,8 +39,14 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
      1. **Import Libraries**:
         - In a new cell, type:
           ```python
+          # Import pandas to work with tables of data
           import pandas as pd
+
+          # Import load_iris to load the Iris dataset
           from sklearn.datasets import load_iris
+
+          # Print a confirmation message
+          print("Libraries imported successfully! 🎉")
           ```
         - Press `Shift + Enter` to run the code.
         - **What Happened?** 🎉
@@ -51,9 +57,17 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
      2. **Load the Dataset**:
         - In the next cell, type:
           ```python
+          # Load the Iris dataset
           iris = load_iris()
+
+          # Turn the dataset into a table (called a DataFrame)
           data = pd.DataFrame(iris.data, columns=iris.feature_names)
+
+          # Add a column for the flower species
           data['species'] = iris.target
+
+          # Print a confirmation message
+          print("Dataset loaded successfully! 🎉")
           ```
         - Press `Shift + Enter` to run the code.
         - **What Happened?** 🎉
@@ -62,7 +76,11 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
      3. **View the Data**:
         - To see the first few rows of the dataset, type:
           ```python
+          # Show the first 5 rows of the dataset
           data.head()
+
+          # Print a confirmation message
+          print("First 5 rows of the dataset displayed! 🎉")
           ```
         - Press `Shift + Enter` to run the code.
         - **What Happened?** 🎉
@@ -75,7 +93,11 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
      1. **Check the Size**:
         - Type:
           ```python
-          data.shape
+          # Check the number of rows and columns in the dataset
+          print("Number of rows and columns:", data.shape)
+
+          # Print a confirmation message
+          print("Dataset size checked! 🎉")
           ```
         - Press `Shift + Enter` to run the code.
         - **What Happened?** 🎉
@@ -84,7 +106,12 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
      2. **Get Summary Statistics**:
         - Type:
           ```python
-          data.describe()
+          # Get statistics like mean, min, max, and more for each column
+          print("Summary statistics:")
+          print(data.describe())
+
+          # Print a confirmation message
+          print("Summary statistics displayed! 🎉")
           ```
         - Press `Shift + Enter` to run the code.
         - **What Happened?** 🎉
@@ -97,7 +124,12 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
      1. **Check for Missing Values**:
         - Type:
           ```python
-          data.isnull().sum()
+          # Check if there are any missing values in the dataset
+          print("Missing values:")
+          print(data.isnull().sum())
+
+          # Print a confirmation message
+          print("Missing values checked! 🎉")
           ```
         - Press `Shift + Enter` to run the code.
         - **What Happened?** 🎉
@@ -106,7 +138,11 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
      2. **Remove Duplicates**:
         - Type:
           ```python
+          # Remove any duplicate rows from the dataset
           data = data.drop_duplicates()
+
+          # Print a confirmation message
+          print("Duplicate rows removed! 🎉")
           ```
         - Press `Shift + Enter` to run the code.
         - **What Happened?** 🎉
@@ -119,8 +155,14 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
      1. **Import Visualization Libraries**:
         - Type:
           ```python
+          # Import matplotlib to create basic plots
           import matplotlib.pyplot as plt
+
+          # Import seaborn to make plots look nicer
           import seaborn as sns
+
+          # Print a confirmation message
+          print("Visualization libraries imported successfully! 🎉")
           ```
         - Press `Shift + Enter` to run the code.
         - **What Happened?** 🎉
@@ -131,8 +173,14 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
      2. **Create a Scatter Plot**:
         - Type:
           ```python
+          # Create a scatter plot of sepal length vs. sepal width, colored by species
           sns.scatterplot(x='sepal length (cm)', y='sepal width (cm)', hue='species', data=data)
+
+          # Show the plot
           plt.show()
+
+          # Print a confirmation message
+          print("Scatter plot created successfully! 🎉")
           ```
         - Press `Shift + Enter` to run the code.
         - **What Happened?** 🎉
@@ -145,8 +193,14 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
   - Change the plot to show **petal length** vs. **petal width** instead of sepal length and width.
   - Example:
     ```python
+    # Create a scatter plot of petal length vs. petal width, colored by species
     sns.scatterplot(x='petal length (cm)', y='petal width (cm)', hue='species', data=data)
+
+    # Show the plot
     plt.show()
+
+    # Print a confirmation message
+    print("Modified scatter plot created successfully! 🎉")
     ```
   - Press `Shift + Enter` to run the updated code.
   - **What Happened?** 🎉
