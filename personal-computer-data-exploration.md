@@ -35,6 +35,12 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
           import pandas as pd
           from sklearn.datasets import load_iris
           ```
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ve imported two libraries:
+            - `pandas`: Helps you work with tables of data.
+            - `load_iris`: Loads the Iris dataset.
+
      2. **Load the Dataset**:
         - In the next cell, type:
           ```python
@@ -42,12 +48,18 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
           data = pd.DataFrame(iris.data, columns=iris.feature_names)
           data['species'] = iris.target
           ```
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ve loaded the Iris dataset and turned it into a table (called a DataFrame) using `pandas`.
+
      3. **View the Data**:
         - To see the first few rows of the dataset, type:
           ```python
           data.head()
           ```
-        - Press `Shift + Enter` to run the code. You’ll see a table with the dataset.
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ll see a table with the first 5 rows of the dataset. This helps you understand what the data looks like.
 
 ---
 
@@ -58,13 +70,18 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
           ```python
           data.shape
           ```
-        - This shows the number of rows and columns in the dataset.
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ll see two numbers: the first is the number of rows, and the second is the number of columns.
+
      2. **Get Summary Statistics**:
         - Type:
           ```python
           data.describe()
           ```
-        - This shows statistics like mean, min, max, and more for each column.
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ll see a table with statistics like mean, min, max, and more for each column.
 
 ---
 
@@ -75,13 +92,18 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
           ```python
           data.isnull().sum()
           ```
-        - This shows if there are any missing values in the dataset.
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ll see a table showing if there are any missing values in the dataset.
+
      2. **Remove Duplicates**:
         - Type:
           ```python
           data = data.drop_duplicates()
           ```
-        - This removes any duplicate rows.
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ve removed any duplicate rows from the dataset.
 
 ---
 
@@ -93,13 +115,21 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
           import matplotlib.pyplot as plt
           import seaborn as sns
           ```
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ve imported two libraries for creating plots:
+            - `matplotlib`: Helps you create basic plots.
+            - `seaborn`: Makes your plots look nicer.
+
      2. **Create a Scatter Plot**:
         - Type:
           ```python
           sns.scatterplot(x='sepal length (cm)', y='sepal width (cm)', hue='species', data=data)
           plt.show()
           ```
-        - This creates a scatter plot showing the relationship between sepal length and width, colored by species.
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ve created a scatter plot showing the relationship between sepal length and width, colored by species.
 
 ---
 
@@ -112,6 +142,8 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
     plt.show()
     ```
   - Press `Shift + Enter` to run the updated code.
+  - **What Happened?** 🎉
+    - You’ve created a new scatter plot showing the relationship between petal length and width.
 
 ---
 
