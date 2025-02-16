@@ -1,21 +1,19 @@
-# 🚀 AI & HPC Workshops
-
-## 🖥️ 1️⃣ Using Personal Computer
-- [📌 Intro to Command Terminal, AI, Docker & Jupyter](./Intro-to-Command-Terminal-AI-Docker-Jupyter)
-- [⚙️ Command Terminal & Docker Access & Setup](./Command-Terminal-Docker-Access-Setup)
-- [📊 Data Exploration & Management](./Data-Exploration-Management)
-- [🤖 Simple ML Model](./Simple-ML-Model)
-- [🧠 Deep Neural Network (DNN)](./Deep-Neural-Network-DNN)
-- [💬 Introduction to LLMs](./Introduction-to-LLMs)
-- [📚 LLM + RAG (AI-Powered Search)](./LLM-RAG)
-- [🔍 Ethical AI & Future Trends](./Ethical-AI-Future-Trends)
-
-## 💻 2️⃣ Using Supercomputer (HPC)
-- [🚀 Intro to HPC, AI & Jupyter](./Intro-to-HPC-AI-Jupyter)
-- [🔑 HPC Access & Setup](./HPC-Access-Setup)
-- [📂 Data Exploration & Management](./HPC-Data-Exploration-Management)
-- [🤖 Simple ML Model](./HPC-Simple-ML-Model)
-- [🧠 Deep Neural Network (DNN)](./HPC-Deep-Neural-Network-DNN)
-- [💬 Introduction to LLMs](./HPC-Introduction-to-LLMs)
-- [📚 LLM + RAG (AI-Powered Search)](./HPC-LLM-RAG)
-- [🔍 Ethical AI & Future Trends](./HPC-Ethical-AI-Future-Trends)
+- **🚀 AI & HPC Workshops**
+  - **🖥️ 1️⃣ Using Personal Computer**
+    - [📌 Intro to Command Terminal, AI, Docker & Jupyter](/personal-computer/intro)
+    - [⚙️ Accessing the Pre-Built Docker Environment](/personal-computer/docker-access)
+    - [📊 Data Exploration & Management](/personal-computer/data-exploration)
+    - [🤖 Simple ML Model](/personal-computer/simple-ml)
+    - [🧠 Deep Neural Network (DNN)](/personal-computer/dnn)
+    - [💬 Introduction to LLMs](/personal-computer/intro-llms)
+    - [📚 LLM + RAG (AI-Powered Search)](/personal-computer/llm-rag)
+    - [🔍 Ethical AI & Future Trends](/personal-computer/ethical-ai)
+  - **💻 2️⃣ Using Supercomputer (HPC)**
+    - [🚀 Intro to HPC, AI & Jupyter](/hpc/intro)
+    - [🔑 Accessing the Pre-Built HPC Environment](/hpc/hpc-access)
+    - [📂 Data Exploration & Management](/hpc/data-exploration)
+    - [🤖 Simple ML Model](/hpc/simple-ml)
+    - [🧠 Deep Neural Network (DNN)](/hpc/dnn)
+    - [💬 Introduction to LLMs](/hpc/intro-llms)
+    - [📚 LLM + RAG (AI-Powered Search)](/hpc/llm-rag)
+    - [🔍 Ethical AI & Future Trends](/hpc/ethical-ai)
