@@ -89,16 +89,18 @@ Welcome to your **AI and High-Performance Computing (HPC)** journey! 🚀 In thi
           - Enter the token from the terminal to start coding!
        4. **Create a New Notebook and Run "Hello World"**:
           - Once you’re in Jupyter, you’ll see a file browser interface. Here’s how to create a new notebook:
-            1. **Find the "New" Button**:
-               - Look at the top-right corner of the screen. You’ll see a button labeled **New**. Click it.
-            2. **Select "Python 3"**:
-               - A dropdown menu will appear. Click **Python 3** to create a new notebook.
-            3. **Write Your First Code**:
+            1. **Find the "File" Menu**:
+               - Look at the top-left corner of the screen. You’ll see a menu labeled **File**. Click it.
+            2. **Select "New" → "Notebook"**:
+               - In the dropdown menu, hover over **New**, then click **Notebook**.
+            3. **Choose "Python 3"**:
+               - A pop-up will appear asking you to select a kernel. Choose **Python 3** and click **Select**.
+            4. **Write Your First Code**:
                - You’ll see a blank cell in the notebook. Type the following code:
                  ```python
                  print("Hello, World!")
                  ```
-            4. **Run the Code**:
+            5. **Run the Code**:
                - Press `Shift + Enter` to run the code.
                - You should see `Hello, World!` printed below the cell. 🎉
 
