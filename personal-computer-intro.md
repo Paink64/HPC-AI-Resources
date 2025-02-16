@@ -87,11 +87,20 @@ Welcome to your **AI and High-Performance Computing (HPC)** journey! 🚀 In thi
        3. **Access Jupyter**:
           - Open your browser and go to `http://localhost:8888`.
           - Enter the token from the terminal to start coding!
+       4. **Create a New Notebook and Run "Hello World"**:
+          - Once you’re in Jupyter, click **New** → **Python 3** to create a new notebook.
+          - In the first cell, type:
+            ```python
+            print("Hello, World!")
+            ```
+          - Press `Shift + Enter` to run the code.
+          - You should see `Hello, World!` printed below the cell. 🎉
+
 
 ---
 
 ## 📚 **Additional Resources** 📖
-- [Command Terminal Cheat Sheet](/resources/terminal-cheatsheet)
+- [Command Terminal Cheat Sheet](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
 - [Docker Documentation](https://docs.docker.com/)
 - [Jupyter Notebook Tutorial](https://jupyter.org/try)
 
