@@ -1,7 +1,6 @@
 - **🚀 AI & HPC Workshops**
   - **🖥️ 1️⃣ Using Personal Computer**
     - [📌 Intro to Command Terminal, AI, Docker & Jupyter](personal-computer-intro)
-    - [⚙️ Accessing the Pre-Built Docker Environment](personal-computer-docker-access)
     - [📊 Data Exploration & Management](personal-computer-data-exploration)
     - [🤖 Simple ML Model](personal-computer-simple-ml)
     - [🧠 Deep Neural Network (DNN)](personal-computer-dnn)
