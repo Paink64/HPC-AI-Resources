@@ -96,7 +96,7 @@ Welcome to your **AI and High-Performance Computing (HPC)** journey! 🚀 In thi
             3. **Choose "Python 3"**:
                - A pop-up will appear asking you to select a kernel. Choose **Python 3** and click **Select**.
             4. **Write Your First Code**:
-               - You’ll see a blank cell in the notebook. Type the following code:
+               - You’ll see a blank cell in the notebook. copy and paste the following code:
                  ```python
                  print("Hello, World!")
                  ```
