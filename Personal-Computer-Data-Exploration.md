@@ -1,6 +1,6 @@
 # 📊 Data Exploration & Management 🗂️
 
-Welcome to the next step of your AI journey! 🚀 In this section, you’ll learn how to **explore and manage data** using **Jupyter Notebooks**. Data is the foundation of AI, and understanding how to work with it is a key skill. Let’s dive in! 🌊
+Welcome to the next workshop of your AI journey! 🚀 In this workshop, you’ll learn how to **explore and manage data** using **Jupyter Notebooks**. Data is the foundation of AI, and understanding how to work with it is a key skill. Let’s dive in! 🌊
 
 ---
 
@@ -23,7 +23,7 @@ Welcome to the next step of your AI journey! 🚀 In this section, you’ll lear
 
 ---
 
-## 📝 **Step-by-Step Guide** 📚
+## 📝 **Topics Covered ** 📚
 
 ---
 
