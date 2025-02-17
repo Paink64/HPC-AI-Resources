@@ -190,6 +190,44 @@ Welcome to the next workshop of your AI journey! 🚀 In this workshop, you’ll
 ---
 
 ### 6. **Build a Linear Regression Model** 📈
+## Understanding the Linear Expression  
+
+A **linear expression** shows a straight-line relationship between two things.  
+
+For example, in predicting **petal width** from **petal length**, we use this formula:  
+
+\[
+y = mx + b
+\]
+
+Where:  
+- \( y \) = petal width (what we want to predict)  
+- \( x \) = petal length (the known value)  
+- \( m \) = slope (how much petal width changes when petal length increases)  
+- \( b \) = intercept (the starting value when petal length is zero)  
+
+#### Simple Example  
+
+Suppose the relationship between **petal length** and **petal width** is:  
+
+\[
+\text{Petal Width} = 0.4 \times (\text{Petal Length}) + 0.2
+\]
+
+- If a flower has a **petal length of 2 cm**, the predicted petal width is:  
+
+  \[
+  0.4(2) + 0.2 = 0.8 + 0.2 = 1.0 \text{ cm}
+  \]
+
+- If a flower has a **petal length of 5 cm**, the predicted petal width is:  
+
+  \[
+  0.4(5) + 0.2 = 2.0 + 0.2 = 2.2 \text{ cm}
+  \]
+
+This is how **Linear Regression** helps us predict petal width based on petal length! 🌸📊  
+
    - Now that we’ve explored the data, let’s build a **Linear Regression model** to predict **petal width** based on **petal length**.
      1. **Import Linear Regression Libraries**:
         - Type:
