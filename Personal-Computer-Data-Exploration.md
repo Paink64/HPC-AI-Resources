@@ -227,7 +227,7 @@ Welcome to the next workshop of your AI journey! 🚀 In this workshop, you’ll
 
 ## ➡️ **Next Steps** 🚀
 Ready to dive deeper? Head over to the next section:  
-[🤖 Simple ML Model](simple-ml)
+[🤖 Simple ML Model](Simple-ML)
 
 ---
 
