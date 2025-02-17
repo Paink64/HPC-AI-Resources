@@ -1,6 +1,6 @@
 # 📊 Data Exploration & Management 🗂️
 
-Welcome to the next workshop of your AI journey! 🚀 In this workshop, you’ll learn how to **explore and manage data** using **Jupyter Notebooks**. Data is the foundation of AI, and understanding how to work with it is a key skill. Let’s dive in! 🌊
+Welcome to the next workshop of your AI journey! 🚀 In this workshop, you’ll learn how to **explore and manage data** using **Jupyter Notebooks** and build a **Linear Regression model**. Data is the foundation of AI, and understanding how to work with it is a key skill. Let’s dive in! 🌊
 
 ---
 
@@ -8,6 +8,7 @@ Welcome to the next workshop of your AI journey! 🚀 In this workshop, you’ll
 - How to **load and explore data** in Jupyter Notebooks.
 - How to **clean and organize data** for AI projects.
 - How to **visualize data** to uncover patterns and insights.
+- How to build and evaluate a **Linear Regression model**.
 
 ---
 
@@ -188,23 +189,101 @@ Welcome to the next workshop of your AI journey! 🚀 In this workshop, you’ll
 
 ---
 
+### 6. **Build a Linear Regression Model** 📈
+   - Now that we’ve explored the data, let’s build a **Linear Regression model** to predict **petal width** based on **petal length**.
+     1. **Import Linear Regression Libraries**:
+        - Type:
+          ```python
+          # Import LinearRegression from scikit-learn
+          from sklearn.linear_model import LinearRegression
+
+          # Print a confirmation message
+          print("Linear Regression library imported successfully! 🎉")
+          ```
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ve imported the `LinearRegression` class from scikit-learn.
+
+     2. **Prepare the Data**:
+        - Type:
+          ```python
+          # Define the features (X) and target (y)
+          X = data[['petal length (cm)']]  # Feature: petal length
+          y = data['petal width (cm)']    # Target: petal width
+
+          # Print a confirmation message
+          print("Data prepared for Linear Regression! 🎉")
+          ```
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ve prepared the data for training the Linear Regression model.
+
+     3. **Train the Model**:
+        - Type:
+          ```python
+          # Create the Linear Regression model
+          model = LinearRegression()
+
+          # Train the model using the data
+          model.fit(X, y)
+
+          # Print a confirmation message
+          print("Linear Regression model trained successfully! 🎉")
+          ```
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ve trained the Linear Regression model using the petal length and width data.
+
+     4. **Make Predictions**:
+        - Type:
+          ```python
+          # Use the trained model to make predictions
+          y_pred = model.predict(X)
+
+          # Print the first 5 predictions
+          print("First 5 predictions:")
+          print(y_pred[:5])
+
+          # Print a confirmation message
+          print("Predictions made successfully! 🎉")
+          ```
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ve used the trained model to predict petal width based on petal length.
+
+     5. **Visualize the Results**:
+        - Type:
+          ```python
+          # Plot the actual vs. predicted values
+          plt.scatter(X, y, color='blue', label='Actual')  # Actual values
+          plt.plot(X, y_pred, color='red', label='Predicted')  # Predicted values
+          plt.xlabel('Petal Length (cm)')
+          plt.ylabel('Petal Width (cm)')
+          plt.title('Linear Regression: Petal Length vs. Petal Width')
+          plt.legend()
+          plt.show()
+
+          # Print a confirmation message
+          print("Linear Regression plot created successfully! 🎉")
+          ```
+        - Press `Shift + Enter` to run the code.
+        - **What Happened?** 🎉
+          - You’ve created a plot showing the actual vs. predicted petal width values.
+
+---
+
 ## 🎯 **Quick Challenge** 🏆
-- **Modify the Plot**:
-  - Change the plot to show **petal length** vs. **petal width** instead of sepal length and width.
+- **Modify the Model**:
+  - Try predicting **sepal width** based on **sepal length** instead of petal width and length.
   - Example:
     ```python
-    # Create a scatter plot of petal length vs. petal width, colored by species
-    sns.scatterplot(x='petal length (cm)', y='petal width (cm)', hue='species', data=data)
-
-    # Show the plot
-    plt.show()
-
-    # Print a confirmation message
-    print("Modified scatter plot created successfully! 🎉")
+    # Define the features (X) and target (y)
+    X = data[['sepal length (cm)']]  # Feature: sepal length
+    y = data['sepal width (cm)']     # Target: sepal width
     ```
   - Press `Shift + Enter` to run the updated code.
   - **What Happened?** 🎉
-    - You’ve created a new scatter plot showing the relationship between petal length and width.
+    - You’ve trained a new Linear Regression model to predict sepal width.
 
 ---
 
@@ -222,6 +301,7 @@ Welcome to the next workshop of your AI journey! 🚀 In this workshop, you’ll
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 - [Matplotlib Tutorial](https://matplotlib.org/stable/tutorials/index.html)
 - [Seaborn Tutorial](https://seaborn.pydata.org/tutorial.html)
+- [Scikit-learn Linear Regression Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
 
 ---
 
@@ -230,6 +310,3 @@ Ready to dive deeper? Head over to the next section:
 [🤖 Simple ML Model](personal-computer-simple-ml)
 
 ---
-
-## ❓ **Questions?** 🤔
-If you have any questions or run into issues, feel free to ask for help. Let’s get started on your AI journey! 🚀
