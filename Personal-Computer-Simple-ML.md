@@ -184,7 +184,8 @@ Welcome to the next workshop in your AI journey! 🚀 In this workshop, you'll l
 ---
 
 ## ➡️ **Next Steps** 🚀
-Now that you’ve learned how to build a Logistic Regression model, you can explore other machine learning algorithms like **Decision Trees** and **K-Nearest Neighbors**.
+Now that you’ve learned how to build a Logistic Regression model, you can explore other machine learning algorithms like **Deep Neural Networks (DNN)** for more complex classification tasks.
+
 
 ---
 
