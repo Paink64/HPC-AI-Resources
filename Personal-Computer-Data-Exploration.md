@@ -23,7 +23,7 @@ Welcome to the next workshop of your AI journey! 🚀 In this workshop, you’ll
 
 ---
 
-## 📝 **Topics Covered ** 📚
+## 📝 **Step-by-Step Guide** 📚
 
 ---
 
