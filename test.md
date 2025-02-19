@@ -187,4 +187,4 @@ Run the code and see what the AI predicts! 🐱
 ✅ **Gradual learning curve** – Starts with the **command terminal**, then AI concepts, then coding.  
 ✅ **Hands-on AI experience** – Students **see AI in action** by running an image recognition model.  
 ✅ **Simple and engaging** – Interactive elements like Google’s **Quick, Draw!** keep it fun.  
-✅ **No overwhelming jargon** – Everything is explained in simple, relatable terms.  
+✅ **No overwhelming jargon** – Everything is explained in simple, relatable terms.
