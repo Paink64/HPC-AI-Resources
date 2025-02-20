@@ -1,5 +1,5 @@
 
-# 📌 Intro to AI, Command Terminal, & Jupyter – A Beginner’s Guide 🖥️🤖📓  
+# 📌 Intro to Command Terminal, AI, & Jupyter – A Beginner’s Guide 🖥️🤖📓  
 
 Welcome to your **AI Journey!** 🚀 This workshop is designed for **complete beginners**—no experience needed! By the end, you'll know how to **talk to your computer**, **explore AI**, and **write your first code in Jupyter Notebook**!  
 
@@ -181,10 +181,3 @@ Run the code and see what the AI predicts! 🐱
 🙋 **Have Questions?** Drop them below! 💡  
 
 ---
-
-# 💡 Why This Revision Works for Beginners  
-✅ **No installations needed** – Uses **Google Colab** instead of Docker to avoid setup issues.  
-✅ **Gradual learning curve** – Starts with the **command terminal**, then AI concepts, then coding.  
-✅ **Hands-on AI experience** – Students **see AI in action** by running an image recognition model.  
-✅ **Simple and engaging** – Interactive elements like Google’s **Quick, Draw!** keep it fun.  
-✅ **No overwhelming jargon** – Everything is explained in simple, relatable terms.
