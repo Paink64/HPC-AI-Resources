@@ -102,13 +102,13 @@ print("Nice to meet you, " + name + "!")
 
 # 🎭 **5. No-Code AI Activity (Hands-On!)** 🎨
 🔹 **Train Your Own AI!** 🏆
-1️⃣ Go to **<a href="https://teachablemachine.withgoogle.com/" target="_blank">Teachable Machine</a>  
+1️⃣ Go to Teachable Machine  
 2️⃣ Choose **Image Project** → **Standard Image Model**  
 3️⃣ Train AI to recognize three hand gestures (✋✊✌️)  
 4️⃣ Click **Train Model** → **Preview** to test!
 
 🔹 **Play Quick, Draw! (AI That Learns From Your Sketches)** ✏️
-1️⃣ Go to **<a href="https://quickdraw.withgoogle.com/" target="_blank">Quick, Draw!</a>  
+1️⃣ Go to Quick, Draw!  
 2️⃣ Draw simple objects (cat, house, tree)  
 3️⃣ Watch AI try to guess your drawings! 🎨
 
@@ -116,6 +116,7 @@ print("Nice to meet you, " + name + "!")
 
 # 🎯 **6. Wrap-Up & Next Steps**
 🎉 **Great job!** You explored AI, learned Python, and even trained an AI model! Here’s what we covered:
+
 ✅ AI is all around us—from voice assistants to movie recommendations! 🎥🎶  
 ✅ Jupyter Notebooks let us write and run Python code in the cloud ☁️💻  
 ✅ We wrote Python code: printing, doing math, and taking user input 🐍✍️  
