@@ -15,7 +15,7 @@
 
 ---
 
-# 📚 **1. What Are AI and AI Datasets?** 🤔
+# 📚 **1. What Are AI Models and AI Datasets?** 🤔
 ### **Understanding AI Models** 🧠
 An **AI model** is a program that learns from data to make decisions or predictions. AI models can recognize patterns in data and use them to solve real-world problems, such as recognizing speech, predicting weather, or recommending movies! 
 
