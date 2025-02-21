@@ -21,7 +21,7 @@
 AI is when computers learn and make decisions like humans. You already use AI every day!
 
 🗣️ **Voice assistants** like **Siri, Alexa, Google Assistant**  
-🎭 **AI-generated art & text** from **[ChatGPT](https://chat.openai.com/)** & **[DALL·E](https://openai.com/dall-e)**  
+🎭 **AI-generated art & text** from **[ChatGPT](https://chat.openai.com/){:target="_blank"}** & **[DALL·E](https://openai.com/dall-e){:target="_blank"}**  
 📸 **Photo filters** on Snapchat & Instagram  
 🎥 **Movie & music recommendations** on Netflix, YouTube, & Spotify  
 
@@ -32,18 +32,18 @@ AI is when computers learn and make decisions like humans. You already use AI ev
 # 🎬 **2. Fun AI Demos** 🎮
 ### **🤖 ChatGPT (AI that Writes)** 📝💡
 **Try this:** "Write a funny story about a robot in school."
-🔗 [ChatGPT](https://chat.openai.com/)
+🔗 [ChatGPT](https://chat.openai.com/){:target="_blank"}
 
 ### **🎨 DALL·E (AI that Creates Art)** 🖼️
 **Try this:** "A futuristic high school classroom with AI-powered robots."
-🔗 [DALL·E](https://openai.com/dall-e)
+🔗 [DALL·E](https://openai.com/dall-e){:target="_blank"}
 
 ### **🎓 Teachable Machine (Train an AI!)** 🤖
 No coding needed! Teach AI to recognize hand gestures (✋✊✌️).  
-🔗 [Teachable Machine](https://teachablemachine.withgoogle.com/)
+🔗 [Teachable Machine](https://teachablemachine.withgoogle.com/){:target="_blank"}
 
 ### **✏️ Quick, Draw! (AI that Guesses Drawings)** 🎮
-🔗 [Quick, Draw!](https://quickdraw.withgoogle.com/)
+🔗 [Quick, Draw!](https://quickdraw.withgoogle.com/){:target="_blank"}
 
 ---
 
@@ -54,7 +54,7 @@ A Jupyter Notebook is like a **smart digital notebook** where you can write and 
 🔹 **Jupyter = Digital Lab Notebook for AI & Coding!** 🚀
 
 ### **🚀 Open Google Colab (Easiest Way!)**
-1️⃣ Click **[Google Colab](https://colab.research.google.com/)**  
+1️⃣ Click **[Google Colab](https://colab.research.google.com/){:target="_blank"}**  
 2️⃣ Click **New Notebook**  
 3️⃣ 🎉 You’re ready to code!
 
@@ -93,13 +93,13 @@ print("Nice to meet you, " + name + "!")
 
 # 🎭 **5. No-Code AI Activity (Hands-On!)** 🎨
 🔹 **Train Your Own AI!** 🏆
-1️⃣ Go to **[Teachable Machine](https://teachablemachine.withgoogle.com/)**  
+1️⃣ Go to **[Teachable Machine](https://teachablemachine.withgoogle.com/){:target="_blank"}**  
 2️⃣ Choose **Image Project** → **Standard Image Model**  
 3️⃣ Train AI to recognize three hand gestures (✋✊✌️)  
 4️⃣ Click **Train Model** → **Preview** to test!
 
 🔹 **Play Quick, Draw! (AI That Learns From Your Sketches)** ✏️
-1️⃣ Go to **[Quick, Draw!](https://quickdraw.withgoogle.com/)**  
+1️⃣ Go to **[Quick, Draw!](https://quickdraw.withgoogle.com/){:target="_blank"}**  
 2️⃣ Draw simple objects (cat, house, tree)  
 3️⃣ Watch AI try to guess your drawings! 🎨
 
@@ -116,21 +116,13 @@ print("Nice to meet you, " + name + "!")
 
 ---
 
-# 📝 **Optional Homework (But Super Fun!)** 🎯
-🔹 Ask **[ChatGPT](https://chat.openai.com/)** silly questions! 🤖  
-🔹 Create an AI image using **[DALL·E](https://openai.com/dall-e/)** 🎨  
-🔹 Modify Python code & experiment! 🐍  
-🔹 Play **[Quick, Draw!](https://quickdraw.withgoogle.com/)** and test AI’s drawing skills! 🎭  
-
----
-
 # 🔗 **Additional AI Resources** 📚
-- **[Google Colab](https://colab.research.google.com/)** 🖥️  
-- **[Teachable Machine](https://teachablemachine.withgoogle.com/)** 🎓  
-- **[ChatGPT](https://chat.openai.com/)** 💬  
-- **[DALL·E](https://openai.com/dall-e/)** 🎨  
-- **[Python Basics](https://www.python.org/)** 🐍  
-- **[AI4All (Interactive AI Learning)](https://ai-4-all.org/)** 🔥  
-- **[Quick, Draw!](https://quickdraw.withgoogle.com/)** ✏️  
+- **[Google Colab](https://colab.research.google.com/){:target="_blank"}** 🖥️  
+- **[Teachable Machine](https://teachablemachine.withgoogle.com/){:target="_blank"}** 🎓  
+- **[ChatGPT](https://chat.openai.com/){:target="_blank"}** 💬  
+- **[DALL·E](https://openai.com/dall-e){:target="_blank"}** 🎨  
+- **[Python Basics](https://www.python.org/){:target="_blank"}** 🐍  
+- **[AI4All (Interactive AI Learning)](https://ai-4-all.org/){:target="_blank"}** 🔥  
+- **[Quick, Draw!](https://quickdraw.withgoogle.com/){:target="_blank"}** ✏️  
 
 🎉 **You did it! Keep exploring AI, and see you at the next workshop! 🚀**
