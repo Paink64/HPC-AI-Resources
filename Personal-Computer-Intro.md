@@ -1,144 +1,144 @@
-# 📌 Intro to Command Terminal, AI, Docker & Jupyter 🖥️🤖🐳
+# 🚀 Workshop 1: Unlocking AI Magic with Jupyter (Your First Step Into the Future!)
 
-Welcome to your **AI and High-Performance Computing (HPC)** journey! 🚀 In this workshop, you’ll learn how to use cool tools like the **command terminal**, **Docker**, and **Jupyter Notebooks** to explore the world of **Artificial Intelligence (AI)**. Let’s get started! 🌟
-
----
-
-## 🖥️ **What You’ll Learn** 🎓
-- **Command Terminal**: Talk to your computer like a pro. 💻
-- **AI Basics**: What AI is and why it’s awesome. 🤖
-- **Docker**: A magic box that makes software easy to use. 🐳
-- **Jupyter Notebooks**: A fun way to write and run code. 📓✨
+## 🎯 Goal
+In this session, you’ll discover the magic of AI! We’ll introduce you to fun AI demos, teach you the basics of Python programming, and get hands-on with Jupyter Notebooks—all without needing any setup or experience.
 
 ---
 
-## 🚀 **Why These Tools?** 🌟
-- **Command Terminal**: It’s like a secret code to control your computer. 🔐
-- **AI**: From chatbots 💬 to self-driving cars 🚗, AI is everywhere—and you’ll learn how it works!
-- **Docker**: No more “it works on my computer” problems! Docker makes everything run the same way for everyone. ✅
-- **Jupyter Notebooks**: Write code, see results, and make cool visuals—all in one place. 🎨
+## 📌 What You Will Learn
+- AI and its cool uses in your life
+- Fun AI demos (like ChatGPT and DALL·E)
+- The basics of Jupyter Notebooks (with step-by-step instructions)
+- Python programming: Print messages, do math, and interact with your code
 
 ---
 
-## 🛠️ **What You’ll Need** 🧰
-- A computer (Windows, macOS, or Linux). 💻
-- A sense of curiosity and a willingness to learn! 🧠✨
+## 📖 1. What is AI?
+AI is when machines learn and think like humans. You probably see AI all around you every day! Here are some examples:
+- Voice assistants like Siri, Alexa, or Google Assistant
+- AI-generated text and art from ChatGPT and DALL·E
+- Filters on apps like Snapchat and Instagram
+- Recommendations for movies, songs, and videos on platforms like YouTube, Netflix, and Spotify
+
+**🤔 Quick Question for You:** Can you think of other places you see AI in your life? Write it down!
 
 ---
 
-## 📝 **Topics Covered** 📚
+## 🎬 2. Fun AI Demos
+Now that we know what AI is, let’s see some real-world examples in action. These demos show how fun and powerful AI can be! You don’t need to write any code for these. Just watch and enjoy!
+
+### 🔹 ChatGPT (AI that writes text)
+- **Type:** "Write a funny story about a robot in school."
+- **Question for you:** Why do you think AI sometimes gives weird answers?
+
+### 🔹 DALL·E (AI that creates images)
+- **Type:** "A futuristic high school classroom with AI-powered robots."
+- Watch AI create a picture based on your words!
+
+### 🔹 Teachable Machine (No-code AI Training!)
+Teachable Machine allows you to train an AI without writing a single line of code!  
+Train the AI to recognize your hand gestures (✋✊✌️).  
+[Teachable Machine](https://teachablemachine.withgoogle.com/)  
+
+### 🔹 Quick, Draw! (AI that guesses your drawings)
+- **Try it out:** [Quick, Draw!](https://quickdraw.withgoogle.com/)  
+- Draw something, and watch AI guess what it is!  
+- **Question for you:** How accurate is the AI at guessing your drawings?
 
 ---
 
-### 1. **Command Terminal Basics** ⌨️
-   - **What is the Terminal?** 🤔
-     - The terminal is like a **text-based remote control** for your computer. Instead of clicking icons, you type commands to make things happen.
-     - Think of it as a **secret code** to unlock your computer’s powers! 🔓
+## 💻 3. Getting Started with Jupyter Notebooks
+### 🔹 What is a Jupyter Notebook?
+Jupyter is a cool tool that lets you run Python code in the cloud—no installation needed. It’s like a digital notebook where you can write and run code at the same time.
 
-   - **How to Open a Terminal** 🖱️
-     - **Windows**:
-       1. Open the **Ubuntu** app (or another Linux app) from the Start menu.
-     - **macOS**:
-       1. Open **Spotlight Search** (press `Cmd + Space`).
-       2. Type `Terminal` and press `Enter`.
-     - **Linux**:
-       1. Press `Ctrl + Alt + T` to open the terminal.
+### 🔹 Open Google Colab (It’s easy!)
+Let’s get started by opening Google Colab (it’s an online Jupyter Notebook, and we don’t need to install anything).
+1️⃣ Click on this link to open [Google Colab](https://colab.research.google.com/).  
+2️⃣ When it opens, click **New Notebook** (this opens a fresh code page).  
+3️⃣ Delete the first empty cell (just click on the trash can icon to delete it).  
+
+**📌 Quick Tip:** You’re now inside your first Jupyter Notebook! Every time you write Python code here, you can see the result right away.
 
 ---
 
-### 2. **Introduction to AI** 🤖
-   - **What is AI?** 🤔
-     - AI (Artificial Intelligence) is when computers can do things that usually need human brains, like understanding language or recognizing faces.
-     - **Examples**:
-       - **Chatbots**: AI that talks to you (e.g., ChatGPT). 💬
-       - **Image Recognition**: AI that knows what’s in a photo (e.g., facial recognition). 📸
-       - **Recommendations**: AI that suggests movies or songs (e.g., Netflix). 🍿
+## 🐍 4. Writing Your First Python Code
+Python is the easiest programming language to get started with. Let's write some simple Python code!
 
-   - **Why is AI Cool?** 🌟
-     - It powers self-driving cars 🚗, helps doctors diagnose diseases 🏥, and even beats humans at video games 🎮!
+### 🔹 Print a Message
+Python can print things out for you. Let’s make it print "Hello AI!"  
+1️⃣ In the cell, type the following code:  
+```python
+print("Hello AI!")
+```
+2️⃣ Press Shift + Enter to run the code!  
+What happened?: You just made the computer say “Hello AI!”  
 
----
+### 🔹 Do Basic Math
+Python can also do math! Try this:  
+1️⃣ Type the following code:  
+```python
+a = 10
+b = 5
+sum = a + b
+print("The sum is:", sum)
+```
+2️⃣ Press Shift + Enter.  
+What happened?: The computer added the numbers 10 and 5 and showed you the result.  
 
-### 3. **What is Docker?** 🐳
-   - **Why Use Docker?** 🤔
-     - Docker is like a **magic box** that holds everything your software needs to run. It makes sure your code works the same way on any computer.
-     - No more “it works on my computer” problems! 🎉
-
-   - **How Docker Works** ⚙️
-     - Docker puts your software in a **container**—a lightweight, portable box that includes everything it needs to run.
-     - It’s like packing your lunch in a lunchbox 🍱—everything you need is in one place!
-
----
-
-### 4. **Getting Started with Jupyter** 📓✨
-   - **What is Jupyter Notebook?** 🤔
-     - Jupyter Notebook is like a **digital notebook** where you can write code, see results, and add notes—all in one place.
-     - It’s perfect for experimenting with AI and making cool visuals! 🎨
-
-   - **How to Use Jupyter** 🖥️
-     - We’ve prepared a **pre-built Docker image** with everything you need. Just follow these steps:
-       1. **Install Docker** (if not already installed):
-          - [Download Docker Desktop](https://www.docker.com/products/docker-desktop)
-       2. **Run the Docker Image**:
-          - Open your terminal and run:
-            ```bash
-            docker run -p 8888:8888 jupyter/scipy-notebook:latest
-            ```
-       3. **Access Jupyter**:
-          - Open your browser and go to `http://localhost:8888`.
-          - Enter the token from the terminal to start coding!
-       4. **Create a New Notebook and Run "Hello World"**:
-          - Once you’re in Jupyter, you’ll see a file browser interface. Here’s how to create a new notebook:
-            1. **Find the "File" Menu**:
-               - Look at the top-left corner of the screen. You’ll see a menu labeled **File**. Click it.
-            2. **Select "New" → "Notebook"**:
-               - In the dropdown menu, hover over **New**, then click **Notebook**.
-            3. **Choose "Python 3"**:
-               - A pop-up will appear asking you to select a kernel. Choose **Python 3** and click **Select**.
-            4. **Write Your First Code**:
-               - You’ll see a blank cell in the notebook. copy and paste the following code:
-                 ```python
-                 print("Hello, World!")
-                 ```
-            5. **Run the Code**:
-               - Press `Shift + Enter` to run the code.
-               - You should see `Hello, World!` printed below the cell. 🎉
+### 🔹 Ask AI a Question (Interact with the Code)
+Now, let's ask Python for input!  
+1️⃣ Type the following:  
+```python
+name = input("What's your name? ")
+print("Nice to meet you, " + name + "!")
+```
+2️⃣ Press Shift + Enter.  
+What happened?: The program will ask you your name, and then it will print a greeting with your name!  
 
 ---
 
-## 🎯 **Quick Challenge** 🏆
-- **Modify the Code**:
-  - Change the code to print your name instead of "Hello, World!".
-  - Example:
-    ```python
-    print("Hello, [Your Name]!")
-    ```
-  - Press `Shift + Enter` to run the updated code.
+## 🎨 5. Hands-on AI Activity (Zero-Code Fun)
+Now, let’s get interactive with AI! You’ll train a model to recognize your hand gestures—no code required.
+
+### 🔹 Train Your Own AI Model!
+1️⃣ Go to Teachable Machine.  
+2️⃣ Choose Image Project → Standard Image Model.  
+3️⃣ Record three hand gestures (✋✊✌️).  
+4️⃣ Click Train Model → Preview to see AI recognize your gestures.  
+What happened? AI learned to recognize your hand movements!  
+
+### 🔹 Quick, Draw! (AI that learns from your drawings)
+1️⃣ Go to Quick, Draw!.  
+2️⃣ Draw something simple (like a cat, house, or tree).  
+3️⃣ Watch as AI tries to guess what you’re drawing in real-time!  
+What happened? AI is learning from millions of drawings to guess what you’re drawing!  
 
 ---
 
-## 🛠️ **Troubleshooting Tips** 🔧
-- **Docker Won’t Start?**
-  - Make sure Docker Desktop is installed and running.
-  - Restart your computer and try again.
-- **Jupyter Token Not Working?**
-  - Check the terminal for the correct token.
-  - If you lose the token, stop the Docker container and restart it.
+## 🔥 6. Wrap-Up & Next Steps
+Great job! You’ve just taken your first step into the world of AI. Here's what we learned:
 
----
+- AI is everywhere—from voice assistants to movie recommendations!  
+- Jupyter Notebooks help us run Python code easily in the cloud.  
+- We learned some Python basics: printing, math, and taking input from users.  
+- We even trained an AI without writing code!  
 
-## 📚 **Additional Resources** 📖
-- [Command Terminal Cheat Sheet](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
-- [Docker Documentation](https://docs.docker.com/)
-- [Jupyter Notebook Tutorial](https://jupyter.org/try)
+🚀 **Next Workshop:**  
+Next time, we will dive into data exploration—we’ll analyze real AI datasets and create colorful charts using Python.  
 
----
+📝 **Homework (Optional but Fun!)**  
+1️⃣ Explore ChatGPT: Ask it fun or silly questions!  
+2️⃣ Try DALL·E: Generate an AI image and share it with a friend.  
+3️⃣ Play around with the Python code: Try changing numbers and text in the code we wrote.  
+4️⃣ Try Quick, Draw!: See how well AI can guess your drawings!  
 
-## ➡️ **Next Steps** 🚀
-Ready to dive deeper? Head over to the next section:  
-[📊 Data Exploration & Management](personal-computer-data-exploration)
+🔗 **Additional Resources**  
+- Google Colab  
+- Teachable Machine  
+- ChatGPT  
+- DALL·E  
+- Python Resources  
+- AI4All (Interactive Learning)  
+- Quick, Draw!  
 
----
-
-## ❓ **Questions?** 🤔
-If you have any questions or run into issues, feel free to ask for help. Let’s get started on your AI journey! 🚀
+🎉 **Awesome work!** You've just unlocked the secrets of AI! Keep exploring and get ready for the next workshop. 🚀
