@@ -21,7 +21,7 @@
 AI is when computers learn and make decisions like humans. You already use AI every day!
 
 🗣️ **Voice assistants** like **Siri, Alexa, Google Assistant**  
-🎭 **AI-generated art & text** from **[ChatGPT](https://chat.openai.com/)** & **[DALL·E](https://openai.com/dall-e)**  
+🎭 **AI-generated art & text** from **<a href="https://chat.openai.com/" target="_blank">ChatGPT</a>** & **<a href="https://openai.com/dall-e" target="_blank">DALL·E</a>**  
 📸 **Photo filters** on Snapchat & Instagram  
 🎥 **Movie & music recommendations** on Netflix, YouTube, & Spotify  
 
@@ -31,19 +31,19 @@ AI is when computers learn and make decisions like humans. You already use AI ev
 
 # 🎬 **2. Fun AI Demos** 🎮
 ### **🤖 ChatGPT (AI that Writes)** 📝💡
-**Try this:** "Write a funny story about a robot in school."
-🔗 [ChatGPT](https://chat.openai.com/)
+**Try this:** "Write a funny story about a robot in school."  
+🔗 <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
 
 ### **🎨 DALL·E (AI that Creates Art)** 🖼️
-**Try this:** "A futuristic high school classroom with AI-powered robots."
-🔗 [DALL·E](https://openai.com/dall-e)
+**Try this:** "A futuristic high school classroom with AI-powered robots."  
+🔗 <a href="https://openai.com/dall-e" target="_blank">DALL·E</a>
 
 ### **🎓 Teachable Machine (Train an AI!)** 🤖
 No coding needed! Teach AI to recognize hand gestures (✋✊✌️).  
-🔗 [Teachable Machine](https://teachablemachine.withgoogle.com/)
+🔗 <a href="https://teachablemachine.withgoogle.com/" target="_blank">Teachable Machine</a>
 
 ### **✏️ Quick, Draw! (AI that Guesses Drawings)** 🎮
-🔗 [Quick, Draw!](https://quickdraw.withgoogle.com/)
+🔗 <a href="https://quickdraw.withgoogle.com/" target="_blank">Quick, Draw!</a>
 
 ---
 
@@ -54,7 +54,7 @@ A Jupyter Notebook is like a **smart digital notebook** where you can write and 
 🔹 **Jupyter = Digital Lab Notebook for AI & Coding!** 🚀
 
 ### **🚀 Open Google Colab (Easiest Way!)**
-1️⃣ Click **[Google Colab](https://colab.research.google.com/)**  
+1️⃣ Click **<a href="https://colab.research.google.com/" target="_blank">Google Colab</a>**  
 2️⃣ Click **New Notebook**  
 3️⃣ 🎉 You’re ready to code!
 
@@ -64,27 +64,36 @@ A Jupyter Notebook is like a **smart digital notebook** where you can write and 
 
 # 🐍 **4. Your First Python Code (Step-by-Step)** 🚀
 ### **🔹 Print a Message** 📢
-👉 **Step 1:** Click inside a code cell  
-👉 **Step 2:** Type this code:  
+👉 **Step 1:** Click inside a code cell (A gray box labeled 'Code')  
+👉 **Step 2:** Copy and paste the following code:  
 ```python
 print("Hello AI World!")
 ```
-👉 **Step 3:** Press **Shift + Enter** to run it! 🎉
+👉 **Step 3:** Press the **Play Icon** to run it! 🎉  
+✅ If done correctly, you should see: `Hello AI World!` printed below the cell.
 
 ### **🔹 Do Basic Math** ➕➖
+👉 **Step 1:** Click inside a new code cell  
+👉 **Step 2:** Copy and paste the following code:  
 ```python
 a = 10
 b = 5
 sum = a + b
 print("The sum is:", sum)
 ```
-🧐 **What’s happening?** The computer adds 10 + 5 and prints the result! 🔢
+👉 **Step 3:** Press the **Play Icon** to run it!  
+🧐 **What’s happening?** The computer adds `10 + 5` and prints the result! 🔢
 
 ### **🔹 AI-Powered Interaction** 🤖
+👉 **Step 1:** Click inside a new code cell  
+👉 **Step 2:** Copy and paste the following code:  
 ```python
 name = input("What’s your name? ")
 print("Nice to meet you, " + name + "!")
 ```
+👉 **Step 3:** Press the **Play Icon** to run it, then type your name in the box that appears and hit **Enter**  
+✅ AI will greet you with: `Nice to meet you, [Your Name]!`
+
 🎯 **Challenge:** Modify the message or numbers and rerun!
 
 💡 **Extra Tip:** Google Colab allows you to run one code block at a time. If something goes wrong, just re-run the block!
@@ -93,13 +102,13 @@ print("Nice to meet you, " + name + "!")
 
 # 🎭 **5. No-Code AI Activity (Hands-On!)** 🎨
 🔹 **Train Your Own AI!** 🏆
-1️⃣ Go to **[Teachable Machine](https://teachablemachine.withgoogle.com/)**  
+1️⃣ Go to **<a href="https://teachablemachine.withgoogle.com/" target="_blank">Teachable Machine</a>**  
 2️⃣ Choose **Image Project** → **Standard Image Model**  
 3️⃣ Train AI to recognize three hand gestures (✋✊✌️)  
 4️⃣ Click **Train Model** → **Preview** to test!
 
 🔹 **Play Quick, Draw! (AI That Learns From Your Sketches)** ✏️
-1️⃣ Go to **[Quick, Draw!](https://quickdraw.withgoogle.com/)**  
+1️⃣ Go to **<a href="https://quickdraw.withgoogle.com/" target="_blank">Quick, Draw!</a>**  
 2️⃣ Draw simple objects (cat, house, tree)  
 3️⃣ Watch AI try to guess your drawings! 🎨
 
@@ -116,21 +125,5 @@ print("Nice to meet you, " + name + "!")
 
 ---
 
-# 📝 **Optional Homework (But Super Fun!)** 🎯
-🔹 Ask **[ChatGPT](https://chat.openai.com/)** silly questions! 🤖  
-🔹 Create an AI image using **[DALL·E](https://openai.com/dall-e/)** 🎨  
-🔹 Modify Python code & experiment! 🐍  
-🔹 Play **[Quick, Draw!](https://quickdraw.withgoogle.com/)** and test AI’s drawing skills! 🎭  
-
----
-
 # 🔗 **Additional AI Resources** 📚
-- **[Google Colab](https://colab.research.google.com/)** 🖥️  
-- **[Teachable Machine](https://teachablemachine.withgoogle.com/)** 🎓  
-- **[ChatGPT](https://chat.openai.com/)** 💬  
-- **[DALL·E](https://openai.com/dall-e/)** 🎨  
-- **[Python Basics](https://www.python.org/)** 🐍  
-- **[AI4All (Interactive AI Learning)](https://ai-4-all.org/)** 🔥  
-- **[Quick, Draw!](https://quickdraw.withgoogle.com/)** ✏️  
-
 🎉 **You did it! Keep exploring AI, and see you at the next workshop! 🚀**
