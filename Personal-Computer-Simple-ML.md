@@ -1,4 +1,4 @@
-# 🚀✨ **Workshop: Building a Simple ML Model for Beginners!** ✨🚀  
+# 🚀✨ **Workshop 3: Simple ML Model!** ✨🚀  
 
 ---
 
