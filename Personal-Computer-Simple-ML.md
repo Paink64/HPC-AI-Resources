@@ -1,4 +1,4 @@
-# 🚀✨ **Workshop 3: Simple ML Model!** ✨🚀  
+# 🚀✨ **Workshop 3: 🤖 Simple ML Model!** ✨🚀  
 
 ---
 
