@@ -2,13 +2,13 @@
 
 ---
 
-# 🎯 **Goal**  
+## 🎯 **Goal**  
 📊 Learn how to **clean, analyze, and visualize** real-world datasets using Python tools like Pandas and Seaborn. No prior experience needed—just bring your curiosity and creativity! 🚀  
 
 ---
 
-# 📌 **What You Will Learn** 🧠💡  
-✅ What a **dataset** is and why it matters 📂  
+## 📌 **What You Will Learn** 🧠💡  
+✅ What datasets are and why they matter 📂  
 ✅ How to **clean** messy data and handle missing values 🧹🔍  
 ✅ How to **analyze** data to find patterns and insights 📈📉  
 ✅ How to **visualize** data using colorful charts 🎨📊  
@@ -16,123 +16,160 @@
 
 ---
 
-# 📚 **1. Understanding Datasets** 🤔  
+## 📚 **1. Understanding Datasets** 🤔  
 
-### **What is a Dataset?** 📊  
-A **dataset** is a collection of related information stored in a structured format, such as a table. Datasets can contain numbers, text, images, or even audio. AI models learn from datasets to recognize patterns and make predictions. 
+### **What is a Dataset?** 📂  
+A **dataset** is a collection of structured information that AI models use to learn. Data can come in different formats, such as:  
 
-### **Types of AI Datasets** 🧠  
 📸 **Images** (e.g., photos of animals for recognition)  
 📜 **Text** (e.g., social media posts for chatbots)  
 📊 **Numbers** (e.g., weather reports for predictions)  
 🎵 **Audio** (e.g., music for recommendations)  
 
-💡 **Think:** Can you guess where else AI is used in everyday life? 🤔💭  
+💡 **Think:** Where else do you see AI using datasets in real life? 🤔💭  
 
 ---
 
-# 🔍 **2. Hands-on: Exploring a Real Dataset**  
+## 🔍 **2. Hands-on: Exploring a Real Dataset**  
 
-We will use **Google Colab** (an online tool) to work with a real dataset!  
+### 🚀 **Step 1: Open Google Colab**  
+1️⃣ Open your browser and go to **[Google Colab](https://colab.research.google.com/)**.  
+2️⃣ Click **+ New notebook**.  
 
-### **🚀 Open Google Colab (Easiest Way!)**  
-1️⃣ Click **[Google Colab](https://colab.research.google.com/)**  
-2️⃣ Click **New Notebook**  
-3️⃣ 🎉 You’re ready to code!  
+---
 
-### **🔹 Load the Dataset** 💾  
+## 💾 **3. Loading the Dataset**  
+
+### **Step 2: Add a New Code Cell**  
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+
 ```python
-# Import Pandas library to handle data
+# Import the Pandas library to handle data
 import pandas as pd  
 
-# Create a simple dataset with names, ages, and scores
-data = pd.DataFrame({  
-    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],  
-    'Age': [25, 30, 35, None, 40],  # One missing value
-    'Score': [90, 85, 88, 92, None]  # One missing value
-})  
+# Create a simple dataset with missing values
+data = pd.DataFrame({
+    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'],
+    'Age': [25, 30, 35, None, 40],  # One missing age
+    'Score': [90, 85, 88, 92, None]  # One missing score
+})
 
 # Display the dataset
-data  
+data
 ```
-✅ You should see a small table with missing values (`None`).  
+
+### **Step 3: Run the Code**  
+▶ Click **Run** (▶) and check the output! You will see a small table with missing values (NaN).  
 
 ---
 
-# 🧹 **3. Cleaning the Data**  
+## 🧹 **4. Cleaning the Data**  
 
-### **🔹 Handling Missing Data**  
-Missing values can cause problems in analysis. Let's **fill them with average values**!  
+### **Step 4: Add a New Code Cell**  
+1️⃣ Click **+ Code** to add another code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+
 ```python
-# Fill missing values with the column mean (average)
-data.fillna(data.mean(), inplace=True)  
+# Fill missing values with the column average
+data.fillna(data.mean(), inplace=True)
 
-# Show cleaned dataset
-data  
+# Show the cleaned dataset
+data
 ```
-✅ Now, there are no more missing values! 🎉  
+
+### **Step 5: Run the Code**  
+▶ Click **Run** (▶) and check the output. Now, there are no missing values! 🎉  
 
 ---
 
-# 📊 **4. Analyzing the Data**  
+## 📊 **5. Analyzing the Data**  
 
-### **🔹 Basic Statistics**  
-```python
-# Show basic statistics about the dataset
-data.describe()  
-```
-✅ This gives useful info like **average, min, and max values**!  
+### **Step 6: Add a New Code Cell**  
+1️⃣ Click **+ Code** to add another code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
 
-### **🔹 Sorting Data**  
 ```python
-# Sort students by their scores in descending order
-data.sort_values(by="Score", ascending=False)  
+# Show basic statistics like mean, min, and max values
+data.describe()
 ```
-✅ Now we see students ranked by their scores!  
+
+### **Step 7: Run the Code**  
+▶ Click **Run** (▶) to see useful insights like average scores and ages.  
 
 ---
 
-# 🎨 **5. Visualizing Data**  
+### **Sorting Data to Find Top Scores**  
 
-### **🔹 Bar Chart (Comparing Scores)**  
+### **Step 8: Add a New Code Cell**  
+1️⃣ Click **+ Code** to add another code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+
+```python
+# Sort students by their scores (highest first)
+data.sort_values(by="Score", ascending=False)
+```
+
+### **Step 9: Run the Code**  
+▶ Click **Run** (▶) and see students ranked by their scores!  
+
+---
+
+## 🎨 **6. Visualizing Data**  
+
+### **📊 Bar Chart: Comparing Scores**  
+
+### **Step 10: Add a New Code Cell**  
+1️⃣ Click **+ Code** to add another code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+
 ```python
 # Import visualization libraries
 import seaborn as sns  
 import matplotlib.pyplot as plt  
 
-# Create a bar chart to compare student scores
+# Create a bar chart of student scores
 sns.barplot(x=data["Name"], y=data["Score"])  
 plt.title("Student Scores")  
-plt.show()  
+plt.show()
 ```
-✅ You should see a colorful bar chart comparing student scores!  
 
-### **🔹 Scatter Plot (Finding Patterns)**  
-```python
-# Create a scatter plot of Age vs. Score
-sns.scatterplot(x=data["Age"], y=data["Score"])  
-plt.title("Age vs. Score")  
-plt.show()  
-```
-✅ This helps us see if **older students** tend to have higher scores!  
+### **Step 11: Run the Code**  
+▶ Click **Run** (▶) and check the **colorful bar chart** comparing student scores!  
 
 ---
 
-# 🎯 **6. Wrap-Up & Next Steps**  
+### **🔎 Scatter Plot: Finding Patterns**  
 
-🎉 **Great job!** You learned how to:  
+### **Step 12: Add a New Code Cell**  
+1️⃣ Click **+ Code** to add another code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+
+```python
+# Create a scatter plot for Age vs. Score
+sns.scatterplot(x=data["Age"], y=data["Score"])  
+plt.title("Age vs. Score")  
+plt.show()
+```
+
+### **Step 13: Run the Code**  
+▶ Click **Run** (▶) to see if older students tend to have higher scores!  
+
+---
+
+## 🎯 **7. Wrap-Up & Next Steps**  
+
+🎉 Congratulations! You learned how to:  
 ✅ Load a dataset 🔍📂  
 ✅ Clean missing values 🧹✨  
 ✅ Analyze data using basic statistics 📊  
 ✅ Create colorful visualizations 🎨  
 
-🚀 **Next Workshop:** Building a **Simple AI Model** with Data! 🤖  
+🚀 **Next Workshop:** Building a Simple AI Model with Data! 🤖  
 
----
+🔗 **Additional AI Resources** 📚  
+- [Google Colab Guide](https://colab.research.google.com/)  
+- [Python for Beginners](https://www.python.org/doc/)  
+- [AI for Kids](https://ai4k12.org/)  
 
-# 🔗 **Additional AI Resources** 📚  
-📌 [Google Colab Guide](https://colab.research.google.com/)  
-📌 [Python for Beginners](https://www.python.org/about/gettingstarted/)  
-📌 [AI for Kids](https://teachablemachine.withgoogle.com/)  
-
-🎉 **Keep exploring AI, and see you at the next workshop! 🚀**
+🎉 Keep exploring AI, and see you at the next workshop! 🚀
