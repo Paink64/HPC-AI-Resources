@@ -16,7 +16,7 @@
 
 ---
 
-# 📚 **1. Understanding AI and Data** 🤔  
+# 📚 **1. Understanding Datasets** 🤔  
 
 ### **What is a Dataset?** 📊  
 A **dataset** is a collection of related information stored in a structured format, such as a table. Datasets can contain numbers, text, images, or even audio. AI models learn from datasets to recognize patterns and make predictions. 
