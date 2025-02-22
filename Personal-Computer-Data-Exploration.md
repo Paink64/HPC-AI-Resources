@@ -1,4 +1,4 @@
-# 🚀✨ **Workshop 2: Exploring, Cleaning, and Visualizing AI Data with Python!** ✨🚀  
+# 🚀✨ **Workshop 2: 📊 Visualize AI Data!** ✨🚀  
 
 ---
 
