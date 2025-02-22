@@ -2,12 +2,12 @@
 
 ---
 
-## 🎯 **Goal**  
+# 🎯 **Goal**  
 📊 Learn how to **clean, analyze, and visualize** real-world datasets using Python tools like Pandas and Seaborn. No prior experience needed—just bring your curiosity and creativity! 🚀  
 
 ---
 
-## 📌 **What You Will Learn** 🧠💡  
+# 📌 **What You Will Learn** 🧠💡  
 ✅ What a **dataset** is and why it matters 📂  
 ✅ How to **clean** messy data and handle missing values 🧹🔍  
 ✅ How to **analyze** data to find patterns and insights 📈📉  
@@ -16,7 +16,7 @@
 
 ---
 
-## 📚 **1. Understanding AI and Data** 🤔  
+# 📚 **1. Understanding AI and Data** 🤔  
 
 ### **What is a Dataset?** 📊  
 A **dataset** is a collection of related information stored in a structured format, such as a table. Datasets can contain numbers, text, images, or even audio. AI models learn from datasets to recognize patterns and make predictions. 
@@ -31,7 +31,7 @@ A **dataset** is a collection of related information stored in a structured form
 
 ---
 
-## 🔍 **2. Hands-on: Exploring a Real Dataset**  
+# 🔍 **2. Hands-on: Exploring a Real Dataset**  
 
 We will use **Google Colab** (an online tool) to work with a real dataset!  
 
@@ -59,7 +59,7 @@ data
 
 ---
 
-## 🧹 **3. Cleaning the Data**  
+# 🧹 **3. Cleaning the Data**  
 
 ### **🔹 Handling Missing Data**  
 Missing values can cause problems in analysis. Let's **fill them with average values**!  
@@ -74,7 +74,7 @@ data
 
 ---
 
-## 📊 **4. Analyzing the Data**  
+# 📊 **4. Analyzing the Data**  
 
 ### **🔹 Basic Statistics**  
 ```python
@@ -92,7 +92,7 @@ data.sort_values(by="Score", ascending=False)
 
 ---
 
-## 🎨 **5. Visualizing Data**  
+# 🎨 **5. Visualizing Data**  
 
 ### **🔹 Bar Chart (Comparing Scores)**  
 ```python
@@ -118,7 +118,7 @@ plt.show()
 
 ---
 
-## 🎯 **6. Wrap-Up & Next Steps**  
+# 🎯 **6. Wrap-Up & Next Steps**  
 
 🎉 **Great job!** You learned how to:  
 ✅ Load a dataset 🔍📂  
@@ -130,7 +130,7 @@ plt.show()
 
 ---
 
-## 🔗 **Additional AI Resources** 📚  
+# 🔗 **Additional AI Resources** 📚  
 📌 [Google Colab Guide](https://colab.research.google.com/)  
 📌 [Python for Beginners](https://www.python.org/about/gettingstarted/)  
 📌 [AI for Kids](https://teachablemachine.withgoogle.com/)  
