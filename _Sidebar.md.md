@@ -1,7 +1,7 @@
 - **🚀 AI & HPC Workshops**
   - **🖥️ 1️⃣ Using Personal Computer**
-    - [📌 1: Unlocking AI Magic with Jupyter](personal-computer-intro)
-    - [📊 2: Exploring, Cleaning, and Visualizing AI Data with Python](personal-computer-data-exploration)
+    - [📌 1: Unlock AI Magic with Jupyter](personal-computer-intro)
+    - [📊 2: Clean, Analyze, and Visualize AI Data](personal-computer-data-exploration)
     - [🤖 Simple ML Model](personal-computer-simple-ml)
     - [🧠 Deep Neural Network (DNN)](personal-computer-dnn)
     - [💬 Introduction to LLMs](personal-computer-intro-llms)
