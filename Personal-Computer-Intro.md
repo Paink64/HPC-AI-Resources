@@ -1,4 +1,4 @@
-# 🚀✨ **Workshop 1: Unlocking AI Magic with Jupyter** ✨🚀
+# 🚀✨ **Workshop 1: ✨ AI Magic with Jupyter!** ✨🚀
 
 ---
 
