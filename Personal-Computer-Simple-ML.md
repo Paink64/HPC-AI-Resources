@@ -149,5 +149,21 @@ plt.show()
 
 ---
 
-# 🎯 **7. Wrap-Up & Next Steps**  
+🎯 7. Wrap-Up & Next Steps
+
+🎉 Great job! You just built, trained, and tested your first Machine Learning model! Here’s what we covered:
+
+✅ Machine Learning helps computers learn from data 🤖📊  
+✅ Linear Regression finds patterns and predicts outcomes 📈  
+✅ We trained a simple ML model to predict test scores based on age 🏆  
+✅ We visualized predictions with a graph 🎨📊  
+
+🚀 Next Workshop: Exploring More Advanced AI Models! 🤖  
+
+🔗 Additional AI Resources 📚  
+- 🔹 Google Colab Guide  
+- 🔹 Python for Beginners  
+- 🔹 AI for Kids  
+
+🎉 You did it! Keep exploring AI, and see you at the next workshop! 🚀  
 🚀 **Next Workshop:** Exploring **More Advanced AI Models!** 🤖  
