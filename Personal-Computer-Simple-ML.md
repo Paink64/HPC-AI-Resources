@@ -149,7 +149,7 @@ plt.show()
 
 ---
 
-🎯 7. Wrap-Up & Next Steps
+# 🎯 **7. Wrap-Up & Next Steps**
 
 🎉 Great job! You just built, trained, and tested your first Machine Learning model! Here’s what we covered:
 
