@@ -161,9 +161,9 @@ plt.show()
 🚀 Next Workshop: Exploring More Advanced AI Models! 🤖  
 
 🔗 Additional AI Resources 📚  
-- 🔹 Google Colab Guide  
-- 🔹 Python for Beginners  
-- 🔹 AI for Kids  
+- [Google Colab Guide](https://colab.research.google.com/)  
+- [Python for Beginners](https://www.python.org/doc/)  
+- [AI for Kids](https://ai4k12.org/)  
 
 🎉 You did it! Keep exploring AI, and see you at the next workshop! 🚀  
 🚀 **Next Workshop:** Exploring **More Advanced AI Models!** 🤖  
