@@ -62,7 +62,8 @@ Linear Regression helps us **find patterns** in data and **make predictions** by
 2️⃣ Click **+ New notebook**.  
 
 ### 💾 **Step 2: Load and Explore the Dataset**  
-Let's create a simple dataset with students' ages and their test scores.  
+🔹 **Click `+ Code` in the top left to add a new code cell.**  
+🔹 **Copy and paste the following code into the new code cell.**  
 
 ```python
 import pandas as pd  # Import Pandas for data handling
@@ -83,7 +84,8 @@ data
 ## 🤖 **4. Training a Simple ML Model**  
 
 ### 🔧 **Step 3: Train a Simple ML Model using Linear Regression**  
-Now, let's train a model to **predict scores based on age**.  
+🔹 **Click `+ Code` in the top left to add a new code cell.**  
+🔹 **Copy and paste the following code into the new code cell.**  
 
 ```python
 from sklearn.linear_model import LinearRegression  # Import ML model
@@ -103,7 +105,8 @@ model.fit(X, y)  # Train the model
 ## 🔮 **5. Making Predictions with ML**  
 
 ### **Step 4: Predict a Student's Score**  
-Let’s predict the test score of a **25-year-old student**!  
+🔹 **Click `+ Code` in the top left to add a new code cell.**  
+🔹 **Copy and paste the following code into the new code cell.**  
 
 ```python
 predicted_score = model.predict([[25]])  # Predict score for age 25
@@ -118,7 +121,8 @@ print("Predicted Score for Age 25:", predicted_score[0])
 ## 🎨 **6. Visualizing ML Predictions**  
 
 ### 📊 **Step 5: Create a Graph of the Model's Predictions**  
-Let’s **plot** the actual data and the model’s predictions.  
+🔹 **Click `+ Code` in the top left to add a new code cell.**  
+🔹 **Copy and paste the following code into the new code cell.**  
 
 ```python
 import matplotlib.pyplot as plt  # Import plotting library
