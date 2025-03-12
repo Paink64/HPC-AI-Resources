@@ -1,234 +1,227 @@
-# 🚀✨ Workshop: Running Large Language Models (LLMs) on HPC ✨🚀
-
-## 🎯 Goal
-🤖 Learn how to efficiently run Large Language Models (LLMs) on **High-Performance Computing (HPC) systems**, leveraging **JupyterLab** for scalable text generation and question-answering tasks. Whether you're new to LLMs or HPC, this hands-on workshop will guide you through the essentials! 🚀
+# 🚀✨ **Workshop: Introduction to Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG)** ✨🚀  
 
 ---
 
-## 📌 What You Will Learn 🧠💡
-✅ Why use **HPC** for running LLMs? 🚀  
-✅ How to access and navigate **CSUSB HPC & JupyterLab** 🖥️  
-✅ Install essential Libraries and Kaggle dataset ✍️  
-✅ How to run **pre-trained LLMs on HPC** for faster processing ⏩  
-✅ Using **Hugging Face Transformers** for text generation and QA  
-✅ Working with a **Kaggle dataset** for real-world applications 📊  
+## 🎯 **Goal**  
+🤖 **Understand the basics of Large Language Models (LLMs)** and how **Retrieval-Augmented Generation (RAG)** enhances LLMs for tasks like text generation and answering complex queries. You will learn to use LLMs in combination with a retrieval system to improve performance. No prior experience needed—just bring your curiosity! 🚀  
 
 ---
 
-## 🏆 1. Why use **HPC** for running LLMs? 🚀
-### 🚀 The Power of High-Performance Computing (HPC)
-LLMs are computationally expensive! Running them on personal devices can be **slow**, **memory-intensive**, and sometimes **impossible**. HPC systems solve this by:
-- **Parallelizing workloads** for faster execution ⚡
-- **Providing GPU acceleration** to handle large-scale deep learning models 🎮
-- **Handling large datasets** efficiently 📊
-
-💡 *Think: What AI tasks can benefit from HPC? Jot down your ideas! 📝*
-
----
-
-## 🔥 2. How to access and navigate **CSUSB HPC & JupyterLab** 🖥️
-
-Once you sign in to the CSUSB HPC portal, follow these steps to configure and launch your server:
-
-### Step 1: Access the HPC JupyterHub   
-1️⃣ Log into [CSUSB HPC Portal](https://csusb-hpc.nrp-nautilus.io/) using your school credentials.   
-2️⃣ Click CI Logon and authenticate.
-
-### Step 2: Configure Your Server   
-1️⃣ Click Start My Server or Launch Server if prompted.   
-2️⃣ Under Advanced Options, adjust the following:   
-
-- GPUs: 2
-- GPU Type: Leave as Any
-- Cores: 4 (default)
-- RAM: 16 GB (default)
- 
-3️⃣ Under Image, select:   
-✅ Stack Datascience   
-### Step 3: Start Your Server   
-1️⃣ Scroll down and click Start to launch the server.   
-2️⃣ Wait for the server to initialize. Once it is ready, JupyterHub will open in a new tab.
-
-✅ Now your server is ready for the workshop! 🚀
+## 📌 **What You Will Learn** 🧠💡  
+✅ What are **Large Language Models (LLMs)**?  
+✅ What is **Retrieval-Augmented Generation (RAG)**?  
+✅ Setting Up LLM and RAG for Text Generation  
+✅ Running LLM and RAG for Text Generation   
+✅ How to use **RAG** with **Hugging Face** to enhance text generation  
+✅ Hands-on coding with **Google Colab** and **Hugging Face**  
 
 ---
 
-## 🔧 3. Install essential Libraries and Kaggle dataset ✍️  
+## 🤖 **1. What is a Large Language Model (LLM)?**  
+### 🧠 Understanding LLMs in Simple Terms  
+A **Large Language Model (LLM)** is a type of AI model that can understand and generate human-like text. It learns by analyzing massive amounts of text data, recognizing patterns, and predicting words based on context.
 
-Now that you have your **HPC terminal** open, install essential libraries and configure Kaggle:    
-[ChatGPT explanation for the code](https://chatgpt.com/share/67cb1712-6940-8004-9dd6-df6e5b2542c1)
-```bash
-# Install essential Python libraries for data manipulation and analysis
-pip install --user pandas  
+### 📌 Real-World Examples:  
+- ✅ Chatbots like Siri, Google Assistant, ChatGPT 🗣️  
+- ✅ AI-powered writing assistants (Grammarly, Jasper AI) ✍️  
+- ✅ Search engines predicting your queries 🔍  
+- ✅ AI-generated stories and essays 📖  
 
-# Install seaborn for data visualization, useful for plotting and analyzing trends
-pip install --user seaborn  
+---
 
-# Install matplotlib for creating static, animated, and interactive visualizations
-pip install --user matplotlib  
+## 🔧 **2. What is Retrieval-Augmented Generation (RAG)?**  
+### 🛠️ How Does RAG Work?  
+RAG enhances LLMs by integrating **retrieval** and **generation** to provide more accurate responses. Instead of relying solely on pre-trained knowledge, it fetches relevant information from external databases before generating a response.
 
-# Install Kaggle API to download datasets directly from Kaggle into the HPC environment
-pip install --user kaggle  
+#### 📚 Steps in RAG:  
+1️⃣ **Retrieval:** The model searches for relevant documents from a knowledge base.  
+2️⃣ **Augmentation:** The retrieved data is passed as context to the LLM.  
+3️⃣ **Generation:** The LLM generates a response based on the retrieved information. 
 
-# Temporarily add Kaggle to system PATH
-export PATH=~/.local/bin:$PATH  
+📌 **Example:**  
+- If you ask about a recent scientific breakthrough, RAG can retrieve research papers or trusted sources before forming an answer.  
 
-# Permanently add Kaggle to system PATH
-echo 'export PATH=~/.local/bin:$PATH' >> ~/.bashrc  
+---
 
-# Apply changes immediately
-source ~/.bashrc  
+## 🔧 **3. Setting Up LLM and RAG for Text Generation**
 
-# Create a new directory for dataset storage
-mkdir -p ~/playstore_data  
+### 🚀 **Step 1: Open [Google Colab](https://colab.research.google.com/)**
 
-# Navigate into the dataset directory
-cd ~/playstore_data  
+1️⃣ Open your browser and go to **[Google Colab](https://colab.research.google.com/)**.\
+2️⃣ Click **+ New notebook** to begin.
 
-# Download the Google Playstore dataset from Kaggle
-kaggle datasets download -d gauthamp10/google-playstore-apps  
+### 🛠️ **Step 2: Set Up Hugging Face Account and Access Token**
 
-# Unzip the downloaded dataset
-unzip google-playstore-apps.zip  
+1️⃣ **Sign up on Hugging Face**: Go to [Hugging Face Sign-Up](https://huggingface.co/join) and create a free account.\
+2️⃣ **Generate an Access Token**:
 
-# List extracted files to confirm successful download
-ls -lh  
+- Click on your profile icon and go to **[Your Account Settings](https://huggingface.co/settings/tokens)**.
+- Scroll down to **Access Tokens** and click **New Token**.
+- Give it a name (e.g., "Colab Access") and select **Read** access.
+- Click **Generate Token** and copy the token.
+
+### 📚 **Step 3: Login in Colab with the Token**
+
+1️⃣ Open a new cell in Google Colab and run the following code:
+
+<a href="https://chatgpt.com/share/67cafa63-35d0-8004-bfdc-f36ffb25ae57" target="_blank">ChatGPT explanation for the code</a>
+
+```python
+# Import Hugging Face login module
+from huggingface_hub import notebook_login  
+
+# Trigger login prompt
+notebook_login()  
 ```
 
-3️⃣ Run the code ▶    
-✅ **Success!** Dataset downloaded and ready for analysis. 🎉
+2️⃣ When prompted, paste the token you copied earlier.\
+3️⃣ **Verify Authentication**:\
+Run the following code to check if authentication is successful:   
+<a href="https://chatgpt.com/share/67caface-5ed8-8004-a60c-5132ec7113bd" target="_blank">ChatGPT explanation for the code</a>
+
+```python
+# Check if authentication is successful
+!huggingface-cli whoami  
+```
+
+4️⃣ If it prints your Hugging Face username, the setup is complete!
 
 ---
 
-## 🤖 4. How to run **pre-trained LLMs on HPC** for faster processing ⏩ 
-### 🏗️ Step 1: Load Dataset into Jupyter Notebook
-1️⃣ In **JupyterLab**, open a **new notebook** (Python 3 Kernel).  
-2️⃣ In the first code cell, run:    
-[ChatGPT explanation for the code](https://chatgpt.com/share/67cb1794-47c4-8004-86e4-4231aa963ed4)
+## 🔧 **4. Running LLM and RAG for Text Generation**
+### 📚 **Step 1: Install and Import Required Libraries**
+
+Before importing the libraries, install the necessary dependencies by running the following command:
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+<a href="https://chatgpt.com/share/67cafb46-9940-8004-8618-4f0cb0dfd5aa" target="_blank">ChatGPT explanation for the code</a>
+
 ```python
-# Import Pandas library
-import pandas as pd  
-
-# Define dataset file path
-dataset_path = "~/playstore_data/Google-Playstore.csv"  
-
-# Load dataset into a Pandas DataFrame
-playstore_df = pd.read_csv(dataset_path)  
-
-# Display the first few rows of the dataset
-print("Dataset Preview:")  
-print(playstore_df.head())  
-
-# Extract column names for reference
-column_names = playstore_df.columns.tolist()  
-
-# Print column names
-print("\nColumn Names:", column_names)  
+# Install Hugging Face Transformers, FAISS, and datasets
+!pip install transformers faiss-cpu datasets  
 ```
-3️⃣ Run the code ▶    
-✅ **Success!** Dataset is now loaded into your notebook and ready for analysis.
 
----
+3️⃣ Click **Run** (▶) to install the required packages.
 
-### ✍️ Step 2: Using **Hugging Face Transformers** for text generation and QA  
-This step demonstrates how an LLM can generate text based on a given prompt.
+These dependencies are not pre-loaded in google colab and need to be explicitly installed. 
 
-[ChatGPT explanation for the code](https://chatgpt.com/share/67cb17fa-9d94-8004-82cf-28100b37fbdb)
+Then, import the necessary libraries:
 
-1️⃣ In a new code cell, import the necessary library:
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+<a href="https://chatgpt.com/share/67cafbb3-4074-8004-8fd6-58b28b1cdd4d" target="_blank">ChatGPT explanation for the code</a>
+
 ```python
-# Import Hugging Face pipeline
-from transformers import pipeline  
+# Import required libraries
+from transformers import pipeline, RagTokenizer, RagRetriever, RagSequenceForGeneration  
+import faiss  
 ```
-2️⃣ Load the GPT-2 model, which is a pre-trained language model:
+
+3️⃣ Click **Run** (▶) to import the libraries.
+
+### 🧠 **Step 2: Load a Pre-Trained RAG Model**
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+<a href="https://chatgpt.com/share/67cafc54-f3c0-8004-a121-af4a0faa0f5c" target="_blank">ChatGPT explanation for the code</a>
+
 ```python
-# Define text generation task
-task = "text-generation"  
+# Define tokenizer model name
+tokenizer_model = "facebook/rag-sequence-nq"  
 
-# Specify model name
-model_name = "gpt2"  
+# Load the tokenizer
+tokenizer = RagTokenizer.from_pretrained(tokenizer_model)  
 
-# Load the pre-trained GPT-2 model
-generator = pipeline(task, model=model_name)  
+# Define the text-generation model name
+generation_model = "gpt2"  
+
+# Load the text-generation model
+model = pipeline("text-generation", model=generation_model)  
 ```
-3️⃣ Generate text based on a given prompt:
+
+3️⃣ Click **Run** (▶) to load the pre-trained RAG model.
+
+📌 **Note:** When running this step, you may see a prompt asking:
+
+```
+Do you wish to run the custom code? [y/N]
+```
+
+Type **'y'** and press **Enter** to allow the model to load properly. This is required for some Hugging Face models.
+
+
+
+### 📚 **Step 3: Prepare a Query and Retrieve Information**
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+<a href="https://chatgpt.com/share/67cafcc4-b258-8004-9f15-5b1e7d1d9419" target="_blank">ChatGPT explanation for the code</a>
+
 ```python
-# Define input prompt
-prompt = "Once upon a time, in a futuristic city,"  
+# Define user query
+query = "What is the process of photosynthesis?"  
 
-# Set maximum number of new tokens
-max_tokens = 50  
+# Tokenize query
+input_dict = tokenizer.prepare_seq2seq_batch(query, return_tensors="pt")  
 
-# Generate text based on prompt
-output = generator(prompt, max_new_tokens=max_tokens)  
+# Retrieval is disabled as retriever is removed
+retrieved_docs = None  
+```
+
+3️⃣ Click **Run** (▶) to retrieve documents related to the query.
+
+### ✨ **Step 4: Generate a Response Using the Retrieved Documents**
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+<a href="https://chatgpt.com/share/67cafd2e-39b4-8004-9c52-ba1ac77e845f" target="_blank">ChatGPT explanation for the code</a>
+
+```python
+# Generate response based on retrieved documents
+output = model(query, max_length=100, truncation=True)  
 
 # Extract generated text
-generated_story = output[0]['generated_text']  
+generated_text = output[0]['generated_text']  
 
-# Print generated story
-print("Generated Story:")  
-print(generated_story)  
+# Print generated response
+print("Generated Answer:", generated_text)  
 ```
-4️⃣ Run the code ▶    
-📌 **Expected Output:** A short AI-generated futuristic story! 📖
 
-💡 **Challenge:** Modify the `prompt` variable to explore different stories.
+3️⃣ Click **Run** (▶) to generate a response based on the retrieved documents.
+
+📌 **Expected Output:**
+
+- The model should generate a relevant and coherent answer about the process of photosynthesis based on the retrieved information.
 
 ---
 
-### 🤔 Step 3: Analyze App Descriptions with GPT-2
-Instead of manually writing descriptions, let’s use GPT-2 to generate app descriptions automatically.
 
-[ChatGPT explanation for the code](https://chatgpt.com/share/67cb1863-4454-8004-844c-41cb9b1f197e)
+🏆 Exercise: Try It Yourself! 🎯
 
-1️⃣ Extract app names and format them into prompts:
-```python
-# Extract app names from dataset
-app_names = playstore_df['App Name'].dropna()  
+Now that you have learned how to retrieve and generate responses using RAG, try this challenge on your own!
 
-# Convert app names into prompts for description generation
-app_descriptions = [f"{str(app)} is an app that " for app in app_names]  
-```
-2️⃣ Use GPT-2 to generate descriptions for each app:
-```python
-# Select first 10 app names to generate descriptions
-selected_apps = app_descriptions[:10]  
+1️⃣ Modify the query to ask about a different topic, such as climate change, machine learning, or the history of AI.    
+2️⃣ Run the code and analyze how the retrieved documents influence the generated response.    
+3️⃣ Experiment by changing the model parameters (e.g., max_length) to see how the output changes.
 
-# Set max tokens for generated descriptions
-max_description_tokens = 50  
-
-# Generate text for app descriptions
-outputs = generator(selected_apps, max_new_tokens=max_description_tokens)  
-```
-3️⃣ Print generated app descriptions:
-```python
-# Print generated descriptions for each app
-print("Generated App Descriptions:")  
-for app, output in zip(playstore_df['App Name'][:10], outputs):  
-    generated_text = output[0]['generated_text']  
-    print(f"{app}: {generated_text}")  
-```
-4️⃣ Run the code ▶    
-📌 **Expected Output:** AI-generated app descriptions for multiple apps.
-
-💡 **Challenge:** Try processing more than 10 apps to analyze the variety of AI-generated text.
+📌 Bonus Challenge: Try integrating a different retrieval dataset from Hugging Face and see how it impacts the performance! 🚀
 
 ---
 
-## 🎯 4. Wrap-Up & Next Steps
-🎉 Congratulations! You learned how to:
-- ✅ Access **HPC & JupyterLab** 🖥️
-- ✅ Install **LLM dependencies on HPC** 🔧
-- ✅ Download and analyze **Kaggle datasets** 📊
-- ✅ Use **GPT-2 for text generation** ✍️
-- ✅ Apply AI to real-world app descriptions 🏗️
+## 🎯 **5. Wrap-Up & Next Steps**  
+🎉 Congratulations! You learned how to:  
+✅ Use a **Large Language Model (LLM)** for text generation.  
+✅ Implement **Retrieval-Augmented Generation (RAG)** to improve text generation.  
+✅ Use **Hugging Face** for easy access to pre-trained models and retrieval systems.  
 
-🚀 **Next Workshop:** [📚 LLM + RAG (AI-Powered Search)](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/hpc-llm-rag)
+🚀 **Next Workshop:** [🔍 Ethical AI & Future Trends](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/personal-computer-ethical-ai)  
+
+🔗 Additional AI Resources 📚
+
+- [Google Colab Guide](https://colab.research.google.com/)
+- [What is retrieval-augmented generation (RAG)?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-retrieval-augmented-generation-rag)
+- [AWS: What is Retrieval-Augmented Generation (RAG)?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
 
 
-### 🔗 Additional Resources 📚
-- [CSUSB: High-Performance Computing (HPC) Resources](https://www.csusb.edu/faculty-center-for-excellence/idat/high-performance-computing)
-- [Microsoft Learn: Introduction to large language models](https://learn.microsoft.com/en-us/training/modules/introduction-large-language-models/)
-- [What is LLM (Large Language Model)?](https://aws.amazon.com/what-is/large-language-model/)
-
-🎉 **Keep exploring AI, and see you at the next workshop!** 🚀
+🎉 Keep learning AI, and see you at the next workshop! 🚀
