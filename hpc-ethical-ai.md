@@ -153,5 +153,5 @@ print("Fairness Evaluation Results:", fairness_results)
 :rocket: **Next Workshop**: Experiment with alternative multimodal datasets like OpenAI CLIP datasets.
 ### **:link: Additional AI Resources** :books:
 - [Responsible AI by Microsoft](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/)
-- [Secure AI services by Microsoft](https://learn.microsoft.com/en-us/training/modules/secure-ai-services/)
+- [Secure AI services by Microsoft](https://learn.microsoft.com/en-us/training/modules/secure-ai-services/)   
 :rocket: Keep learning and see you at the next workshop! :tada:
