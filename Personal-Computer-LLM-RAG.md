@@ -219,7 +219,8 @@ Now that you have learned how to retrieve and generate responses using RAG, try 
 
 🔗 Additional AI Resources 📚
 
-- [Google Colab Guide](https://colab.research.google.com/)
+- [Google Colab Guide](https://colab.research.google.com/)     
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
 - [What is retrieval-augmented generation (RAG)?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-retrieval-augmented-generation-rag)
 - [AWS: What is Retrieval-Augmented Generation (RAG)?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
 
