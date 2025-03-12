@@ -9,7 +9,6 @@
     - [🔍 Ethical AI & Future Trends](personal-computer-ethical-ai)
   - **💻 2️⃣ Using Supercomputer (HPC)**
     - [🚀 Intro to HPC, AI & Jupyter](hpc-intro)
-    - [🔑 Accessing the Pre-Built HPC Environment](hpc-hpc-access)
     - [📂 Data Exploration & Management](hpc-data-exploration)
     - [🤖 Simple ML Model](hpc-simple-ml)
     - [🧠 Deep Neural Network (DNN)](hpc-dnn)
