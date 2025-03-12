@@ -230,7 +230,8 @@ plt.show()  # Show the graph
 🚀 Next Workshop: [🤖 Simple ML Model! ](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/personal-computer-simple-ml)
 
 🔗 Additional AI Resources 📚
-- [Google Colab Guide](https://colab.research.google.com/)  
+- [Google Colab Guide](https://colab.research.google.com/)     
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)        
 - [Google Colab Guide Data Visualization](https://colab.research.google.com/notebooks/charts.ipynb#scrollTo=QSMmdrrVLZ-N)  
 - [Discover Data Analysis](https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/)  
 
