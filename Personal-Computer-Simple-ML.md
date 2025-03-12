@@ -2,24 +2,23 @@
 
 ---
 
-# 🎯 **Goal**  
+## 🎯 **Goal**  
 🎉 Welcome, future AI builder! In this hands-on workshop, you'll learn how to **build, train, and use a simple Machine Learning (ML) model** using Python. No prior experience is needed—just curiosity and excitement! 🤖📊  
 
 ---
 
-# 📌 **What You Will Learn** 🧠💡  
+## 📌 **What You Will Learn** 🧠💡  
 ✅ What a Machine Learning (ML) model is 🏗️  
-✅ How to prepare and clean data for ML 📂  
-✅ How to import data for ML 📥  
 ✅ What **Linear Regression** is and how it works 📈  
+✅ How to prepare data for ML 📂  
 ✅ How to train a **simple ML model** 🤖  
 ✅ How to make predictions with the model 🔮  
 ✅ How to visualize ML predictions 🎨📊  
-✅ Hands-on coding with **Google Colab** for easy Python use 🚀  
 
 ---
 
-# 🤖 **1. What is a Machine Learning (ML) Model?**  
+## 🤖 **1. What is a Machine Learning (ML) Model?**  
+
 ### **ML = Computers that Learn!** 💡  
 A **Machine Learning (ML) model** is a program that **learns from data** to make predictions. Instead of being manually programmed with rules, ML models **find patterns** in data and use them to make future decisions.  
 
@@ -28,11 +27,11 @@ A **Machine Learning (ML) model** is a program that **learns from data** to make
 - 📺 **Netflix & YouTube** → Recommends movies & videos you might like  
 - 📸 **Face Unlock** → Recognizes your face using AI  
 
-💡 **Quick Thought:** Can you think of other places you see ML in action? 🤔  
+💡 **Think:** Can you think of other places you see ML in action? 🤔  
 
 ---
 
-# 📈 **2. What is Linear Regression?**  
+## 📈 **2. What is Linear Regression?**  
 Linear Regression helps us **find patterns** in data and **make predictions** by drawing a straight line through the data points. 📊  
 
 🔍 **Example:** Imagine tracking students’ ages and their test scores:  
@@ -55,7 +54,7 @@ Linear Regression helps us **find patterns** in data and **make predictions** by
 
 ---
 
-# 🔍 **3. Hands-on: Building a Simple ML Model**  
+## 🔍 **3. Hands-on: Building a Simple ML Model**  
 
 ### 🚀 **Step 1: Open Google Colab**  
 1️⃣ Open your browser and go to **[Google Colab](https://colab.research.google.com/)**.  
@@ -65,91 +64,126 @@ Linear Regression helps us **find patterns** in data and **make predictions** by
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
+**[ChatGPT explanation for the code](https://chatgpt.com/share/67c84802-3138-8002-81a4-b7c3466bfeb8/)**
 ```python
-import pandas as pd  # Import Pandas for data handling
+# Import Pandas for data handling
+import pandas as pd  
 
 # Create a small dataset
 data = pd.DataFrame({
-    'Age': [18, 20, 22, 24, 26, 28, 30],  # Input: Age of students
-    'Score': [70, 75, 78, 80, 85, 87, 90]  # Output: Test scores
+    # Input: Age of students
+    'Age': [18, 20, 22, 24, 26, 28, 30],
+    # Output: Test scores
+    'Score': [70, 75, 78, 80, 85, 87, 90]  
 })
 
 # Display the dataset
 data
 ```
 
-▶ **Click Run** (▶) and check the dataset!  
+3️⃣ **Click Run** (▶) and check the dataset!  
 
 ---
 
-# 🤖 **4. Training a Simple ML Model**  
+## 🤖 **4. Training a Simple ML Model**  
 
 ### 🔧 **Step 3: Train a Simple ML Model using Linear Regression**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
+**[ChatGPT explanation for the code](https://chatgpt.com/share/67c8c1a6-ec0c-8002-9e5b-8833d632e572/)**
 ```python
-from sklearn.linear_model import LinearRegression  # Import ML model
+# Import ML model
+from sklearn.linear_model import LinearRegression  
 
-X = data[['Age']]  # Feature (Input: Age)
-y = data['Score']  # Target (Output: Score)
+# Feature (Input: Age) converted to array
+X = data[['Age']].values  
+# Target (Output: Score) converted to array
+y = data['Score'].values  
 
-model = LinearRegression()  # Create the model
-model.fit(X, y)  # Train the model
+# Create the model
+model = LinearRegression()  
+# Train the model
+model.fit(X, y)  
 ```
 
-▶ **Click Run** (▶) to train the ML model!  
+3️⃣ Click **Run** (▶) to train the ML model!  
 
 📌 **What’s Happening?** The model **learns** the pattern between age and scores!  
 
 ---
 
-# 🔮 **5. Making Predictions with ML**  
+## 🔮 **5. Making Predictions with ML**  
 
 ### **Step 4: Predict a Student's Score**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
+**[ChatGPT explanation for the code](https://chatgpt.com/share/67c8c20b-00c0-8002-accf-731a62f32f0e/)**
 ```python
-predicted_score = model.predict([[25]])  # Predict score for age 25
+# Predict score for age 25 
+predicted_score = model.predict([[25]]) 
+# Print prediction
 print("Predicted Score for Age 25:", predicted_score[0])
 ```
 
-▶ **Click Run** (▶) to see the prediction!  
+3️⃣ Click **Run** (▶) to see the prediction!  
 
-📌 **Expected Output:** The model will predict a test score for a 25-year-old student based on past data.  
+📌 **Expected Output:** Based on past data, the model will predict a test score for a 25-year-old student.
 
 ---
 
-# 🎨 **6. Visualizing ML Predictions**  
+## 🎨 **6. Visualizing ML Predictions**  
 
 ### 📊 **Step 5: Create a Graph of the Model's Predictions**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
+**[ChatGPT explanation for the code](https://chatgpt.com/share/67c8c282-b3cc-8002-bc4d-f13e72845ad4/)**
 ```python
-import matplotlib.pyplot as plt  # Import plotting library
-import numpy as np  # Import numpy for calculations
+# Import plotting library 
+import matplotlib.pyplot as plt 
+# Import numpy for calculations 
+import numpy as np 
 
-# Generate age values for prediction line
-age_range = np.linspace(18, 30, 100).reshape(-1, 1)
-predicted_scores = model.predict(age_range)  
+# Generate a smooth range of age values from 18 to 30 (100 points in between)
+age_range = np.linspace(18, 30, 100).reshape(-1, 1)  # Reshape to match model input format
 
-# Create scatter plot
+# Predict scores for these age values using the trained model
+predicted_scores = model.predict(age_range)   
+
+# Create a scatter plot of the actual data (blue dots)
 plt.scatter(data['Age'], data['Score'], color='blue', label='Actual Data')
+
+# Draw the prediction line (red) showing how the model predicts scores
 plt.plot(age_range, predicted_scores, color='red', label='Prediction Line')
+
+# Label the x-axis as "Age"
 plt.xlabel('Age')
+
+# Label the y-axis as "Score"
 plt.ylabel('Score')
+
+# Set a title for the graph
 plt.title('ML Model: Predicting Scores Based on Age')
+
+# Add a legend to explain the blue dots and red line
 plt.legend()
+
+# Display the graph
 plt.show()
 ```
 
-▶ **Click Run** (▶) and check the graph! 🎨📊  
+3️⃣ Click **Run** (▶) and check the graph! 🎨📊  
 
+📌 Expected Output: A graph displaying data points along with a prediction line illustrating the trend.
+
+🎯 **Challenge**
+* Go back to the first code cell and make changes to the dataset.
+* **Rerun all the cells** (▶) and observe how the results evolve!
 ---
 
-# 🎯 **7. Wrap-Up & Next Steps**
+## 🎯 **7. Wrap-Up & Next Steps**
 
 🎉 Great job! You just built, trained, and tested your first Machine Learning model! Here’s what we covered:
 
@@ -158,12 +192,12 @@ plt.show()
 ✅ We trained a simple ML model to predict test scores based on age 🏆  
 ✅ We visualized predictions with a graph 🎨📊  
 
-🚀 Next Workshop: Exploring More Advanced AI Models! 🤖  
+🚀 **Next Workshop:** [🧠 Deep Neural Network (DNN)](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/personal-computer-dnn)  
 
-🔗 Additional AI Resources 📚  
-- [Google Colab Guide](https://colab.research.google.com/)  
-- [Python for Beginners](https://www.python.org/doc/)  
-- [AI for Kids](https://ai4k12.org/)  
+🔗 **Additional AI Resources** 📚  
+- [Google Colab Guide](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)  
+- [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/) 
+- [Python for Beginners](https://www.w3schools.com/python/python_intro.asp) (use only the two green buttons “Previous” and “Next” to navigate the tutorial and avoid ads)
+- [Microsoft Learn - Introduction to machine learning](https://learn.microsoft.com/en-us/training/modules/introduction-to-machine-learning/)
 
-🎉 You did it! Keep exploring AI, and see you at the next workshop! 🚀  
-🚀 **Next Workshop:** Exploring **More Advanced AI Models!** 🤖  
+🎉 You did it! Keep exploring AI, and see you at the next workshop! 🚀
