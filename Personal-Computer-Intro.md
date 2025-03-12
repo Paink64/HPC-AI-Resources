@@ -144,7 +144,7 @@ print("Nice to meet you, " + name + "!")
 
 ### 🔗 **Additional AI Resources** 📚      
 - [Google Colab: Getting Started](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)     
-- [Google's Python Class](https://developers.google.com/edu/python/)      
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
 - [Fundamental AI Concepts](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/)
 - [Using Jupyter Notebooks](https://www.rpgroup.caltech.edu/aph161/assets/tut/t0b/t0b_jupyter_notebooks.html?utm_source=chatgpt.com)      
   
