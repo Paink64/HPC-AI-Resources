@@ -43,11 +43,9 @@
 
 ## 🔍 **2: Access HPC Terminal via JupyterHub**
 
-1️⃣ Go to [CSUSB HPC](https://csusb-hpc.nrp-nautilus.io/).
-
-2️⃣ Click CI Logon to log in using your school account.
-
-3️⃣ Select GPU & Image
+1️⃣ Go to [CSUSB HPC](https://csusb-hpc.nrp-nautilus.io/).<br>
+2️⃣ Click CI Logon to log in using your school account.<br>
+3️⃣ Select GPU & Image.<br>
 
 Once logged in:
 
