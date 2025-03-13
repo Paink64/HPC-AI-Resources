@@ -266,8 +266,9 @@ playstore_df.to_csv("~/playstore_data/cleaned_playstore_data.csv", index=False)
 
 ## 🔗 **Additional Resources**  
 
-- [JupyterBook: Introduction](https://jupyterbook.org/en/stable/intro.html) 
-- [JupyterBook: Interactive data visualization](https://jupyterbook.org/en/stable/interactive/interactive.html)  
+- [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
+- [CSUSB: High-Performance Computing (HPC) Resources](https://www.csusb.edu/faculty-center-for-excellence/idat/high-performance-computing)   
 - [Get started with Microsoft data analytics](https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/) 
 
 🎉 **You did it! Keep exploring AI, and see you at the next workshop!** 🚀
