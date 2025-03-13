@@ -8,10 +8,10 @@
 
 ## 📌 **What You Will Learn** 🧠💡  
 
-✅ **What is Ethical AI?**<b>
-✅ **How does AI bias happen?** <b> 
-✅ **How can we fix unfair AI?** <b>
-✅ **Will AI take over jobs, or will it help humans?**  <b>
+✅ **What is Ethical AI?**<br>
+✅ **How does AI bias happen?** <br> 
+✅ **How can we fix unfair AI?** <br>
+✅ **Will AI take over jobs, or will it help humans?**  <br>
 
 By the end of this session, you'll know how to **detect bias in AI**, **make AI more ethical**, and **understand the future of AI**! 🚀  
 
