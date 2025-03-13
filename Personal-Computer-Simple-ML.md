@@ -1,7 +1,5 @@
 # 🚀✨ **Workshop 3: 🤖 Simple ML Model!** ✨🚀  
 
----
-
 ## 🎯 **Goal**  
 🎉 Welcome, future AI builder! In this hands-on workshop, you'll learn how to **build, train, and use a simple Machine Learning (ML) model** using Python. No prior experience is needed—just curiosity and excitement! 🤖📊  
 
