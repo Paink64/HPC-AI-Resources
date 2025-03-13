@@ -192,7 +192,8 @@ plt.show()
 
 🚀 **Next Workshop:** [🧠 Deep Neural Network (DNN)](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/personal-computer-dnn)  
 
-🔗 **Additional AI Resources** 📚  
+### 🔗 **Additional AI Resources** 📚   
+
 - [Google Colab Guide](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)        
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)   
