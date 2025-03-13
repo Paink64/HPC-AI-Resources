@@ -3,6 +3,8 @@
 ## 🎯 Goal  
 🎉 Learn how AI works through fun demos and hands-on coding! In this interactive workshop, you'll **explore AI concepts, experiment with real-world examples, and write your first AI-powered Python code**—no experience needed—using **CSUSB's High-Performance Computing (HPC) system**. 🤖🔥  
 
+---
+
 ## 📌 What You Will Learn 🧠💡  
 ✅ What AI is and how you already use it every day 🎬📱🤖  
 ✅ Hands-on AI demos (like ChatGPT and DALL·E) 🎨📝  
