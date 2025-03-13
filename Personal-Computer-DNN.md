@@ -252,7 +252,7 @@ print(f"Predicted class: {predicted_class} 🎯")
 ✅ Evaluated its accuracy 📊<br>
 ✅ Made predictions 🎯<br>
 
-📌 **Next Steps**: [💬 Introduction to LLMs](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/personal-computer-intro-llms)
+📌 **Next Workshop**: [💬 Introduction to LLMs](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/personal-computer-intro-llms)
 
 📚 **Additional AI Resources**
 
