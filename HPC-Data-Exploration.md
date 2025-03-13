@@ -264,7 +264,7 @@ playstore_df.to_csv("~/playstore_data/cleaned_playstore_data.csv", index=False)
 
 🚀 **Next Workshop: [🤖 Simple ML Model](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/hpc-simple-ml)**  
 
-## 🔗 **Additional Resources**  
+### 🔗 Additional AI & HPC Resources 📚   
 
 - [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
