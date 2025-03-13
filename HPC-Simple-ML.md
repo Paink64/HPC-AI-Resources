@@ -115,7 +115,7 @@ y = df['House Value'].values
 
 ## 🤖 **5. Training a Simple ML Model on HPC**  
 
-### 🔧 **Step 3: Train a Simple ML Model using Linear Regression**  
+###  **Train a Simple ML Model using Linear Regression**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell. 
 
