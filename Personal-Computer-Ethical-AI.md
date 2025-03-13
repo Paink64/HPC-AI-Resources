@@ -41,7 +41,6 @@ By the end of this session, you'll know how to **detect bias in AI**, **make AI 
 
 2️⃣ **Click** **+ New notebook** to create a new notebook.  
 
----
 
 ### 📌 **Step 2: Create a Biased AI Model**  
 
@@ -63,7 +62,6 @@ print(df)
 
 3️⃣ **Click Run (▶) and check the output!** 
 
----
 
 ### 📌 **Step 3: Train the Biased AI Model**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
@@ -96,8 +94,6 @@ for i, gender in enumerate(['Male', 'Female']):
 
 3️⃣ **Click Run (▶) and check the output!** 
 
----
-
 ### 📌 **Step 4: Fix the AI Bias**  
 
 Now, let’s **train AI with fair data** by **balancing the dataset**.  
@@ -126,7 +122,7 @@ for i, gender in enumerate(['Male', 'Female']):
 
 3️⃣ **Click Run (▶) and check the output!** 
 
-Now, AI should **treat males and females fairly!** 🎉  
+✅ Now, AI should **treat males and females fairly!** 🎉  
 
 ---
 
