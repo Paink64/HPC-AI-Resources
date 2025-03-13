@@ -8,7 +8,6 @@
 ## 📌 What You Will Learn 🧠💡
 
 ✅ What datasets are and why they matter 📂
-
 ✅ How to **prepare and process** real-world data 🔍
 
 ✅ How to **build** a Deep Neural Network 🏗️
