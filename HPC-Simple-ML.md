@@ -74,6 +74,9 @@ Linear Regression helps us **find patterns** in data and **make predictions** by
 
 ### 💾 **Step 2: Load and Explore the Dataset**  
 
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+
 **[ChatGPT explanation for the code](https://chatgpt.com/share/67d10c58-efc8-8009-b304-71747f899693)**
 
 ```python
@@ -107,7 +110,8 @@ X = df[['AveRooms']].values
 y = df['House Value'].values  
 
 ```  
-1️⃣ Click **Run** (▶) and check the dataset!  
+
+3️⃣ **Click Run (▶) and check the output!** 
 
 📌 Expected Output: A table displaying the first 5 data entries from the data set.
  
