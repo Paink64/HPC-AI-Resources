@@ -1,4 +1,4 @@
-# 🚀✨ Deep Neural Network (DNN) Workshop for Beginners! 🌸✨
+# 🚀✨ Deep Neural Network (DNN) Workshop for Beginners! ✨
 
 ## 🎯 Goal
 
