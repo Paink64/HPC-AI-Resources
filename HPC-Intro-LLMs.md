@@ -55,7 +55,9 @@ Once you sign in to the CSUSB HPC portal, follow these steps to configure and la
 
 ## 🔧 3. Install essential Libraries and Kaggle dataset ✍️  
 
-Now that you have your **HPC terminal** open, install essential libraries and configure Kaggle:    
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+    
 [ChatGPT explanation for the code](https://chatgpt.com/share/67cb1712-6940-8004-9dd6-df6e5b2542c1)
 ```bash
 # Install essential Python libraries for data manipulation and analysis
@@ -95,12 +97,14 @@ unzip google-playstore-apps.zip
 ls -lh  
 ```
 
-3️⃣ Run the code ▶    
+3️⃣ **Click Run (▶) and check the output!** 
+
 ✅ **Success!** Dataset downloaded and ready for analysis. 🎉
 
 ---
 
 ## 🤖 4. How to run **pre-trained LLMs on HPC** for faster processing ⏩ 
+
 ### 🏗️ Step 1: Load Dataset into Jupyter Notebook
 1️⃣ In **JupyterLab**, open a **new notebook** (Python 3 Kernel).  
 2️⃣ In the first code cell, run:    
@@ -125,7 +129,8 @@ column_names = playstore_df.columns.tolist()
 # Print column names
 print("\nColumn Names:", column_names)  
 ```
-3️⃣ Run the code ▶    
+3️⃣ **Click Run (▶) and check the output!** 
+ 
 ✅ **Success!** Dataset is now loaded into your notebook and ready for analysis.
 
 ---
@@ -169,7 +174,8 @@ generated_story = output[0]['generated_text']
 print("Generated Story:")  
 print(generated_story)  
 ```
-4️⃣ Run the code ▶    
+3️⃣ **Click Run (▶) and check the output!** 
+  
 📌 **Expected Output:** A short AI-generated futuristic story! 📖
 
 💡 **Challenge:** Modify the `prompt` variable to explore different stories.
@@ -208,7 +214,8 @@ for app, output in zip(playstore_df['App Name'][:10], outputs):
     generated_text = output[0]['generated_text']  
     print(f"{app}: {generated_text}")  
 ```
-4️⃣ Run the code ▶    
+3️⃣ **Click Run (▶) and check the output!** 
+
 📌 **Expected Output:** AI-generated app descriptions for multiple apps.
 
 💡 **Challenge:** Try processing more than 10 apps to analyze the variety of AI-generated text.
