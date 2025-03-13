@@ -7,16 +7,12 @@
 ---
 ## 📌 What You Will Learn 🧠💡
 
-✅ What datasets are and why they matter 📂
-✅ How to **prepare and process** real-world data 🔍
-
-✅ How to **build** a Deep Neural Network 🏗️
-
-✅ How to **train and evaluate** the DNN 🔄
-
-✅ How to **visualize** training results 📈
-
-✅ Hands-on coding with **Google Colab** for easy Python use 💻
+✅ What datasets are and why they matter 📂<br>
+✅ How to **prepare and process** real-world data 🔍<br>
+✅ How to **build** a Deep Neural Network 🏗️<br>
+✅ How to **train and evaluate** the DNN 🔄<br>
+✅ How to **visualize** training results 📈<br>
+✅ Hands-on coding with **Google Colab** for easy Python use 💻<br>
 
 ---
 
@@ -98,11 +94,10 @@ By using forward and backward propagation, AI **learns and improves over time**,
 ---
 ## 🔍 2. Hands-on: Exploring a Real Dataset
 
-### 🚀 Step 1: Open Google Colab
+### Open Google Colab
 
-1️⃣ Open your browser and go to **[Google Colab](https://colab.research.google.com/)**.
-
-2️⃣ Click **+ New notebook**.
+1️⃣ Open your browser and go to **[Google Colab](https://colab.research.google.com/)**.<br>
+2️⃣ Click **+ New notebook**.<br>
 
 ---
 
@@ -110,9 +105,8 @@ By using forward and backward propagation, AI **learns and improves over time**,
 
 ### Step 2: Add a New Code Cell
 
-1️⃣ Click **+ Code** in the top left to add a new code cell.
-
-2️⃣ Copy and paste the following code into the new code cell.
+1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
+2️⃣ Copy and paste the following code into the new code cell.<br>
 
 [ChatGPT Code Conversation](https://chatgpt.com/share/67c906e3-6300-8008-8dc1-d5aa700b0dce)
 
