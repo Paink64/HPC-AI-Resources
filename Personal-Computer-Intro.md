@@ -110,7 +110,7 @@ name = input("What’s your name? ")
 # Printing a greeting message that includes the user's name
 print("Nice to meet you, " + name + "!")  
 ```
-3️⃣Click **Run** (▶) , then type your name in the box that appears and hit Enter  
+3️⃣ Click **Run** (▶) , then type your name in the box that appears and hit Enter  
 ✅ AI will greet you with: `Nice to meet you, [Your Name]!   
 
 🎯 **Challenge:** Modify the message or numbers and rerun!
