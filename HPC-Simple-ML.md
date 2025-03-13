@@ -1,7 +1,5 @@
 # 🚀✨ **HPC Workshop 3: 🤖 Simple ML Model!** ✨🚀  
 
----
-
 ## 🎯 **Goal**  
 🎉 Welcome, future AI builder! In this hands-on workshop, you'll learn how to **build, train, and use a simple Machine Learning (ML) model** using Python on an **HPC (High-Performance Computing) system**. No prior experience is needed—just curiosity and excitement! 🤖📊  
 
