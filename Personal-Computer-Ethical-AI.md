@@ -60,11 +60,9 @@ data = {'Gender': ['Male', 'Male', 'Male', 'Male', 'Female', 'Female'],
 df = pd.DataFrame(data)
 print(df)
 ```
-:one: Click Run :arrow_forward: and check the output!
- 
-Notice that **all males were hired**, and **all females were rejected**—the dataset is **biased**!  
 
 3️⃣ **Click Run (▶) and check the output!** 
+
 ---
 
 ### 📌 **Step 3: Train the Biased AI Model**  
@@ -94,13 +92,10 @@ predictions = model.predict(test_data)
 # Display results
 for i, gender in enumerate(['Male', 'Female']):
     print(f"AI Prediction for {gender}: {'Hired' if predictions[i] == 1 else 'Rejected'}")
-```
-
-:one: Click Run :arrow_forward: and see the results! 
- 
-The AI **continues to reject females** because it learned from **biased data**.  
+``
 
 3️⃣ **Click Run (▶) and check the output!** 
+
 ---
 
 ### 📌 **Step 4: Fix the AI Bias**  
@@ -129,7 +124,7 @@ for i, gender in enumerate(['Male', 'Female']):
     print(f"AI Prediction for {gender} (Fair AI): {'Hired' if fair_predictions[i] == 1 else 'Rejected'}")
 ```
 
-:one: Click Run :arrow_forward: again
+3️⃣ **Click Run (▶) and check the output!** 
 
 Now, AI should **treat males and females fairly!** 🎉  
 
