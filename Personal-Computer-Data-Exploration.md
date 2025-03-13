@@ -229,7 +229,7 @@ plt.show()  # Show the graph
 
 🚀 Next Workshop: [🤖 Simple ML Model! ](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/personal-computer-simple-ml)
 
-🔗 Additional AI Resources 📚
+### 🔗 **Additional AI Resources** 📚   
 - [Google Colab Guide](https://colab.research.google.com/)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)        
 - [Get started with Microsoft data analytics](https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/)  
