@@ -103,7 +103,7 @@ By using forward and backward propagation, AI **learns and improves over time**,
 
 ## 💾 3. Loading the Iris Dataset
 
-### Step 2: Add a New Code Cell
+### Add a New Code Cell
 
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
@@ -120,15 +120,15 @@ data = pd.DataFrame(dataset.data, columns=dataset.feature_names)
 data['species'] = dataset.target
 print("Dataset loaded successfully! 🎉")
 ```
-
-### Step 3: Run the Code
-
-1️⃣ Click Run ▶️ and check the output!
+3️⃣ **Click Run (▶) and check the output!** 
 
 ---
 ## 🏗️ 4. Building the DNN Model
 
-### Step 4: Add a New Code Cell
+### Add a New Code Cell
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
+2️⃣ Copy and paste the following code into the new code cell.<br>
 
 [ChatGPT Code Conversation](https://chatgpt.com/share/67c90811-dfa8-8008-bd94-c63b3bbc4670)
 
@@ -146,14 +146,15 @@ model = Sequential([
 print("DNN model created successfully! 🎉")
 ```
 
-### Step 5: Run the Code
-
-1️⃣ Click Run ▶️  to create the model.
+3️⃣ **Click Run (▶) and check the output!** 
 
 ---
 ## 🎯 5. Training the DNN Model
 
-### Step 6: Add a New Code Cell
+### Add a New Code Cell
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
+2️⃣ Copy and paste the following code into the new code cell.<br>
 
 [ChatGPT Code Conversation](https://chatgpt.com/share/67cb97b0-cc34-8008-a86f-c8bb76ad6758)
 
@@ -171,15 +172,16 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 history = model.fit(X_train, y_train_encoded, epochs=50, batch_size=8, validation_split=0.2)
 ```
 
-### Step 7: Run the Code
-
-1️⃣ Click Run ▶️  to train the model.
+3️⃣ **Click Run (▶) and check the output!** 
 
 ---
 
 ## 📈 6. Visualizing Training Progress
 
-### Step 8: Add a New Code Cell
+### Add a New Code Cell
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
+2️⃣ Copy and paste the following code into the new code cell.<br>
 
 [ChatGPT Code Conversation](https://chatgpt.com/share/67cfa74e-b278-8008-8861-7c27a38e8f5f)
 
@@ -191,10 +193,7 @@ plt.ylabel('Loss')
 plt.title('Training Progress')
 plt.show()
 ```
-
-### Step 9: Run the Code
-
-1️⃣ Click Run ▶️ to visualize the learning curve.
+3️⃣ **Click Run (▶) and check the output!** 
 
 The following graph shows the **loss (error) reduction** during training. The loss function helps us understand how well the Deep Neural Network (DNN) is learning over time.
 
@@ -208,7 +207,9 @@ The following graph shows the **loss (error) reduction** during training. The lo
 
 ## 🏆 7. Evaluating the Model
 
-### Step 10: Add a New Code Cell
+### Add a New Code Cell
+1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
+2️⃣ Copy and paste the following code into the new code cell.<br>
 
 [ChatGPT Code Conversation](https://chatgpt.com/share/67cfa6c0-43d8-8008-9a03-b6bd05ffbebb)
 
@@ -217,15 +218,16 @@ loss, accuracy = model.evaluate(X_test, y_test_encoded)
 print(f"Test Accuracy: {accuracy * 100:.2f}% 🎉")
 ```
 
-### Step 11: Run the Code
-
-1️⃣ Click Run ▶️  to check the model's performance.
+3️⃣ **Click Run (▶) and check the output!** 
 
 ---
 
 ## 🔮 8. Making Predictions
 
-### Step 12: Add a New Code Cell
+### Add a New Code Cell
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
+2️⃣ Copy and paste the following code into the new code cell.<br>
 
 [ChatGPT Code Conversation](https://chatgpt.com/share/67cfa5c0-d644-8008-9a02-9c1180e2f9c6)
 
@@ -238,24 +240,17 @@ predicted_class = np.argmax(prediction)
 print(f"Predicted class: {predicted_class} 🎯")
 ```
 
-### Step 13: Run the Code
-
-1️⃣ Click Run ▶️ to predict a flower species.
+3️⃣ **Click Run (▶) and check the output!** 
 
 ---
 ## 🎉 9. Wrap-Up & Next Steps
 
-🎯 Congratulations! You’ve just built and trained your first Deep Neural Network! 🚀
-
-✅ Loaded and prepared the dataset 📂
-
-✅ Built a deep learning model 🏗️
-
-✅ Trained the model 🔄
-
-✅ Evaluated its accuracy 📊
-
-✅ Made predictions 🎯
+🎯 Congratulations! You’ve just built and trained your first Deep Neural Network! 🚀<br>
+✅ Loaded and prepared the dataset 📂<br>
+✅ Built a deep learning model 🏗️<br>
+✅ Trained the model 🔄<br>
+✅ Evaluated its accuracy 📊<br>
+✅ Made predictions 🎯<br>
 
 📌 **Next Steps**: Try different datasets 📂, Experiment with model architectures 🏗️
 
