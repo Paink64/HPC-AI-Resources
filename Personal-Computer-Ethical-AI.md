@@ -166,7 +166,7 @@ You now understand:
 ✅ **Bad data → Bad AI** ❌, **Good data → Fair AI** ✅.<br>
 ✅ AI will **not replace humans**, but **help us** do tasks better.<br>
 
-📌 **Next Workshop**: 🎥 Watch a documentary on **AI Ethics**.
+📌 **Next Workshop**: [🚀 Intro to HPC, AI & Jupyter](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/hpc-intro)
  
 🔗 **Additional AI Resources** 📚
 
