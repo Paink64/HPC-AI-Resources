@@ -4,19 +4,14 @@
 
 📊 Learn how to develop **Ethical AI** models while leveraging **High-Performance Computing (HPC)** for large-scale training. We will use **The LAION-5B dataset**, one of the largest open-source image-text datasets, requiring HPC resources for ethical AI model training and analysis. 🚀
 
----
 
 ## 📌 **What You Will Learn** 🧠💡  
 
-✅ Understanding **Ethical AI** and its challenges (bias, fairness, explainability) 🤖 
- 
-✅ Exploring **HPC** as a solution for training large AI models responsibly 💻
-  
-✅ Training AI models on large-scale datasets using **multi-GPU HPC clusters** 🏗️  
-
-✅ Evaluating AI fairness, transparency, and accountability 🔍  
-
-✅ Future trends in Ethical AI and responsible AI development 🌍  
+✅ Understanding **Ethical AI** and its challenges (bias, fairnes, explainability) 🤖 <br>
+✅ Exploring **HPC** as a solution for training large AI models responsibly 💻 <br>
+✅ Training AI models on large-scale datasets using **multi-GPU HPC clusters** 🏗️ <br> 
+✅ Evaluating AI fairness, transparency, and accountability 🔍  <br>
+✅ Future trends in Ethical AI and responsible AI development 🌍  <br>
 
 ---
 
@@ -116,6 +111,10 @@ We are working with **huge datasets** that require powerful GPUs for efficient c
 - Used for training **vision-language models** like CLIP.
 - Demands **high memory and computational power** for data processing.
 
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+
+
 [ChatGpt Code Conversation](https://chatgpt.com/share/67d0f69c-9ea4-8008-a364-369b7482bfe5)
 
 ```python
@@ -139,12 +138,17 @@ train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=512, shuffl
 
 print(f"Dataset Loaded: LAION-5B with {len(train_dataset)} images")
 ```
+3️⃣ **Click Run (▶) and check the output!** 
 
 ---
 
 ## 🏗️ **3. Building and Training a Deep Learning Model for Ethical AI**
 
-### 🚀 Step 3: Define a Bias-Aware Vision Transformer (ViT) Model
+### 🚀 Step 1: Define a Bias-Aware Vision Transformer (ViT) Model
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+
 [ChatGpt Code Conversation](https://chatgpt.com/share/67d0f70d-4094-8008-ad17-05fd13098bfa)
 
 ```python
@@ -158,7 +162,12 @@ model.to(device)
 print("Bias-aware Vision Transformer Model Loaded!")
 ```
 
-### 🚀 Step 4: Train the Model with Ethical AI Constraints
+3️⃣ **Click Run (▶) and check the output!** 
+
+### 🚀 Step 2: Train the Model with Ethical AI Constraints
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
 
 [ChatGpt Code Conversation](https://chatgpt.com/share/67d0f769-7ae8-8008-bf2e-f4f503958eb3)
 
@@ -183,12 +192,16 @@ for epoch in range(5):
     print(f"Epoch {epoch+1}: Loss {running_loss:.4f}")
 print("Training Complete!")
 ```
+3️⃣ **Click Run (▶) and check the output!** 
 
 ---
 
 ## 🏆 **4. Evaluating Model Fairness & Bias Mitigation**
 
-### 🚀 Step 5: Evaluate Model Performance Across Demographics
+### Evaluate Model Performance Across Demographics
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
 
 [ChatGpt Code Conversation](https://chatgpt.com/share/67d0f7c4-2848-8008-8608-dd4caa2f222e)
 
@@ -214,25 +227,24 @@ fairness_results = evaluate_fairness(y_pred, y_true, sensitive_attr)
 print("Fairness Evaluation Results:", fairness_results)
 ```
 
+3️⃣ **Click Run (▶) and check the output!** 
+
 ---
 
 ## 🎉 5. **Wrap-Up & Next Steps**
 
-🎯 Congratulations! You’ve just built and trained an **Ethical AI Model** using **HPC**! 🚀
+🎯 Congratulations! You’ve just built and trained an **Ethical AI Model** using **HPC**! 🚀<br>
 
-✅ Loaded a **large-scale dataset (LAION-5B)** 📂 
- 
-✅ Built a **bias-aware Vision Transformer model** 🏗️ 
- 
-✅ Trained the model using **HPC with multi-GPU acceleration** 🔄 
- 
-✅ Evaluated **bias and fairness** across demographic groups 📊  
-
-🚀 **Next Workshop**: Experiment with alternative multimodal datasets like OpenAI CLIP datasets.
+✅ Loaded a **large-scale dataset (LAION-5B)** 📂 <br>
+✅ Built a **bias-aware Vision Transformer model** 🏗️ <br>
+✅ Trained the model using **HPC with multi-GPU acceleration** 🔄 <br>
+✅ Evaluated **bias and fairness** across demographic groups 📊  <br>
 
 ### **🔗 Additional AI Resources** 📚
 
+- [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
+- [CSUSB: High-Performance Computing (HPC) Resources](https://www.csusb.edu/faculty-center-for-excellence/idat/high-performance-computing)   
 - [Responsible AI by Microsoft](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/)
-- [Secure AI services by Microsoft](https://learn.microsoft.com/en-us/training/modules/secure-ai-services/)
 
 🚀 Keep learning and see you at the next workshop! 🎉
