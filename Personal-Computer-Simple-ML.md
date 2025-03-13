@@ -85,7 +85,7 @@ data
 
 ## 🤖 **4. Training a Simple ML Model**  
 
-### 🔧 **Step 3: Train a Simple ML Model using Linear Regression**  
+### **Train a Simple ML Model using Linear Regression**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
@@ -113,7 +113,7 @@ model.fit(X, y)
 
 ## 🔮 **5. Making Predictions with ML**  
 
-### **Step 4: Predict a Student's Score**  
+### **Predict a Student's Score**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
@@ -133,7 +133,7 @@ print("Predicted Score for Age 25:", predicted_score[0])
 
 ## 🎨 **6. Visualizing ML Predictions**  
 
-### 📊 **Step 5: Create a Graph of the Model's Predictions**  
+### 📊 **Create a Graph of the Model's Predictions**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
