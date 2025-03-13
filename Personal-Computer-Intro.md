@@ -140,7 +140,7 @@ print("Nice to meet you, " + name + "!")
 ✅ We wrote Python code: printing, doing math, and taking user input 🐍✍️  
 ✅ We trained an AI—without writing any code! 🎓🤖   
   
-🚀 **Next Workshop:** [📊 Visualize AI Data!](#)
+🚀 **Next Workshop:** [📊 Visualize AI Data!](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/personal-computer-data-exploration)
 
 ### 🔗 **Additional AI Resources** 📚      
 - [Google Colab: Getting Started](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)     
