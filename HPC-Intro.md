@@ -284,8 +284,6 @@ print("Nice to meet you, " + name + "!")  # This will print: "Nice to meet you, 
 
 🚀 **Next Workshop:** [📊 Visualize AI Data!](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/hpc-data-exploration)  
 
----
-
 ### 🔗 Additional AI & HPC Resources 📚  
 
 - [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
