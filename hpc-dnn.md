@@ -254,7 +254,7 @@ print(f"Predicted Class: {predicted_class} 🎯")
 ✅ Evaluated its accuracy on Places365 📊<br>
 ✅ Made predictions using the trained model 🎯<br>
 
-📌 **Next Workshop** : Try different datasets Experiment with datasets like OpenImagesV6 or other large-scale AI datasets 📂.
+📌 **Next Workshop** : [🚀 Intro to HPC, AI & Jupyter](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/hpc-intro-llms)
 
 ### **🔗 Additional AI Resources** 📚
 
