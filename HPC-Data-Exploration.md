@@ -262,7 +262,7 @@ playstore_df.to_csv("~/playstore_data/cleaned_playstore_data.csv", index=False)
 ✅ Analyze and visualize data with Python 📊🎨  
 ✅ Save and transfer your work from HPC 🚀  
 
-🚀 **Next Workshop: [Building an AI Model on HPC!🤖](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/)**  
+🚀 **Next Workshop: [🤖 Simple ML Model](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/hpc-simple-ml)**  
 
 ## 🔗 **Additional Resources**  
 
