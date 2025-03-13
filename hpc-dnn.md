@@ -192,6 +192,8 @@ print("Model created!")
 
 3️⃣ **Click Run (▶) and check the output!** 
 
+---
+
 ## 🏗️ **4. Evaluating the Model**
 
 ### Evaluate Model on Test Data
@@ -217,6 +219,8 @@ print(f"Test Accuracy: {accuracy:.2f}% 🎯")
 ```
 
 3️⃣ **Click Run (▶) and check the output!** 
+
+---
 
 ## 🔮 5. Making Predictions
 
