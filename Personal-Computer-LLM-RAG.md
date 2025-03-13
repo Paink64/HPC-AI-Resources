@@ -216,7 +216,7 @@ Now that you have learned how to retrieve and generate responses using RAG, try 
 
 🚀 **Next Workshop:** [🔍 Ethical AI & Future Trends](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/personal-computer-ethical-ai)  
 
-🔗 Additional AI Resources 📚
+### 🔗 **Additional AI Resources** 📚   
 
 - [Google Colab Guide](https://colab.research.google.com/)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
