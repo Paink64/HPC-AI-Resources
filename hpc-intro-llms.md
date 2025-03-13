@@ -227,8 +227,9 @@ for app, output in zip(playstore_df['App Name'][:10], outputs):
 
 
 ### 🔗 Additional Resources 📚
-- [CSUSB: High-Performance Computing (HPC) Resources](https://www.csusb.edu/faculty-center-for-excellence/idat/high-performance-computing)
+- [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
+- [CSUSB: High-Performance Computing (HPC) Resources](https://www.csusb.edu/faculty-center-for-excellence/idat/high-performance-computing)   
 - [Microsoft Learn: Introduction to large language models](https://learn.microsoft.com/en-us/training/modules/introduction-large-language-models/)
-- [What is LLM (Large Language Model)?](https://aws.amazon.com/what-is/large-language-model/)
 
 🎉 **Keep exploring AI, and see you at the next workshop!** 🚀
