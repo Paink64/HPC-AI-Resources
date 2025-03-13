@@ -2,17 +2,16 @@
 
 ## 🎯 **Goal**  
 
-Artificial Intelligence (AI) is everywhere—from **self-driving cars** to **job hiring**, **TikTok recommendations**, and even **medical diagnoses**. But **is AI always fair?**  
+🤖Artificial Intelligence (AI) is everywhere—from **self-driving cars** to **job hiring**, **TikTok recommendations**, and even **medical diagnoses**. But **is AI always fair?**  
+
+---
 
 ## 📌 **What You Will Learn** 🧠💡  
 
-✅ **What is Ethical AI?** 
- 
-✅ **How does AI bias happen?**  
-
-✅ **How can we fix unfair AI?** 
- 
-✅ **Will AI take over jobs, or will it help humans?**  
+✅ **What is Ethical AI?**<b>
+✅ **How does AI bias happen?** <b> 
+✅ **How can we fix unfair AI?** <b>
+✅ **Will AI take over jobs, or will it help humans?**  <b>
 
 By the end of this session, you'll know how to **detect bias in AI**, **make AI more ethical**, and **understand the future of AI**! 🚀  
 
