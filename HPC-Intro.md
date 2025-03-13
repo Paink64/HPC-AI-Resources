@@ -282,7 +282,7 @@ print("Nice to meet you, " + name + "!")  # This will print: "Nice to meet you, 
 ✅ We wrote Python code: printing, doing math, and taking user input 🐍✍️  
 ✅ We trained an AI model—leveraging HPC resources for fast computations! 🎓🤖  
 
-🚀 **Next Workshop:** We’ll explore real AI datasets, perform data analysis, and create stunning visualizations using Python on HPC! 📊✨  
+🚀 **Next Workshop:** [📊 Visualize AI Data!](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/hpc-data-exploration)  
 
 ---
 
