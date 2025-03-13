@@ -168,7 +168,7 @@ You now understand:
 
 📌 **Next Workshop**: [🚀 Intro to HPC, AI & Jupyter](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/hpc-intro)
  
-🔗 **Additional AI Resources** 📚
+### 🔗 **Additional AI Resources** 📚   
 
 - [Google Colab: Getting Started](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
