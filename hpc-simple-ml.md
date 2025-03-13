@@ -316,9 +316,9 @@ plt.show()
 🚀 **Next Workshop:** [🧠 Deep Neural Network (DNN)](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/hpc-dnn)   
 
 🔗 **Additional AI & HPC Resources** 📚  
-- [Python for Beginners](https://www.w3schools.com/python/python_intro.asp)  
-- [Jupyter for Beginners](https://jupyter-notebook.readthedocs.io/en/latest/notebook.html)  
-- [Microsoft Learn - Introduction to machine learning](https://learn.microsoft.com/en-us/training/modules/introduction-to-machine-learning/)  
-- [Microsoft Learn - Introduction to high-performance computing (HPC) on Azure](https://learn.microsoft.com/en-us/training/modules/intro-to-hpc/)  
+- [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
+- [CSUSB: High-Performance Computing (HPC) Resources](https://www.csusb.edu/faculty-center-for-excellence/idat/high-performance-computing)  
+- [Microsoft Learn - Introduction to machine learning](https://learn.microsoft.com/en-us/training/modules/introduction-to-machine-learning/) 
 
 🎉 You did it! Now you know how HPC makes ML training faster! Keep exploring AI, and see you at the next workshop! 🚀
