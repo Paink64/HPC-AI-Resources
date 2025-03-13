@@ -287,7 +287,8 @@ plt.show()
 
 🚀 **Next Workshop:** [🔍 Ethical AI & Future Trends](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/hpc-ethical-ai)  
 
-🔗 **Additional Resources📚:**
+### 🔗 Additional AI & HPC Resources 📚  
+
 - [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
 - [CSUSB: High-Performance Computing (HPC) Resources](https://www.csusb.edu/faculty-center-for-excellence/idat/high-performance-computing)   
