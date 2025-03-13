@@ -288,9 +288,9 @@ print("Nice to meet you, " + name + "!")  # This will print: "Nice to meet you, 
 
 ### 🔗 Additional AI & HPC Resources 📚  
 
-- [Microsoft Learn: AI Fundamentals](https://learn.microsoft.com/en-us/training/paths/azure-ai-fundamentals/)
+- [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
 - [Stay Updated with Microsoft AI News & Trends](https://www.microsoft.com/en-us/ai)
-- [Microsoft Azure HPC Solutions](https://azure.microsoft.com/en-us/solutions/hpc/)
 - [Microsoft Learn: High Performance Computing](https://learn.microsoft.com/en-us/training/paths/high-performance-computing/)
 
 
