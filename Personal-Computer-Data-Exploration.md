@@ -8,13 +8,13 @@
 
 ## 📌 What You Will Learn 🧠💡
 
-✅ **Understanding Datasets** – What datasets are and why they matter 📂<br>
-✅ **What Are Libraries?** – How libraries help process and visualize data 🛠️<br>
-✅ **Exploring a Real Dataset** – Loading and viewing data in Google Colab 🔍<br>
-✅ **Cleaning the Data** – Handling missing values and formatting datasets 🧹<br>
-✅ **Analyzing the Data** – Using statistics to understand datasets 📊<br>
-✅ **Sorting Data to Find Top Scores** – Organizing data for better insights 📈<br>
-✅ **Visualizing Data** – Creating charts and graphs for analysis 🎨
+✅ What datasets are and why they matter 📂<br>
+✅ How libraries help process and visualize data 🛠️<br>
+✅ Loading and viewing data in Google Colab 🔍<br>
+✅ Handling missing values and formatting datasets 🧹<br>
+✅ Using statistics to understand datasets 📊<br>
+✅ Organizing data for better insights 📈<br>
+✅ Creating charts and graphs for analysis 🎨
 
 ---
 
