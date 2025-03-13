@@ -6,12 +6,12 @@
 ---
 
 ## 📌 What You Will Learn 🧠💡
-- ✅ What is a Large Language Model (LLM)?  
-- ✅ How do LLMs work?  
-- ✅ How to use pre-trained LLMs for text generation  
-- ✅ How to use LLMs for answering questions  
-- ✅ Hands-on coding with Google Colab  
-- ✅ Basics of Hugging Face library for LLMs  
+✅ What is a Large Language Model (LLM)?  
+✅ How do LLMs work?  
+✅ How to use pre-trained LLMs for text generation  
+✅ How to use LLMs for answering questions  
+✅ Hands-on coding with Google Colab  
+✅ Basics of Hugging Face library for LLMs  
 
 ---
 
