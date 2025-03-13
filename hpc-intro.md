@@ -290,7 +290,7 @@ print("Nice to meet you, " + name + "!")  # This will print: "Nice to meet you, 
 
 - [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
-- [Stay Updated with Microsoft AI News & Trends](https://www.microsoft.com/en-us/ai)
+- [CSUSB: High-Performance Computing (HPC) Resources](https://www.csusb.edu/faculty-center-for-excellence/idat/high-performance-computing)
 - [Microsoft Learn: High Performance Computing](https://learn.microsoft.com/en-us/training/paths/high-performance-computing/)
 
 
