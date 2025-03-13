@@ -256,8 +256,9 @@ print(f"Predicted class: {predicted_class} 🎯")
 
 📚 **Additional AI Resources**
 
+- [Google Colab: Getting Started](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)     
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
 - [Google TensorFlow Documentation](https://www.tensorflow.org/)
-- [Google Keras Documentation](https://keras.io/)
 - [Train and Evaluate Models by Microsoft](https://learn.microsoft.com/en-us/training/modules/train-evaluate-deep-learn-models/)
 
 🚀 Keep learning and see you at the next workshop! 🎉
