@@ -4,13 +4,7 @@
 
 ## 🎯 **Goal**  
 🤖 **Learn how to implement Large Language Models (LLMs) with Retrieval-Augmented Generation (RAG) efficiently using CSUSB HPC.**
-
-Traditional LLMs struggle with retrieving up-to-date information. **RAG enhances LLMs** by integrating external knowledge retrieval, improving accuracy for tasks like answering complex queries. In this workshop, you will:
-
-✅ Train and use **LLMs** on HPC rather than a local computer to handle large-scale data efficiently.  
-✅ Utilize **HPC’s computational power** to process large Kaggle datasets for retrieval.  
-✅ Perform **scalable AI model training** using Hugging Face and Faiss for optimized retrieval.  
-✅ Learn **why using HPC is better than a local machine** for working with large datasets and vector retrieval.  
+Traditional LLMs struggle with retrieving up-to-date information. **RAG enhances LLMs** by integrating external knowledge retrieval, improving accuracy for tasks like answering complex queries.  
 
 ---
 
@@ -121,6 +115,7 @@ unzip google-playstore-apps.zip
 # List extracted files to confirm successful download
 ls -lh  
 ```
+3️⃣ **Click Run (▶) and check the output!** 
 
 ✅ **Now you have installed dependencies and downloaded the dataset! 🎉**
 
