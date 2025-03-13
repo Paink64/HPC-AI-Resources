@@ -4,7 +4,7 @@
 
 Artificial Intelligence (AI) is everywhere—from **self-driving cars** to **job hiring**, **TikTok recommendations**, and even **medical diagnoses**. But **is AI always fair?**  
 
-This workshop will help you understand:  
+## 📌 **What You Will Learn** 🧠💡  
 
 ✅ **What is Ethical AI?** 
  
