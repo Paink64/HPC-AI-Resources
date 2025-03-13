@@ -232,7 +232,7 @@ plt.show()  # Show the graph
 🔗 Additional AI Resources 📚
 - [Google Colab Guide](https://colab.research.google.com/)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)        
-- [Google Colab Guide Data Visualization](https://colab.research.google.com/notebooks/charts.ipynb#scrollTo=QSMmdrrVLZ-N)  
+- [Get started with Microsoft data analytics](https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/)  
 - [Discover Data Analysis](https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/)  
 
 🎉 **You did it! Keep exploring AI, and see you at the next workshop!** 🚀
