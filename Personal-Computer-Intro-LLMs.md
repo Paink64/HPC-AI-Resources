@@ -61,7 +61,7 @@ A **Large Language Model (LLM)** is a type of AI model that can understand and g
 # Import pipeline from Hugging Face for easy LLM use
 from transformers import pipeline  
 ```
-3️⃣ Run the code ▶ (click the play button ▶)
+3️⃣ **Click Run (▶) and check the output!** 
 
 ### 🧠 Step 3: Load a Pre-Trained LLM
 💡 We will use GPT-2, a popular model that generates human-like text.    
@@ -79,7 +79,7 @@ model_name = 'gpt2'
 # Load the pre-trained model for text generation
 generator = pipeline(task, model=model_name)
 ```
-3️⃣ Run the code ▶
+3️⃣ **Click Run (▶) and check the output!** 
 
 ### 📝 Step 4: Generate Text Using the LLM    
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
@@ -99,7 +99,7 @@ output = generator(prompt_text, max_length=max_length)
 generated_text = output[0]['generated_text']
 print(generated_text)
 ```
-3️⃣ Run the code ▶
+3️⃣ **Click Run (▶) and check the output!** 
 
 📌 Expected Output:
 The model will continue the sentence, creating a short AI-generated story! 📖
@@ -139,7 +139,7 @@ result = qa_pipeline(question=question_text, context=context_text)
 answer_text = result['answer']
 print("Answer:", answer_text)
 ```
-3️⃣ Run the code ▶
+3️⃣ **Click Run (▶) and check the output!** 
 
 📌 Expected Output: The model will generate text from our given context.
 
