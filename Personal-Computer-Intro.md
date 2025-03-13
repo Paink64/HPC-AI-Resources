@@ -146,7 +146,7 @@ print("Nice to meet you, " + name + "!")
 - [Google Colab: Getting Started](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
 - [Fundamental AI Concepts](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/)
-- [Using Jupyter Notebooks](https://www.rpgroup.caltech.edu/aph161/assets/tut/t0b/t0b_jupyter_notebooks.html?utm_source=chatgpt.com)      
+- [Fundamentals of Generative AI](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/)      
   
 
 🎉 You did it! Keep exploring AI, and see you at the next workshop! 🚀 
