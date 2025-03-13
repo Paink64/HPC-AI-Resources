@@ -254,7 +254,7 @@ print(f"Predicted class: {predicted_class} 🎯")
 
 📌 **Next Workshop**: [💬 Introduction to LLMs](https://github.com/DrAlzahrani/HPC-AI-Resources/wiki/personal-computer-intro-llms)
 
-📚 **Additional AI Resources**
+### 🔗 **Additional AI Resources** 📚   
 
 - [Google Colab: Getting Started](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
