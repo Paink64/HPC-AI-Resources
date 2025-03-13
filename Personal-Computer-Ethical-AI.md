@@ -45,7 +45,8 @@ By the end of this session, you'll know how to **detect bias in AI**, **make AI 
 
 ### 📌 **Step 2: Create a Biased AI Model**  
 
-Now, let’s **train an AI model** and **see how bias affects its decisions**. 
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
  
 [ChatGPT Code Conversation](https://chatgpt.com/share/67cfae07-0420-8008-a914-44279572f647)
 
@@ -63,9 +64,12 @@ print(df)
  
 Notice that **all males were hired**, and **all females were rejected**—the dataset is **biased**!  
 
+3️⃣ **Click Run (▶) and check the output!** 
 ---
 
 ### 📌 **Step 3: Train the Biased AI Model**  
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
 
 [ChatGPT Code Conversation](https://chatgpt.com/share/67cfae6e-69e0-8008-8714-9dfb0317e581)
 
@@ -96,6 +100,7 @@ for i, gender in enumerate(['Male', 'Female']):
  
 The AI **continues to reject females** because it learned from **biased data**.  
 
+3️⃣ **Click Run (▶) and check the output!** 
 ---
 
 ### 📌 **Step 4: Fix the AI Bias**  
@@ -166,16 +171,16 @@ AI **won't replace humans**, but **it will change jobs**. We must **train AI fai
 
 You now understand:  
 
-✅ AI **learns from past data**, so it can **inherit bias**. 
- 
-✅ **Bad data → Bad AI** ❌, **Good data → Fair AI** ✅.  
+✅ AI **learns from past data**, so it can **inherit bias**.<br>
+✅ **Bad data → Bad AI** ❌, **Good data → Fair AI** ✅.<br>
+✅ AI will **not replace humans**, but **help us** do tasks better.<br>
 
-✅ AI will **not replace humans**, but **help us** do tasks better.  
-
-📌 **Next Workshop**: 🎥 Watch a documentary on **AI Ethics**.  
+📌 **Next Workshop**: 🎥 Watch a documentary on **AI Ethics**.
  
 🔗 **Additional AI Resources** 📚
 
+- [Google Colab: Getting Started](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)     
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
 - [Responsible AI by Microsoft](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/)
 - [Secure AI services by Microsoft](https://learn.microsoft.com/en-us/training/modules/secure-ai-services/)
 
