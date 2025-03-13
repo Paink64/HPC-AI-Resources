@@ -7,17 +7,12 @@
 
 ## 📌 **What You Will Learn** 🧠💡  
 
-✅ Understanding large datasets and their significance 📂  
-
-✅ Preparing and processing real-world data at scale 🔍 
- 
-✅ Building a **Deep Neural Network** optimized for **HPC** 🏗️ 
- 
-✅ Training and evaluating a **DNN using multi-GPU acceleration** 🔄  
-
-✅ Visualizing training results 📈  
-
-✅ Hands-on coding with **PyTorch, DistributedDataParallel (DDP), and HPC** 💻  
+✅ Understanding large datasets and their significance 📂 <br>
+✅ Preparing and processing real-world data at scale 🔍 <br>
+✅ Building a **Deep Neural Network** optimized for **HPC** 🏗️ <br>
+✅ Training and evaluating a **DNN using multi-GPU acceleration** 🔄 <br> 
+✅ Visualizing training results 📈  <br>
+✅ Hands-on coding with **PyTorch, DistributedDataParallel (DDP), and HPC** 💻  <br>
 
 ---
 
@@ -60,11 +55,9 @@ By leveraging **parallel processing, distributed computing, and GPU acceleration
 ---
 ## 🔍 **1: Access HPC Terminal via JupyterHub**
 
-1️⃣ Go to [CSUSB HPC](https://csusb-hpc.nrp-nautilus.io/).
-
-2️⃣ Click CI Logon to log in using your school account.
-
-3️⃣ Select GPU & Image
+1️⃣ Go to [CSUSB HPC](https://csusb-hpc.nrp-nautilus.io/).<br>
+2️⃣ Click CI Logon to log in using your school account.<br>
+3️⃣ Select GPU & Image.<br>
 
 Once logged in:
 - Under **GPU Type**, select **RTX A5000**.
@@ -126,6 +119,10 @@ We are working with **huge datasets** that require powerful GPUs for efficient c
 - Contains **~1.8 million** images spanning **365 categories**.
 - Needs **significant GPU power** for training deep neural networks.
 
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+
+
 [Chatgpt Code Conversation](https://chatgpt.com/share/67d0f4af-9c8c-8008-b2ae-4ca613a0ec40)
 
 ```python
@@ -154,11 +151,16 @@ test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=512, shuffle=
 print(f"Dataset Loaded: Places365 with {len(train_dataset)} training images")
 ```
 
+3️⃣ **Click Run (▶) and check the output!** 
+
 ---
 
 ## 🏗️ **3. Building and Training a Deep Neural Network on HPC**
 
-### 🚀 Step 3: Define a CNN Model
+### Define a CNN Model
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
 
 [ChatGpt Code Conversation](https://chatgpt.com/share/67d0f4fb-3dc4-8008-8f9e-a42de947400a)
 
@@ -187,9 +189,15 @@ class DeepCNN(nn.Module):
 model = DeepCNN().to(device)
 print("Model created!")
 ```
+
+3️⃣ **Click Run (▶) and check the output!** 
+
 ## 🏗️ **4. Evaluating the Model**
 
-### 🚀 Step 4: Evaluate Model on Test Data
+### Evaluate Model on Test Data
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
 
 [ChatGpt Code Conversation](https://chatgpt.com/share/67d0f58d-e518-8008-b987-d1f14a7de503)
 
@@ -207,9 +215,15 @@ with torch.no_grad():
 accuracy = 100 * correct / total
 print(f"Test Accuracy: {accuracy:.2f}% 🎯")
 ```
+
+3️⃣ **Click Run (▶) and check the output!** 
+
 ## 🔮 5. Making Predictions
 
-### 🚀 Step 5: Making Predictions
+### Making Predictions
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
 
 [ChatGpt Code Conversation](https://chatgpt.com/share/67d0f617-6f1c-8008-8acb-11e241fd52f9)
 
@@ -222,27 +236,27 @@ predicted_class = torch.argmax(prediction, 1).item()
 print(f"Predicted Class: {predicted_class} 🎯")
 ```
 
+3️⃣ **Click Run (▶) and check the output!** 
+
 ---
 
 ## 🎉 6. Wrap-Up & Next Steps
 
 🎯 Congratulations! You’ve just built and trained your first Deep Neural Network on HPC! 🚀
 
-✅ Loaded and prepared the dataset 📂
-
-✅ Built a deep learning model optimized for multi-GPU HPC training 🏗️
-
-✅ Trained the model using distributed computing 🔄
-
-✅ Evaluated its accuracy on Places365 📊
-
-✅ Made predictions using the trained model 🎯
+✅ Loaded and prepared the dataset 📂<br>
+✅ Built a deep learning model optimized for multi-GPU HPC training 🏗️<br>
+✅ Trained the model using distributed computing 🔄<br>
+✅ Evaluated its accuracy on Places365 📊<br>
+✅ Made predictions using the trained model 🎯<br>
 
 📌 **Next Workshop** : Try different datasets Experiment with datasets like OpenImagesV6 or other large-scale AI datasets 📂.
 
 ### **🔗 Additional AI Resources** 📚
 
+- [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
+- [CSUSB: High-Performance Computing (HPC) Resources](https://www.csusb.edu/faculty-center-for-excellence/idat/high-performance-computing)   
 - [Fundamentals of Facial Recognition](https://learn.microsoft.com/en-us/training/modules/detect-analyze-faces/)
-- [Detect Objects in Images](https://learn.microsoft.com/en-us/training/modules/detect-objects-images/)
 
 🚀 Keep learning and see you at the next workshop! 🎉
