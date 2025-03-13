@@ -160,7 +160,7 @@ AI **won't replace humans**, but **it will change jobs**. We must **train AI fai
 
 ## 🎯 5. Wrap-Up & Next Steps
 
-You now understand:  
+🎉You now understand:  
 
 ✅ AI **learns from past data**, so it can **inherit bias**.<br>
 ✅ **Bad data → Bad AI** ❌, **Good data → Fair AI** ✅.<br>
