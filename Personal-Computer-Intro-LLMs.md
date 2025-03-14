@@ -157,7 +157,7 @@ print("Answer:", answer_text)
 ### 🔗 Additional AI Resources 📚
 
 - [Google Colab Guide](https://colab.research.google.com/)     
-- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)<br>
 ⚠ **Warning:** Please use only the two green buttons (“Previous” and “Next”) to navigate the tutorial. Avoid clicking on other links to prevent being redirected to ads.      
 - [Microsoft Learn: Introduction to large language models](https://learn.microsoft.com/en-us/training/modules/introduction-large-language-models/)
 - [What is LLM (Large Language Model)?](https://aws.amazon.com/what-is/large-language-model/)
