@@ -146,7 +146,6 @@ print("Nice to meet you, " + name + "!")
 - [Google Colab: Getting Started](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)  
 ⚠ **Warning:** Please use only the two green buttons (“Previous” and “Next”) to navigate the tutorial. Avoid clicking on other links to prevent being redirected to ads.
-    
 - [Fundamental AI Concepts](https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/)
 - [Fundamentals of Generative AI](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/)      
   
