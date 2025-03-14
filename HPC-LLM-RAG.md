@@ -290,7 +290,8 @@ plt.show()
 ### 🔗 Additional AI & HPC Resources 📚  
 
 - [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
-- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)<br>
+⚠ **Warning:** Please use only the two green buttons (“Previous” and “Next”) to navigate the tutorial. Avoid clicking on other links to prevent being redirected to ads.      
 - [CSUSB: High-Performance Computing (HPC) Resources](https://www.csusb.edu/faculty-center-for-excellence/idat/high-performance-computing)   
 - [AWS: What is Retrieval-Augmented Generation (RAG)?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
 
