@@ -171,7 +171,8 @@ AI **won't replace humans**, but **it will change jobs**. We must **train AI fai
 ### 🔗 **Additional AI Resources** 📚   
 
 - [Google Colab: Getting Started](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)     
-- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)      
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)
+⚠ **Warning:** Please use only the two green buttons (“Previous” and “Next”) to navigate the tutorial. Avoid clicking on other links to prevent being redirected to ads.      
 - [Responsible AI by Microsoft](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/)
 - [Secure AI services by Microsoft](https://learn.microsoft.com/en-us/training/modules/secure-ai-services/)
 
