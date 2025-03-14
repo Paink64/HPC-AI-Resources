@@ -53,7 +53,7 @@ A Jupyter Notebook is like a smart digital notebook where you can write and run 
 
 🔹 **Jupyter = Digital Lab Notebook for AI & Coding!** 🚀
 
-###Open Google Colab**
+### Open Google Colab
 1️⃣ Open your browser and go to  **[Google Colab](https://colab.research.google.com/)**.  
 2️⃣ Click **+ New notebook**.
 
