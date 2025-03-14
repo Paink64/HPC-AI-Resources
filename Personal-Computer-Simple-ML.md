@@ -196,6 +196,8 @@ plt.show()
 
 - [Google Colab Guide](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)        
+⚠ **Warning:** Please use only the two green buttons (“Previous” and “Next”) to navigate the tutorial. Avoid clicking on other links to prevent being redirected to ads.
+
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)   
 - [Microsoft Learn - Introduction to machine learning](https://learn.microsoft.com/en-us/training/modules/introduction-to-machine-learning/)
 
