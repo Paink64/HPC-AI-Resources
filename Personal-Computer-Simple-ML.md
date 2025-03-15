@@ -80,6 +80,7 @@ data
 ```
 
 3️⃣ **Click Run** (▶) and check the dataset!  
+✅ Data loaded successfully! The dataset is now ready for exploration. 🎉
 
 ---
 
@@ -106,6 +107,7 @@ model.fit(X, y)
 ```
 
 3️⃣ Click **Run** (▶) to train the ML model!  
+✅ Model trained successfully! Your ML model is now ready to make predictions. 🎉
 
 📌 **What’s Happening?** The model **learns** the pattern between age and scores!  
 
