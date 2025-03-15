@@ -107,7 +107,7 @@ ls -lh
 
 ## 🤖 4. How to run **pre-trained LLMs on HPC** for faster processing ⏩ 
 
-### 🏗️ Step 1: Load Dataset into Jupyter Notebook
+## 🏗️ Step 1: Load Dataset into Jupyter Notebook
 
 1️⃣ In **JupyterLab**, open a **new notebook** (Python 3 Kernel).  
 2️⃣ In the first code cell, run:  
@@ -138,9 +138,7 @@ print("\nColumn Names:", column_names)
  
 ✅ **Success!** Dataset is now loaded into your notebook and ready for analysis.
 
----
-
-### ✍️ Step 2: Using **Hugging Face Transformers** for text generation and QA  
+## ✍️ Step 2: Using **Hugging Face Transformers** for text generation and QA  
 This step demonstrates how an LLM can generate text based on a given prompt.
 
 ### **➕🐍 Add a New Code Cell**    
@@ -189,9 +187,7 @@ print(generated_story)
 
 💡 **Challenge:** Modify the `prompt` variable to explore different stories.
 
----
-
-### 🤔 Step 3: Analyze App Descriptions with GPT-2
+## 🤔 Step 3: Analyze App Descriptions with GPT-2
 Instead of manually writing descriptions, let’s use GPT-2 to generate app descriptions automatically.
 
 
