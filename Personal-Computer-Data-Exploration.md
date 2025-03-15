@@ -92,7 +92,6 @@ data
 
 
 🎯Challenge: Modify the dataset by adding at least two more students with their Name, Age, and Score values.
-
 💡Extra Tip: Edit the `data = pd.DataFrame({...})` section and include new students.
 ###
 ---
