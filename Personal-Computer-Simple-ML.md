@@ -59,6 +59,7 @@ Linear Regression helps us **find patterns** in data and **make predictions** by
 2️⃣ Click **+ New notebook**.  
 
 ### 💾 **Step 2: Load and Explore the Dataset**  
+### **➕🐍 Add a New Code Cell**         
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
