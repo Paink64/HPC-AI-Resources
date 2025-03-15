@@ -62,7 +62,7 @@ A Jupyter Notebook is like a smart digital notebook where you can write and run 
 ##  🐍 4. Your First Python Code (Step-by-Step) 🚀
 
 ### 🔹 Print a Message 📢 
-### **Add a New Code Cell**                              
+### **➕🐍 Add a New Code Cell**                              
 1️⃣ Click **+ Code** in the top left to add a new code cell.        
 2️⃣ Copy and paste the following into the new code cell.          
 [**ChatGPT explanation for the code**](https://chatgpt.com/share/67d0e013-a50c-800b-9a61-0f0db5dbbc8f)
@@ -77,7 +77,7 @@ print("Hello AI World!")
 ---
 
 ### 🔹 Do Basic Math ➕➖
-### **Add a New Code Cell**  
+### **➕🐍 Add a New Code Cell**  
 1️⃣ Click **+ Code** to add another code cell.  
 2️⃣ Copy and paste the following code into the new code cell.       
 [**ChatGPT explanation for the code**](https://chatgpt.com/share/67d0e086-ded8-800b-b212-823aaa87f594) 
@@ -101,7 +101,7 @@ print("The sum is:", sum)
 ---
 
 ### 🔹 AI-Powered Interaction 🤖  
-### **Add a New Code Cell**          
+### **➕🐍 Add a New Code Cell**          
 1️⃣ Click **+ Code** to add another code cell.  
 2️⃣ Copy and paste the following code into the new code cell.               
 [**ChatGPT explanation for the code**](https://chatgpt.com/share/67d0e0db-22c8-800b-9caa-470c6045d528)
