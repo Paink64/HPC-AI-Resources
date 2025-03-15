@@ -61,7 +61,7 @@ Once logged in:
 
 We will use CSUSB’s High-Performance Computing (HPC) system to run our AI code. Follow these steps to access JupyterHub on HPC.
 
-### 🚀 **Step 1**: Log In to HPC with CI Logon 🔐
+## 🚀 **Step 1**: Log In to HPC with CI Logon 🔐
 
 Let’s get you authenticated! Here’s how:
 
@@ -76,7 +76,7 @@ Let’s get you authenticated! Here’s how:
 - Check "Remember this selection" to save time next login. ✅
 - Click Log On to proceed. 🚀
 
-### 🖥️ **Step 2**: Launch Your JupyterHub Server
+## 🖥️ **Step 2**: Launch Your JupyterHub Server
 
 Your HPC Jupyter environment is ready—let’s start coding!
 
@@ -101,7 +101,7 @@ Your HPC Jupyter environment is ready—let’s start coding!
 
 We are working with **huge datasets** that require powerful GPUs for efficient computation. 
 
-### 📂 Step 3: Load **LAION-5B**, a Massive Multimodal Dataset
+## 📂 Step 3: Load **LAION-5B**, a Massive Multimodal Dataset
 
 📸 **LAION-5B**
 
@@ -109,88 +109,123 @@ We are working with **huge datasets** that require powerful GPUs for efficient c
 - Used for training **vision-language models** like CLIP.
 - Demands **high memory and computational power** for data processing.
 
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
+### **➕🐍 Add a New Code Cell**  
+  
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
 
-
-[ChatGpt Code Conversation](https://chatgpt.com/share/67d0f69c-9ea4-8008-a364-369b7482bfe5)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f69c-9ea4-8008-a364-369b7482bfe5)
 
 ```python
-import torch
-import torchvision
-import torchvision.transforms as transforms
+import torch  # Import PyTorch for tensor operations and model training
+import torchvision  # Import torchvision for dataset handling
+import torchvision.transforms as transforms  # Import transforms for image preprocessing
 
-# Check GPU availability
+# Check if a GPU is available; otherwise, use the CPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Define dataset transformation
+# Define dataset transformation pipeline
 transform = transforms.Compose([
-    transforms.Resize((256, 256)),
-    transforms.ToTensor(),
-    transforms.Normalize((0.5,), (0.5,))
+    transforms.Resize((256, 256)),  # Resize images to a fixed size of 256x256 pixels
+    transforms.ToTensor(),  # Convert images to PyTorch tensors (with values in [0,1])
+    transforms.Normalize((0.5,), (0.5,))  # Normalize image pixel values to range [-1, 1]
 ])
 
-# Load LAION-5B dataset (sampled for ethical AI training)
-train_dataset = torchvision.datasets.ImageFolder(root="/scratch/datasets/LAION-5B", transform=transform)
-train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=512, shuffle=True, num_workers=16, pin_memory=True)
+# Load the LAION-5B dataset (assuming images are organized in folders by category)
+train_dataset = torchvision.datasets.ImageFolder(
+    root="/scratch/datasets/LAION-5B",  # Path to dataset directory
+    transform=transform  # Apply transformations to each image
+)
 
+# Create a DataLoader to efficiently load and process images during training
+train_loader = torch.utils.data.DataLoader(
+    train_dataset,  # Use the loaded dataset
+    batch_size=512,  # Load images in batches of 512 for efficient processing
+    shuffle=True,  # Shuffle dataset order for better training performance
+    num_workers=16,  # Use 16 worker threads for faster data loading
+    pin_memory=True  # Optimize memory usage when using a GPU
+)
+
+# Print dataset statistics
 print(f"Dataset Loaded: LAION-5B with {len(train_dataset)} images")
+
 ```
 3️⃣ **Click Run (▶) and check the output!** 
 
+✅ Dataset Loaded Successfully! You should now see the number of images available in the LAION-5B dataset. 🖼️📊🎉
 ---
 
 ## 🏗️ **3. Building and Training a Deep Learning Model for Ethical AI**
 
-### 🚀 Step 1: Define a Bias-Aware Vision Transformer (ViT) Model
+## 🚀 Step 1: Define a Bias-Aware Vision Transformer (ViT) Model
 
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
+### **➕🐍 Add a New Code Cell**    
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
 
-[ChatGpt Code Conversation](https://chatgpt.com/share/67d0f70d-4094-8008-ad17-05fd13098bfa)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f70d-4094-8008-ad17-05fd13098bfa)
 
 ```python
-from transformers import ViTForImageClassification, ViTFeatureExtractor
-import torch.nn as nn
+from transformers import ViTForImageClassification, ViTFeatureExtractor  # Import ViT model and feature extractor
+import torch.nn as nn  # Import neural network module from PyTorch
 
-# Load pre-trained ViT model
+# Load pre-trained Vision Transformer (ViT) model
 model = ViTForImageClassification.from_pretrained("google/vit-base-patch16-224")
+
+# Move the model to the available device (GPU if available, otherwise CPU)
 model.to(device)
 
-print("Bias-aware Vision Transformer Model Loaded!")
+# Print confirmation message
+print("Bias-aware Vision Transformer Model Loaded! 🚀")
+
 ```
 
 3️⃣ **Click Run (▶) and check the output!** 
 
-### 🚀 Step 2: Train the Model with Ethical AI Constraints
+✅ Bias-aware Vision Transformer Model Loaded! Your ViT model is now ready for image classification. 🚀🎉
 
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
+## 🚀 Step 2: Train the Model with Ethical AI Constraints
 
-[ChatGpt Code Conversation](https://chatgpt.com/share/67d0f769-7ae8-8008-bf2e-f4f503958eb3)
+### **➕🐍 Add a New Code Cell**
+    
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f769-7ae8-8008-bf2e-f4f503958eb3)
 
 ```python
-import torch.optim as optim
+import torch.optim as optim  # Import optimizers from PyTorch
 
-# Define loss and optimizer
+# Define loss function (CrossEntropyLoss for classification tasks)
 criterion = nn.CrossEntropyLoss()
+
+# Define optimizer (Adam with a learning rate of 0.0001)
 optimizer = optim.Adam(model.parameters(), lr=0.0001)
 
-# Training loop
+# Training loop for 5 epochs
 for epoch in range(5):
-    running_loss = 0.0
-    for inputs, labels in train_loader:
-        inputs, labels = inputs.to(device), labels.to(device)
-        optimizer.zero_grad()
-        outputs = model(inputs).logits
-        loss = criterion(outputs, labels)
-        loss.backward()
-        optimizer.step()
-        running_loss += loss.item()
+    running_loss = 0.0  # Initialize cumulative loss for the epoch
+    
+    for inputs, labels in train_loader:  # Iterate over batches in the training set
+        inputs, labels = inputs.to(device), labels.to(device)  # Move data to GPU (if available)
+        
+        optimizer.zero_grad()  # Reset gradients before each batch
+        outputs = model(inputs).logits  # Forward pass (ViT's output is stored in `.logits`)
+        loss = criterion(outputs, labels)  # Compute loss
+        loss.backward()  # Backpropagate gradients
+        optimizer.step()  # Update model parameters
+        
+        running_loss += loss.item()  # Accumulate loss
+        
+    # Print loss at the end of each epoch
     print(f"Epoch {epoch+1}: Loss {running_loss:.4f}")
-print("Training Complete!")
+
+print("Training Complete! 🚀")
+
 ```
 3️⃣ **Click Run (▶) and check the output!** 
+
+✅ Training Complete! Your Vision Transformer model has been trained for 5 epochs. 🚀📊🎉
 
 ---
 
@@ -198,34 +233,56 @@ print("Training Complete!")
 
 ### Evaluate Model Performance Across Demographics
 
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
+### **➕🐍 Add a New Code Cell**    
 
-[ChatGpt Code Conversation](https://chatgpt.com/share/67d0f7c4-2848-8008-8608-dd4caa2f222e)
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f7c4-2848-8008-8608-dd4caa2f222e)
 
 ```python
-import numpy as np
-from sklearn.metrics import accuracy_score, confusion_matrix
+import numpy as np  # Import NumPy for array operations
+from sklearn.metrics import accuracy_score, confusion_matrix  # Import accuracy metric and confusion matrix
 
-# Placeholder function for fairness evaluation
+# Define a placeholder function for fairness evaluation
 def evaluate_fairness(predictions, labels, sensitive_attribute):
-    unique_groups = np.unique(sensitive_attribute)
-    group_accuracies = {}
-    for group in unique_groups:
-        group_indices = (sensitive_attribute == group)
-        group_accuracy = accuracy_score(labels[group_indices], predictions[group_indices])
-        group_accuracies[group] = group_accuracy
-    return group_accuracies
+    """
+    Evaluate fairness by computing accuracy per sensitive attribute group.
 
-# Example usage
-y_pred = np.random.randint(0, 10, size=len(train_dataset))  # Mock predictions
-y_true = np.random.randint(0, 10, size=len(train_dataset))  # Mock ground truth
-sensitive_attr = np.random.choice(["Male", "Female", "Other"], size=len(train_dataset))
+    Args:
+    - predictions (np.array): Model-predicted class labels.
+    - labels (np.array): Ground-truth class labels.
+    - sensitive_attribute (np.array): Array of sensitive attributes (e.g., gender, race).
+
+    Returns:
+    - dict: Accuracy per unique group in the sensitive attribute.
+    """
+    unique_groups = np.unique(sensitive_attribute)  # Get unique sensitive groups
+    group_accuracies = {}  # Dictionary to store accuracy per group
+
+    for group in unique_groups:
+        group_indices = (sensitive_attribute == group)  # Get indices for the current group
+        group_accuracy = accuracy_score(labels[group_indices], predictions[group_indices])  # Compute accuracy
+        group_accuracies[group] = group_accuracy  # Store result
+
+    return group_accuracies  # Return dictionary with fairness metrics
+
+# Example usage (mock data for demonstration)
+y_pred = np.random.randint(0, 10, size=len(train_dataset))  # Generate random mock predictions
+y_true = np.random.randint(0, 10, size=len(train_dataset))  # Generate random mock ground truth labels
+sensitive_attr = np.random.choice(["Male", "Female", "Other"], size=len(train_dataset))  # Assign random demographic groups
+
+# Evaluate fairness across different groups
 fairness_results = evaluate_fairness(y_pred, y_true, sensitive_attr)
+
+# Print fairness evaluation results
 print("Fairness Evaluation Results:", fairness_results)
+
 ```
 
 3️⃣ **Click Run (▶) and check the output!** 
+
+✅ Fairness evaluation complete! You should now see accuracy metrics per sensitive attribute group. 📊⚖️🎉
 
 ---
 
