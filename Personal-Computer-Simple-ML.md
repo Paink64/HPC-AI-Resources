@@ -63,7 +63,7 @@ Linear Regression helps us **find patterns** in data and **make predictions** by
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
-🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67c84802-3138-8002-81a4-b7c3466bfeb8/)**
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67c84802-3138-8002-81a4-b7c3466bfeb8/)
 ```python
 # Import Pandas for data handling
 import pandas as pd  
@@ -92,7 +92,7 @@ data
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
-🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67c8c1a6-ec0c-8002-9e5b-8833d632e572/)**
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67c8c1a6-ec0c-8002-9e5b-8833d632e572/)
 ```python
 # Import ML model
 from sklearn.linear_model import LinearRegression  
@@ -120,7 +120,7 @@ model.fit(X, y)
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
-🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67c8c20b-00c0-8002-accf-731a62f32f0e/)**
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67c8c20b-00c0-8002-accf-731a62f32f0e/)
 ```python
 # Predict score for age 25 
 predicted_score = model.predict([[25]]) 
@@ -140,7 +140,7 @@ print("Predicted Score for Age 25:", predicted_score[0])
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
-🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67c8c282-b3cc-8002-bc4d-f13e72845ad4/)**
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67c8c282-b3cc-8002-bc4d-f13e72845ad4/)
 ```python
 # Import plotting library 
 import matplotlib.pyplot as plt 
