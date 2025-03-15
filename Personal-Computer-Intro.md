@@ -65,7 +65,7 @@ A Jupyter Notebook is like a smart digital notebook where you can write and run 
 ### **➕🐍 Add a New Code Cell**                              
 1️⃣ Click **+ Code** in the top left to add a new code cell.        
 2️⃣ Copy and paste the following into the new code cell.          
-[**ChatGPT explanation for the code**](https://chatgpt.com/share/67d0e013-a50c-800b-9a61-0f0db5dbbc8f)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0e013-a50c-800b-9a61-0f0db5dbbc8f)
 ```python
 # The print function outputs the message to the screen
 print("Hello AI World!")  
