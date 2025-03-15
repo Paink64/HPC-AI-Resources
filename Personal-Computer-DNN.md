@@ -142,7 +142,7 @@ By using forward and backward propagation, AI **learns and improves over time**,
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
 
-🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d31825-6e04-8008-bd64-75c3614926f8)、
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d31825-6e04-8008-bd64-75c3614926f8)
 
 ```python
 import pandas as pd
