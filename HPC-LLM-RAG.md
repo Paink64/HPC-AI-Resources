@@ -63,7 +63,8 @@ Once you sign in to the CSUSB HPC portal, follow these steps to configure and la
 
 1️⃣ Click **Terminal** in JupyterLab.    
 2️⃣ Run the following commands:    
-[ChatGPT explanation for the code](https://chatgpt.com/share/67cb1712-6940-8004-9dd6-df6e5b2542c1)
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cb1712-6940-8004-9dd6-df6e5b2542c1)
 
 ```bash
 # Install Pandas, a powerful library for data manipulation and analysis, 
@@ -122,10 +123,13 @@ ls -lh
 
 ## 📚 **4: Load and Preprocess the Dataset in Jupyter Notebook**
 
-### Step 1: Load the Dataset into a Pandas DataFrame    
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
-[ChatGPT explanation for the code](https://chatgpt.com/share/67cb1d6c-9c98-8004-8d4e-71cacaa3d24d)    
+### Step 1: Load the Dataset into a Pandas DataFrame 
+   
+### **➕🐍 Add a New Code Cell**    
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cb1d6c-9c98-8004-8d4e-71cacaa3d24d)    
 
 ```python
 # Import Pandas for data handling
@@ -145,9 +149,12 @@ print(playstore_df.head())
 ✅ **You should now see your dataset displayed!** 🎉
 
 ### Step 2: Clean and Prepare Data for RAG    
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
-[ChatGPT explanation for the code](https://chatgpt.com/share/67cb1dbe-8580-8004-8d58-e95625a51e73)    
+
+### **➕🐍 Add a New Code Cell**    
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cb1dbe-8580-8004-8d58-e95625a51e73)    
 
 ```python
 # Check for missing values in the dataset
@@ -172,9 +179,12 @@ print(playstore_df.head())
 ## 🤖 **5. Implementing Retrieval-Augmented Generation (RAG)**
 
 ### Step 1: Install and Import Required Libraries    
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
-[ChatGPT explanation for the code](https://chatgpt.com/share/67cb1e19-a334-8004-b603-1f7d4a2034a2)    
+
+### **➕🐍 Add a New Code Cell**    
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:    
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cb1e19-a334-8004-b603-1f7d4a2034a2)    
 
 ```python
 # Import required Hugging Face and FAISS libraries
@@ -183,10 +193,15 @@ import faiss
 ```
 3️⃣ Click **Run** (▶) to import the libraries.
 
-### Step 2: Load a Pre-Trained RAG Model    
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
-[ChatGPT explanation for the code](https://chatgpt.com/share/67cb1e75-6a94-8004-b865-f43171fe3604)    
+✅ Libraries imported successfully! You're now ready to use RAG for retrieval-augmented generation. 🚀🎉
+
+### Step 2: Load a Pre-Trained RAG Model 
+   
+### **➕🐍 Add a New Code Cell**    
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cb1e75-6a94-8004-b865-f43171fe3604)    
 
 ```python
 # Define tokenizer model name
@@ -203,10 +218,15 @@ model = pipeline("text-generation", model=generation_model)
 ```
 3️⃣ Click **Run** (▶) to load the pre-trained model.
 
-### Step 3: Define Query and Retrieve Information    
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
-[ChatGPT explanation for the code](https://chatgpt.com/share/67cb1ebe-2cf4-8004-98f1-4f71c9d6d1ab)    
+✅ Tokenizer and generation model loaded successfully! You're now ready to generate text with RAG and GPT-2. 🚀🎉
+
+### Step 3: Define Query and Retrieve Information  
+  
+### **➕🐍 Add a New Code Cell**    
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cb1ebe-2cf4-8004-98f1-4f71c9d6d1ab)    
 
 ```python
 # Define a user query
@@ -218,12 +238,18 @@ input_dict = tokenizer.prepare_seq2seq_batch(query, return_tensors="pt")
 # Retrieval disabled since retriever is removed
 retrieved_docs = None  
 ```
+
 3️⃣ Click **Run** (▶) to retrieve information.
 
-### Step 4: Generate a Response    
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
-[ChatGPT explanation for the code](https://chatgpt.com/share/67cb1f35-4c38-8004-b5dd-9f91a69c3fa2)    
+✅ Query tokenized successfully! Your input is now ready for processing. 🔍🎉
+
+### Step 4: Generate a Response  
+  
+### **➕🐍 Add a New Code Cell**    
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code: 
+ 
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cb1f35-4c38-8004-b5dd-9f91a69c3fa2)    
 
 ```python
 # Generate response based on retrieved documents
@@ -237,16 +263,17 @@ print("Generated Answer:", generated_response)
 ```
 3️⃣ Click **Run** (▶) to generate a response.
 
-📌 **Expected Output:**
-- The model generates an answer using retrieval-based augmentation.
+✅ Response generated successfully! You should now see the AI-generated answer based on the query. 💡🎉
 
 ---
 
 ## 📊 **6: Analyzing Retrieval Efficiency**
     
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
-[ChatGPT explanation for the code](https://chatgpt.com/share/67cb1f85-ef38-8004-88b3-972f1e37ca9f)    
+### **➕🐍 Add a New Code Cell**    
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cb1f85-ef38-8004-88b3-972f1e37ca9f)    
 
 ```python
 # Import visualization libraries
