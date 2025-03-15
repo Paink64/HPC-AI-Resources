@@ -268,7 +268,7 @@ print(f"Test Accuracy: {accuracy * 100:.2f}% 🎉")
 
 ## 🔮 8. Making Predictions
 
-### Add a New Code Cell
+➕🐍 Add a New Code Cell
 
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
