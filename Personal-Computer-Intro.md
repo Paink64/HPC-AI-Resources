@@ -71,6 +71,7 @@ A Jupyter Notebook is like a smart digital notebook where you can write and run 
 print("Hello AI World!")  
 ```
 3️⃣ Click **Run** (▶) and check the output!   
+
 ✅ If done correctly, you should see: `Hello AI World!` printed below the cell.
 
 ---
@@ -94,6 +95,7 @@ sum = a + b
 print("The sum is:", sum)  
 ```
 3️⃣ Click **Run** (▶) and check the output.     
+
 ✅ AI will calculate the sum for you: The sum is 15! 🎉
 
 ---
@@ -110,7 +112,8 @@ name = input("What’s your name? ")
 # Printing a greeting message that includes the user's name
 print("Nice to meet you, " + name + "!")  
 ```
-3️⃣ Click **Run** (▶) , then type your name in the box that appears and hit Enter  
+3️⃣ Click **Run** (▶) , then type your name in the box that appears and hit Enter
+  
 ✅ AI will greet you with: `Nice to meet you, [Your Name]!   
 
 🎯 **Challenge:** Modify the message or numbers and rerun!
