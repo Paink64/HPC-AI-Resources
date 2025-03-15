@@ -195,7 +195,7 @@ Your HPC Jupyter environment is ready—let’s start coding!
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
-🔗 **[ChatGPT explanation for the code](https://chatgpt.com/share/67ca8582-ff54-8007-8b54-fdb20e7a2eae)**  
+🔗 **[ChatGPT explanation for the code](https://chatgpt.com/share/67d10831-ef2c-800e-af89-1b0241fc58ce)**  
 
 ```python
 # The print function outputs the message to the screen
@@ -215,7 +215,7 @@ print("Hello AI World!")  # This will display "Hello AI World!" in the output
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
-🔗 **[ChatGPT explanation for the code](https://chatgpt.com/share/67ca85e9-14e4-8007-915e-52296edf7a85)**  
+🔗 **[ChatGPT explanation for the code](https://chatgpt.com/share/67d1089c-6ebc-800e-ad20-492feda68d7f)**  
 
 ```python
 # Assigning the value 10 to variable 'a'
@@ -245,7 +245,7 @@ print("The sum is:", sum)  # This will print: "The sum is: 15"
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
-🔗 **[ChatGPT explanation for the code](https://chatgpt.com/share/67ca863c-1224-8007-af21-fac1f0d866a5)** 
+🔗 **[ChatGPT explanation for the code](https://chatgpt.com/share/67d108fb-2c58-800e-8dd3-845a2888eedf)** 
  
 ```python
 # Asking the user for their name and storing the input in the variable 'name'
