@@ -110,7 +110,8 @@ ls -lh
 ### 🏗️ Step 1: Load Dataset into Jupyter Notebook
 
 1️⃣ In **JupyterLab**, open a **new notebook** (Python 3 Kernel).  
-2️⃣ In the first code cell, run:    
+2️⃣ In the first code cell, run:  
+  
 🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cb1794-47c4-8004-86e4-4231aa963ed4)
 
 ```python
