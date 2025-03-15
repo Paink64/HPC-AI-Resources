@@ -63,6 +63,9 @@ from transformers import pipeline
 ```
 3️⃣ **Click Run (▶) and check the output!** 
 
+✅ Libraries imported successfully! You’re now ready to use the Hugging Face pipeline. 🚀🎉
+
+
 ### 🧠 Step 3: Load a Pre-Trained LLM
 💡 We will use GPT-2, a popular model that generates human-like text.    
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
@@ -80,6 +83,8 @@ model_name = 'gpt2'
 generator = pipeline(task, model=model_name)
 ```
 3️⃣ **Click Run (▶) and check the output!** 
+
+✅ Pre-trained LLM loaded successfully! You're now ready to generate text using GPT-2. 🧠🚀🎉
 
 ### 📝 Step 4: Generate Text Using the LLM    
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
@@ -101,8 +106,7 @@ print(generated_text)
 ```
 3️⃣ **Click Run (▶) and check the output!** 
 
-📌 Expected Output:
-The model will continue the sentence, creating a short AI-generated story! 📖
+✅ Text generated successfully! You should now see a creative continuation of your prompt. 📝✨🎉
 
 🎯 Exercise: Try changing the prompt to something funny or mysterious! 🔥
 
@@ -141,7 +145,7 @@ print("Answer:", answer_text)
 ```
 3️⃣ **Click Run (▶) and check the output!** 
 
-📌 Expected Output: The model will generate text from our given context.
+✅ Question answered successfully! You should now see the model's response based on the given context. 🤖🎉
 
 ---
 
