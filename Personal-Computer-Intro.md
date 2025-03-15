@@ -120,7 +120,6 @@ print("Nice to meet you, " + name + "!")
 ✅ AI will greet you with: `Nice to meet you, [Your Name]!   
 
 🎯 **Challenge:** Modify the message or numbers and rerun!
-
 💡 **Extra Tip:** Google Colab allows you to run one code block at a time. If something goes wrong, just re-run the block!  
 
 ---
