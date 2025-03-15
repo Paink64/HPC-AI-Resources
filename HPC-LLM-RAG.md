@@ -123,7 +123,7 @@ ls -lh
 
 ## 📚 **4: Load and Preprocess the Dataset in Jupyter Notebook**
 
-### Step 1: Load the Dataset into a Pandas DataFrame 
+## Step 1: Load the Dataset into a Pandas DataFrame 
    
 ### **➕🐍 Add a New Code Cell**    
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
@@ -148,7 +148,7 @@ print(playstore_df.head())
 
 ✅ **You should now see your dataset displayed!** 🎉
 
-### Step 2: Clean and Prepare Data for RAG    
+## Step 2: Clean and Prepare Data for RAG    
 
 ### **➕🐍 Add a New Code Cell**    
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
@@ -178,7 +178,7 @@ print(playstore_df.head())
 
 ## 🤖 **5. Implementing Retrieval-Augmented Generation (RAG)**
 
-### Step 1: Install and Import Required Libraries    
+## Step 1: Install and Import Required Libraries    
 
 ### **➕🐍 Add a New Code Cell**    
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
@@ -195,7 +195,7 @@ import faiss
 
 ✅ Libraries imported successfully! You're now ready to use RAG for retrieval-augmented generation. 🚀🎉
 
-### Step 2: Load a Pre-Trained RAG Model 
+## Step 2: Load a Pre-Trained RAG Model 
    
 ### **➕🐍 Add a New Code Cell**    
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
@@ -220,7 +220,7 @@ model = pipeline("text-generation", model=generation_model)
 
 ✅ Tokenizer and generation model loaded successfully! You're now ready to generate text with RAG and GPT-2. 🚀🎉
 
-### Step 3: Define Query and Retrieve Information  
+## Step 3: Define Query and Retrieve Information  
   
 ### **➕🐍 Add a New Code Cell**    
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
@@ -243,7 +243,7 @@ retrieved_docs = None
 
 ✅ Query tokenized successfully! Your input is now ready for processing. 🔍🎉
 
-### Step 4: Generate a Response  
+## Step 4: Generate a Response  
   
 ### **➕🐍 Add a New Code Cell**    
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
