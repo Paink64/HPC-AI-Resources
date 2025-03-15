@@ -114,7 +114,7 @@ We are working with **huge datasets** that require powerful GPUs for efficient c
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
-🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f69c-9ea4-8008-a364-369b7482bfe5)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d32091-ab88-8008-8f6d-e022ed28c630)
 
 ```python
 import torch  # Import PyTorch for tensor operations and model training
@@ -164,7 +164,7 @@ print(f"Dataset Loaded: LAION-5B with {len(train_dataset)} images")
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
-🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f70d-4094-8008-ad17-05fd13098bfa)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d320de-a97c-8008-8699-cb158b0c191c)
 
 ```python
 from transformers import ViTForImageClassification, ViTFeatureExtractor  # Import ViT model and feature extractor
@@ -192,7 +192,7 @@ print("Bias-aware Vision Transformer Model Loaded! 🚀")
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
-🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f769-7ae8-8008-bf2e-f4f503958eb3)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d3210a-0f70-8008-9557-cccb6f04276a)
 
 ```python
 import torch.optim as optim  # Import optimizers from PyTorch
@@ -239,7 +239,7 @@ print("Training Complete! 🚀")
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
-🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f7c4-2848-8008-8608-dd4caa2f222e)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d3213c-6f40-8008-8452-6177d208a5a4)
 
 ```python
 import numpy as np  # Import NumPy for array operations
