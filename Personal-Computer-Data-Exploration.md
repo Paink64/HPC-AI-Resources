@@ -63,7 +63,7 @@ Libraries save time and reduce errors by providing tested tools.
 
 ##  💾 **4. Loading the Dataset**
 
-### **Add a New Code Cell**
+### **➕🐍 Add a New Code Cell**
  
 1️⃣ Click **+ Code** in the top left to add a new code cell.\
 2️⃣ Copy and paste the following code into the new code cell:
@@ -99,7 +99,7 @@ data
 
 ## 🧹 **5. Cleaning the Data**
 
-###  **Add a New Code Cell**
+###  **➕🐍 Add a New Code Cell**
 
 1️⃣ Click **+ Code** to add another code cell.\
 2️⃣ Copy and paste the following code:
@@ -122,7 +122,7 @@ data  # Display the updated table
 
 ## 📊 **6. Analyzing the Data**
 
-###  **Add a New Code Cell**
+###  **➕🐍 Add a New Code Cell**
 
 1️⃣ Click **+ Code** to add another code cell.\
 2️⃣ Copy and paste the following code:
@@ -143,7 +143,7 @@ data.describe()  # This provides mean, min, max, and other useful statistics
 
 ## 📊 **7. Sorting Data to Find Top Scores**
 
-###  **Add a New Code Cell**
+###  **➕🐍 Add a New Code Cell**
 
 1️⃣ Click **+ Code** to add another code cell.\
 2️⃣ Copy and paste the following code:
@@ -165,7 +165,7 @@ data.sort_values(by="Score", ascending=False)
 
 ### 📊 **Bar Chart: Comparing Scores**
 
-###  **Step 1: Add a New Code Cell**
+###  **Step 1: ➕🐍 Add a New Code Cell**
 
 1️⃣ Click **+ Code** to add another code cell.\
 2️⃣ Copy and paste the following code:
@@ -191,7 +191,7 @@ plt.show()  # Show the graph
 
 ## 📊 **Scatter Plot: Finding Patterns**
 
-###  **Step 2: Add a New Code Cell**
+###  **Step 2: ➕🐍 Add a New Code Cell**
 
 4️⃣ Click **+ Code** to add another code cell.\
 5️⃣ Copy and paste the following code:
