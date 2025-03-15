@@ -156,6 +156,8 @@ print("Dataset loaded successfully! 🎉")
 ```
 3️⃣ **Click Run (▶) and check the output!** 
 
+✅ Dataset loaded successfully! You should now see a message confirming the data is ready. 🎉
+
 ---
 ## 🏗️ 4. Building the DNN Model
 
@@ -181,6 +183,8 @@ print("DNN model created successfully! 🎉")
 ```
 
 3️⃣ **Click Run (▶) and check the output!** 
+
+✅ DNN model created successfully! Your neural network is now ready for training. 🎉
 
 ---
 ## 🎯 5. Training the DNN Model
@@ -208,6 +212,8 @@ history = model.fit(X_train, y_train_encoded, epochs=50, batch_size=8, validatio
 
 3️⃣ **Click Run (▶) and check the output!** 
 
+✅ Model training started! You should see the training progress with loss and accuracy metrics. 🎉
+
 ---
 
 ## 📈 6. Visualizing Training Progress
@@ -228,6 +234,8 @@ plt.title('Training Progress')
 plt.show()
 ```
 3️⃣ **Click Run (▶) and check the output!** 
+
+✅ Training progress visualized! You should now see a loss curve showing how the model's performance changes over epochs. 📈🎉
 
 The following graph shows the **loss (error) reduction** during training. The loss function helps us understand how well the Deep Neural Network (DNN) is learning over time.
 
@@ -254,6 +262,8 @@ print(f"Test Accuracy: {accuracy * 100:.2f}% 🎉")
 
 3️⃣ **Click Run (▶) and check the output!** 
 
+✅ Model evaluation complete! You should now see the test accuracy displayed as a percentage. 🏆🎉
+
 ---
 
 ## 🔮 8. Making Predictions
@@ -275,6 +285,8 @@ print(f"Predicted class: {predicted_class} 🎯")
 ```
 
 3️⃣ **Click Run (▶) and check the output!** 
+
+✅ Prediction complete! You should now see the predicted class for the new sample. 🎯🎉
 
 ---
 ## 🎉 9. Wrap-Up & Next Steps
