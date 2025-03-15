@@ -48,11 +48,11 @@ A **Large Language Model (LLM)** is a type of AI model that can understand and g
 
 ## 🔧 3. How to use pre-trained LLMs for text generation
 
-### 💻 Step 1: Open Google Colab
+## 💻 Step 1: Open Google Colab
 1️⃣ Open [Google Colab](https://colab.research.google.com/)  
 2️⃣ Click **+ New Notebook**  
 
-### 📚 Step 2: Import Required Libraries
+## 📚 Step 2: Import Required Libraries
 ### **➕🐍 Add a New Code Cell**         
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
@@ -68,7 +68,7 @@ from transformers import pipeline
 ✅ Libraries imported successfully! You’re now ready to use the Hugging Face pipeline. 🚀🎉
 
 
-### 🧠 Step 3: Load a Pre-Trained LLM
+## 🧠 Step 3: Load a Pre-Trained LLM
 💡 We will use GPT-2, a popular model that generates human-like text.  
 ### **➕🐍 Add a New Code Cell**           
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
@@ -90,7 +90,7 @@ generator = pipeline(task, model=model_name)
 
 ✅ Pre-trained LLM loaded successfully! You're now ready to generate text using GPT-2. 🧠🚀🎉
 
-### 📝 Step 4: Generate Text Using the LLM    
+## 📝 Step 4: Generate Text Using the LLM    
 ### **➕🐍 Add a New Code Cell**         
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
