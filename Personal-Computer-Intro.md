@@ -64,7 +64,8 @@ A Jupyter Notebook is like a smart digital notebook where you can write and run 
 ### 🔹 Print a Message 📢 
 ### **➕🐍 Add a New Code Cell**                              
 1️⃣ Click **+ Code** in the top left to add a new code cell.        
-2️⃣ Copy and paste the following into the new code cell.          
+2️⃣ Copy and paste the following into the new code cell.     
+     
 🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0e013-a50c-800b-9a61-0f0db5dbbc8f)
 ```python
 # The print function outputs the message to the screen
@@ -80,7 +81,8 @@ print("Hello AI World!")
 ### **➕🐍 Add a New Code Cell**  
 1️⃣ Click **+ Code** to add another code cell.  
 2️⃣ Copy and paste the following code into the new code cell.       
-[**ChatGPT explanation for the code**](https://chatgpt.com/share/67d0e086-ded8-800b-b212-823aaa87f594) 
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0e086-ded8-800b-b212-823aaa87f594) 
 ```python
 # Assigning the value 10 to variable 'a'
 a = 10
@@ -103,8 +105,9 @@ print("The sum is:", sum)
 ### 🔹 AI-Powered Interaction 🤖  
 ### **➕🐍 Add a New Code Cell**          
 1️⃣ Click **+ Code** to add another code cell.  
-2️⃣ Copy and paste the following code into the new code cell.               
-[**ChatGPT explanation for the code**](https://chatgpt.com/share/67d0e0db-22c8-800b-9caa-470c6045d528)
+2️⃣ Copy and paste the following code into the new code cell.     
+          
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0e0db-22c8-800b-9caa-470c6045d528)
 ```python
 # Asking the user for their name and storing the input in the variable 'name'
 name = input("What’s your name? ")
