@@ -128,29 +128,57 @@ We are working with **huge datasets** that require powerful GPUs for efficient c
 🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f4af-9c8c-8008-b2ae-4ca613a0ec40)
 
 ```python
-import torch
-import torchvision
-import torchvision.transforms as transforms
+import torch  # Import PyTorch library
+import torchvision  # Import torchvision for dataset handling
+import torchvision.transforms as transforms  # Import transforms for preprocessing
 
-# Check GPU availability
+# Check GPU availability and set the device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-# Define dataset transformation
+# Define dataset transformation pipeline
 transform = transforms.Compose([
-    transforms.Resize((256, 256)),
-    transforms.ToTensor(),
-    transforms.Normalize((0.5,), (0.5,))
+    transforms.Resize((256, 256)),  # Resize images to 256x256
+    transforms.ToTensor(),  # Convert images to tensor format
+    transforms.Normalize((0.5,), (0.5,))  # Normalize images to range [-1, 1]
 ])
 
-# Load Places365 dataset
-train_dataset = torchvision.datasets.Places365(root="/scratch/datasets", split='train-standard', download=True, transform=transform)
-test_dataset = torchvision.datasets.Places365(root="/scratch/datasets", split='val', download=True, transform=transform)
+# Load the Places365 training dataset with transformations applied
+train_dataset = torchvision.datasets.Places365(
+    root="/scratch/datasets",  # Path to dataset storage
+    split='train-standard',  # Use standard training set
+    download=True,  # Download dataset if not already present
+    transform=transform  # Apply defined transformations
+)
 
-# Create DataLoader for efficient processing
-train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=512, shuffle=True, num_workers=16, pin_memory=True)
-test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=512, shuffle=False, num_workers=16, pin_memory=True)
+# Load the Places365 validation dataset with the same transformations
+test_dataset = torchvision.datasets.Places365(
+    root="/scratch/datasets",  # Path to dataset storage
+    split='val',  # Use validation set
+    download=True,  # Download dataset if not already present
+    transform=transform  # Apply defined transformations
+)
 
+# Create DataLoader for efficient data processing in training
+train_loader = torch.utils.data.DataLoader(
+    train_dataset,  # Use training dataset
+    batch_size=512,  # Process images in batches of 512
+    shuffle=True,  # Shuffle data to improve model learning
+    num_workers=16,  # Use 16 worker threads for data loading
+    pin_memory=True  # Pin memory to optimize data transfer to GPU
+)
+
+# Create DataLoader for validation dataset
+test_loader = torch.utils.data.DataLoader(
+    test_dataset,  # Use validation dataset
+    batch_size=512,  # Process images in batches of 512
+    shuffle=False,  # No need to shuffle validation set
+    num_workers=16,  # Use 16 worker threads for data loading
+    pin_memory=True  # Pin memory to optimize data transfer to GPU
+)
+
+# Print dataset information
 print(f"Dataset Loaded: Places365 with {len(train_dataset)} training images")
+
 ```
 
 3️⃣ **Click Run (▶) and check the output!** 
@@ -171,29 +199,42 @@ print(f"Dataset Loaded: Places365 with {len(train_dataset)} training images")
 🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f4fb-3dc4-8008-8f9e-a42de947400a)
 
 ```python
-import torch.nn as nn
-import torch.optim as optim
+import torch.nn as nn  # Import neural network module from PyTorch
+import torch.optim as optim  # Import optimizers for training
 
+# Define a deep convolutional neural network (CNN)
 class DeepCNN(nn.Module):
     def __init__(self):
-        super(DeepCNN, self).__init__()
-        self.conv1 = nn.Conv2d(3, 64, kernel_size=3, stride=1, padding=1)
-        self.relu = nn.ReLU()
-        self.conv2 = nn.Conv2d(64, 128, kernel_size=3, stride=1, padding=1)
-        self.pool = nn.MaxPool2d(2, 2)
-        self.fc1 = nn.Linear(128 * 128 * 128, 1024)
-        self.fc2 = nn.Linear(1024, 365)
-    
+        super(DeepCNN, self).__init__()  # Initialize parent class (nn.Module)
+
+        # First convolutional layer: input channels = 3 (RGB), output channels = 64
+        self.conv1 = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=3, stride=1, padding=1)
+        self.relu = nn.ReLU()  # ReLU activation function
+
+        # Second convolutional layer: input channels = 64, output channels = 128
+        self.conv2 = nn.Conv2d(in_channels=64, out_channels=128, kernel_size=3, stride=1, padding=1)
+        
+        # Max pooling layer: downsample feature maps by a factor of 2
+        self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
+
+        # Fully connected layer 1: flatten input size = (128 * 128 * 128), output size = 1024
+        self.fc1 = nn.Linear(in_features=128 * 128 * 128, out_features=1024)
+
+        # Fully connected layer 2 (output layer): output size = 365 (Places365 categories)
+        self.fc2 = nn.Linear(in_features=1024, out_features=365)
+
     def forward(self, x):
-        x = self.pool(self.relu(self.conv1(x)))
-        x = self.pool(self.relu(self.conv2(x)))
-        x = x.view(-1, 128 * 128 * 128)
-        x = self.relu(self.fc1(x))
-        x = self.fc2(x)
+        x = self.pool(self.relu(self.conv1(x)))  # Apply Conv1 -> ReLU -> MaxPool
+        x = self.pool(self.relu(self.conv2(x)))  # Apply Conv2 -> ReLU -> MaxPool
+        x = x.view(-1, 128 * 128 * 128)  # Flatten tensor for fully connected layers
+        x = self.relu(self.fc1(x))  # Fully connected layer with ReLU activation
+        x = self.fc2(x)  # Output layer (logits)
         return x
 
+# Create an instance of DeepCNN and move it to the available device (CPU or GPU)
 model = DeepCNN().to(device)
 print("Model created!")
+
 ```
 
 3️⃣ **Click Run (▶) and check the output!** 
@@ -213,18 +254,26 @@ print("Model created!")
 [ChatGpt Code Conversation](https://chatgpt.com/share/67d0f58d-e518-8008-b987-d1f14a7de503)
 
 ```python
+# Initialize counters for correct predictions and total samples
 correct = 0
 total = 0
-with torch.no_grad():
-    for inputs, labels in test_loader:
-        inputs, labels = inputs.to(device), labels.to(device)
-        outputs = model(inputs)
-        _, predicted = torch.max(outputs, 1)
-        total += labels.size(0)
-        correct += (predicted == labels).sum().item()
 
+# Disable gradient calculation to save memory and speed up inference
+with torch.no_grad():
+    for inputs, labels in test_loader:  # Iterate through test dataset
+        inputs, labels = inputs.to(device), labels.to(device)  # Move data to GPU (if available)
+        
+        outputs = model(inputs)  # Forward pass: get model predictions
+        
+        _, predicted = torch.max(outputs, 1)  # Get class index with highest score
+        
+        total += labels.size(0)  # Count total samples
+        correct += (predicted == labels).sum().item()  # Count correct predictions
+
+# Calculate test accuracy as a percentage
 accuracy = 100 * correct / total
 print(f"Test Accuracy: {accuracy:.2f}% 🎯")
+
 ```
 
 3️⃣ **Click Run (▶) and check the output!** 
@@ -245,12 +294,20 @@ print(f"Test Accuracy: {accuracy:.2f}% 🎯")
 🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f617-6f1c-8008-8acb-11e241fd52f9)
 
 ```python
-import numpy as np
+import numpy as np  # Import NumPy for numerical operations
 
-new_sample = torch.randn(1, 3, 256, 256).to(device)  # Generate a random test image
+# Generate a random test image with shape (1, 3, 256, 256) to simulate an input sample
+new_sample = torch.randn(1, 3, 256, 256).to(device)  # Create a random tensor and move to device
+
+# Perform forward pass through the model to get predictions
 prediction = model(new_sample)
-predicted_class = torch.argmax(prediction, 1).item()
+
+# Get the index of the highest probability class
+predicted_class = torch.argmax(prediction, dim=1).item()
+
+# Print the predicted class index
 print(f"Predicted Class: {predicted_class} 🎯")
+
 ```
 
 3️⃣ **Click Run (▶) and check the output!** 
