@@ -74,8 +74,10 @@ Linear Regression helps us **find patterns** in data and **make predictions** by
 
 ### 💾 **Step 2: Load and Explore the Dataset**  
 
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
+### **➕🐍 Add a New Code Cell**        
+
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:   
 
 **[ChatGPT explanation for the code](https://chatgpt.com/share/67d10c58-efc8-8009-b304-71747f899693)**
 
@@ -111,17 +113,19 @@ y = df['House Value'].values
 
 ```  
 
-3️⃣ **Click Run (▶) and check the output!** 
+3️⃣ **Click Run (▶) and check the output!**
 
-📌 Expected Output: A table displaying the first 5 data entries from the data set.
+✅ California Housing dataset loaded successfully! You should now see a preview of the cleaned data. 🏡📊🎉
  
 ---
 
 ## 🤖 **5. Training a Simple ML Model on HPC**  
 
 ###  **Train a Simple ML Model using Linear Regression**  
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell. 
+
+### **➕🐍 Add a New Code Cell**    
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
 
 **[ChatGPT explanation for the code](https://chatgpt.com/share/67d10d4a-6810-8009-bda6-f9298d3d05a7)**
 
@@ -214,7 +218,7 @@ with torch.no_grad():
 ```  
 3️⃣ Click **Run** (▶) to train the ML model!  
 
-📌 Expected Output: How far off the predictions are after training with the data every 100 times.
+✅ Model training complete! You should now see the loss decreasing over epochs and the final test loss displayed. 🔥📉🎉
 
 🔹 Why Use HPC Here?
 
@@ -224,8 +228,10 @@ with torch.no_grad():
 ---
 
 ## 🔮 **6. Making Predictions with HPC**  
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
+
+### **➕🐍 Add a New Code Cell**    
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
 
 **[ChatGPT explanation for the code](https://chatgpt.com/share/67d10e0f-f620-8009-b0dd-1b43e5d15bce)**
 
@@ -250,7 +256,7 @@ print(f"The predicted price for a house with 15 rooms is: ${predicted_price* 100
 ```  
 3️⃣ Click **Run** (▶) to see the prediction!  
 
-📌 **Expected Output:** Based on past data, the model will predict the house value of a 15-room home.  
+✅ Prediction complete! You should now see the estimated house price for a home with 15 rooms. 🏡💰🎉
 
 🎯 **Quick Challenge**
 * Change the number of rooms for the prediction and see the results change!
@@ -258,8 +264,10 @@ print(f"The predicted price for a house with 15 rooms is: ${predicted_price* 100
 ---
 
 ## 🎨 **7. Visualizing ML Predictions**  
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
+### **➕🐍 Add a New Code Cell**   
+ 
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
 
 **[ChatGPT explanation for the code](https://chatgpt.com/share/67d10e6f-8fe4-8009-8115-e320b42510a0)**
 
@@ -302,7 +310,7 @@ plt.show()
 ```  
 3️⃣ Click **Run** (▶) and check the graph! 🎨📊  
 
-📌 Expected Output: A graph displaying data points along with a prediction line illustrating the trend. 
+✅ Visualization complete! You should now see a scatter plot with a regression line showing the relationship between average rooms and house value. 📊🎨🎉
 
 ---
 
