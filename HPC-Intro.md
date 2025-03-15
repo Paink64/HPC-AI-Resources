@@ -190,7 +190,7 @@ Your HPC Jupyter environment is ready—let’s start coding!
 
 ### 🔹 Print a Message 📢  
 
-### **➕🐍 Add a New Code Cell**            
+### **📝 Run the Following Code in a New Cell**          
 
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
@@ -210,9 +210,9 @@ print("Hello AI World!")  # This will display "Hello AI World!" in the output
 
 ### 🔹 Do Basic Math ➕➖  
 
-### **➕🐍 Add a New Code Cell**            
+### **📝 Run the Following Code in a New Cell**          
 
-1️⃣ Click **+ Code** to add another code cell.  
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
 🔗 **[ChatGPT explanation for the code](https://chatgpt.com/share/67ca85e9-14e4-8007-915e-52296edf7a85)**  
@@ -240,9 +240,9 @@ print("The sum is:", sum)  # This will print: "The sum is: 15"
 
 ### 🔹 AI-Powered Interaction 🤖  
 
-### **➕🐍 Add a New Code Cell**            
+### **📝 Run the Following Code in a New Cell**          
 
-1️⃣ Click **+ Code** to add another code cell.  
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
 🔗 **[ChatGPT explanation for the code](https://chatgpt.com/share/67ca863c-1224-8007-af21-fac1f0d866a5)** 
