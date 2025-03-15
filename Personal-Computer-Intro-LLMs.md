@@ -53,6 +53,7 @@ A **Large Language Model (LLM)** is a type of AI model that can understand and g
 2️⃣ Click **+ New Notebook**  
 
 ### 📚 Step 2: Import Required Libraries
+### **➕🐍 Add a New Code Cell**         
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 <a href="https://chatgpt.com/share/67caf38c-8f0c-8004-9dff-1b2441a14b83" target="_blank">ChatGPT explanation for the code</a>
@@ -67,7 +68,8 @@ from transformers import pipeline
 
 
 ### 🧠 Step 3: Load a Pre-Trained LLM
-💡 We will use GPT-2, a popular model that generates human-like text.    
+💡 We will use GPT-2, a popular model that generates human-like text.  
+### **➕🐍 Add a New Code Cell**           
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 <a href="https://chatgpt.com/share/67caf3f2-c6ac-8004-a5d5-a34e8a75b783" target="_blank">ChatGPT explanation for the code</a>
@@ -87,6 +89,7 @@ generator = pipeline(task, model=model_name)
 ✅ Pre-trained LLM loaded successfully! You're now ready to generate text using GPT-2. 🧠🚀🎉
 
 ### 📝 Step 4: Generate Text Using the LLM    
+### **➕🐍 Add a New Code Cell**         
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 <a href="https://chatgpt.com/share/67caf460-e874-8004-a418-040789cda3cf" target="_blank">ChatGPT explanation for the code</a>
@@ -112,7 +115,8 @@ print(generated_text)
 
 ---
 ## 🤖 4. How to use LLMs for answering questions
-💡 LLMs can also answer questions based on a given context!    
+💡 LLMs can also answer questions based on a given context!  
+### **➕🐍 Add a New Code Cell**           
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 <a href="https://chatgpt.com/share/67caf4c1-cfe4-8004-b55c-20ed9f92f25c" target="_blank">ChatGPT explanation for the code</a>
