@@ -72,7 +72,7 @@ Once logged in:
 
 We will use CSUSB’s High-Performance Computing (HPC) system to run our AI code. Follow these steps to access JupyterHub on HPC.
 
-### 🚀 **Step 1**: Log In to HPC with CI Logon 🔐
+## 🚀 **Step 1**: Log In to HPC with CI Logon 🔐
 
 Let’s get you authenticated! Here’s how:
 
@@ -87,7 +87,7 @@ Let’s get you authenticated! Here’s how:
 - Check "Remember this selection" to save time next login. ✅
 - Click Log On to proceed. 🚀
 
-### 🖥️ **Step 2**: Launch Your JupyterHub Server
+## 🖥️ **Step 2**: Launch Your JupyterHub Server
 
 Your HPC Jupyter environment is ready—let’s start coding!
 
@@ -112,7 +112,7 @@ Your HPC Jupyter environment is ready—let’s start coding!
 
 We are working with **huge datasets** that require powerful GPUs for efficient computation. 
 
-### 📂 Step 3: Load the Places365 Dataset
+## 📂 Step 3: Load the Places365 Dataset
 
 🏞️ **Places365** (PyTorch)
 - A large-scale dataset used for **scene classification**.
