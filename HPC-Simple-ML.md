@@ -79,7 +79,7 @@ Linear Regression helps us **find patterns** in data and **make predictions** by
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:   
 
-**[ChatGPT explanation for the code](https://chatgpt.com/share/67d10c58-efc8-8009-b304-71747f899693)**
+**🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d10c58-efc8-8009-b304-71747f899693)**
 
 ```python
 # Pandas helps us work with data in tables (like spreadsheets).
@@ -127,7 +127,7 @@ y = df['House Value'].values
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
-**[ChatGPT explanation for the code](https://chatgpt.com/share/67d10d4a-6810-8009-bda6-f9298d3d05a7)**
+**🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d10d4a-6810-8009-bda6-f9298d3d05a7)**
 
 ```python
 #Install packages not included in stack   
@@ -233,7 +233,7 @@ with torch.no_grad():
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
-**[ChatGPT explanation for the code](https://chatgpt.com/share/67d10e0f-f620-8009-b0dd-1b43e5d15bce)**
+**🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d10e0f-f620-8009-b0dd-1b43e5d15bce)**
 
 ```python
 # Step 13: Make predictions on the training set
@@ -269,7 +269,7 @@ print(f"The predicted price for a house with 15 rooms is: ${predicted_price* 100
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
-**[ChatGPT explanation for the code](https://chatgpt.com/share/67d10e6f-8fe4-8009-8115-e320b42510a0)**
+**🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d10e6f-8fe4-8009-8115-e320b42510a0)**
 
 ```python
 # NumPy helps with numerical operations, like handling arrays.
