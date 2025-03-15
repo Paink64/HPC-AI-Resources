@@ -137,7 +137,7 @@ By using forward and backward propagation, AI **learns and improves over time**,
 
 ## 💾 3. Loading the Iris Dataset
 
-### Add a New Code Cell
+### **➕🐍 Add a New Code Cell**  
 
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
@@ -161,7 +161,7 @@ print("Dataset loaded successfully! 🎉")
 ---
 ## 🏗️ 4. Building the DNN Model
 
-### Add a New Code Cell
+### **➕🐍 Add a New Code Cell**  
 
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
@@ -189,7 +189,7 @@ print("DNN model created successfully! 🎉")
 ---
 ## 🎯 5. Training the DNN Model
 
-### Add a New Code Cell
+### **➕🐍 Add a New Code Cell**  
 
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
@@ -218,7 +218,7 @@ history = model.fit(X_train, y_train_encoded, epochs=50, batch_size=8, validatio
 
 ## 📈 6. Visualizing Training Progress
 
-### Add a New Code Cell
+### **➕🐍 Add a New Code Cell**  
 
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
