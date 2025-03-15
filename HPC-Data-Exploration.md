@@ -28,7 +28,7 @@
 
 ## 💻 **2. Install Dependencies, Setup Kaggle, and Download Dataset**
 
-### **Open Terminal in JupyterLab**
+### 📝 **Open Terminal in JupyterLab**
 1️⃣ **Click Terminal to open a command-line interface** <br> 
 2️⃣ In the terminal, paste and run the following commands:<br>
 
@@ -63,11 +63,11 @@ ls -lh
 
 ## 💾 **3: Load the Dataset into Jupyter Notebook**
 
-### **Step 1: Open the /playstore_data/ Directory**
+### **📂 Step 1: Open the /playstore_data/ Directory**
 1️⃣ Navigate to **/playstore_data/** in JupyterLab.<br>
 2️⃣ Inside the folder, create a new **Python 3 (ipykernel)** notebook.  
 
-### **Step 2: Run the Following Code in a New Cell**
+### **📂 Step 2: Run the Following Code in a New Cell**
 1️⃣ In the next available cell, add the following code.<br>
 2️⃣ Paste and run the following code:<br>
 
