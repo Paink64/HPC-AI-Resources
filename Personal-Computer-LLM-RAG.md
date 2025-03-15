@@ -44,26 +44,29 @@ RAG enhances LLMs by integrating **retrieval** and **generation** to provide mor
 
 ## 🔧 **3. Setting Up LLM and RAG for Text Generation**
 
-### 🚀 **Step 1: Open [Google Colab](https://colab.research.google.com/)**
+## 🚀 **Step 1: Open [Google Colab](https://colab.research.google.com/)**
 
-1️⃣ Open your browser and go to **[Google Colab](https://colab.research.google.com/)**.\
-2️⃣ Click **+ New notebook** to begin.
+1️⃣ Open your browser and go to **[Google Colab](https://colab.research.google.com/)**.  
+2️⃣ Click **+ New Notebook** to begin.
 
-### 🛠️ **Step 2: Set Up Hugging Face Account and Access Token**
+## 🛠️ **Step 2: Set Up Hugging Face Account and Access Token**
 
-1️⃣ **Sign up on Hugging Face**: Go to [Hugging Face Sign-Up](https://huggingface.co/join) and create a free account.\
+1️⃣ **Sign up on Hugging Face**: Go to [Hugging Face Sign-Up](https://huggingface.co/join) and create a free account.  
 2️⃣ **Generate an Access Token**:
+   - Click on your profile icon and go to **[Your Account Settings](https://huggingface.co/settings/tokens)**.
+   - Scroll down to **Access Tokens** and click **New Token**.
+   - Give it a name (e.g., "Colab Access") and select **Read** access.
+   - Click **Generate Token** and copy the token.
 
-- Click on your profile icon and go to **[Your Account Settings](https://huggingface.co/settings/tokens)**.
-- Scroll down to **Access Tokens** and click **New Token**.
-- Give it a name (e.g., "Colab Access") and select **Read** access.
-- Click **Generate Token** and copy the token.
+✅ Hugging Face account setup complete! You’re now ready to log in. 🔑🎉
 
-### 📚 **Step 3: Login in Colab with the Token**
+## 📚 **Step 3: Login in Colab with the Token**
 
-1️⃣ Open a new cell in Google Colab and run the following code:
+### **➕🐍 Add a New Code Cell**  
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
 
-<a href="https://chatgpt.com/share/67cafa63-35d0-8004-bfdc-f36ffb25ae57" target="_blank">ChatGPT explanation for the code</a>
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cafa63-35d0-8004-bfdc-f36ffb25ae57)
 
 ```python
 # Import Hugging Face login module
@@ -73,43 +76,56 @@ from huggingface_hub import notebook_login
 notebook_login()  
 ```
 
-2️⃣ When prompted, paste the token you copied earlier.\
-3️⃣ **Verify Authentication**:\
-Run the following code to check if authentication is successful:   
-<a href="https://chatgpt.com/share/67caface-5ed8-8004-a60c-5132ec7113bd" target="_blank">ChatGPT explanation for the code</a>
+3️⃣ **Click Run (▶) and follow the instructions.**  
+
+✅ Logged in successfully! Now, let's verify authentication. 🎉
+
+## 🔐 **Step 4: Verify Authentication**
+
+### **➕🐍 Add a New Code Cell**  
+1️⃣ Click **+ Code** in the top left to add a new code cell.  
+2️⃣ Copy and paste the following code into the new code cell.  
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67caface-5ed8-8004-a60c-5132ec7113bd)
 
 ```python
 # Check if authentication is successful
 !huggingface-cli whoami  
 ```
 
-4️⃣ If it prints your Hugging Face username, the setup is complete!
+3️⃣ **Click Run (▶) and check the output!** 
+ 
+✅ If it prints your Hugging Face username, the setup is complete! 🎉
+
 
 ---
 
 ## 🔧 **4. Running LLM and RAG for Text Generation**
-### 📚 **Step 1: Install and Import Required Libraries**
+
+## 📚 **Step 1: Install and Import Required Libraries**
 
 Before importing the libraries, install the necessary dependencies by running the following command:
 
+### **➕🐍 Add a New Code Cell**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
-<a href="https://chatgpt.com/share/67cafb46-9940-8004-8618-4f0cb0dfd5aa" target="_blank">ChatGPT explanation for the code</a>
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cafb46-9940-8004-8618-4f0cb0dfd5aa)
 
 ```python
 # Install Hugging Face Transformers, FAISS, and datasets
 !pip install transformers faiss-cpu datasets  
 ```
 
-3️⃣ Click **Run** (▶) to install the required packages.
+3️⃣ **Click Run (▶) to install the required packages.**
 
-These dependencies are not pre-loaded in google colab and need to be explicitly installed. 
+✅ Dependencies installed successfully! Now, let's import the necessary libraries. 📚🎉
 
-Then, import the necessary libraries:
-
+### **➕🐍 Add a New Code Cell**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
-<a href="https://chatgpt.com/share/67cafbb3-4074-8004-8fd6-58b28b1cdd4d" target="_blank">ChatGPT explanation for the code</a>
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cafbb3-4074-8004-8fd6-58b28b1cdd4d)
 
 ```python
 # Import required libraries
@@ -117,13 +133,17 @@ from transformers import pipeline, RagTokenizer, RagRetriever, RagSequenceForGen
 import faiss  
 ```
 
-3️⃣ Click **Run** (▶) to import the libraries.
+3️⃣ **Click Run (▶) to import the libraries.**
 
-### 🧠 **Step 2: Load a Pre-Trained RAG Model**
+✅ Libraries imported successfully! You’re now ready to load a pre-trained RAG model. 🚀🎉
 
+## 🧠 **Step 2: Load a Pre-Trained RAG Model**
+
+### **➕🐍 Add a New Code Cell**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
-<a href="https://chatgpt.com/share/67cafc54-f3c0-8004-a121-af4a0faa0f5c" target="_blank">ChatGPT explanation for the code</a>
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cafc54-f3c0-8004-a121-af4a0faa0f5c)
 
 ```python
 # Define tokenizer model name
@@ -139,7 +159,7 @@ generation_model = "gpt2"
 model = pipeline("text-generation", model=generation_model)  
 ```
 
-3️⃣ Click **Run** (▶) to load the pre-trained RAG model.
+3️⃣ **Click Run (▶) to load the pre-trained RAG model.**
 
 📌 **Note:** When running this step, you may see a prompt asking:
 
@@ -149,13 +169,15 @@ Do you wish to run the custom code? [y/N]
 
 Type **'y'** and press **Enter** to allow the model to load properly. This is required for some Hugging Face models.
 
+✅ Pre-trained RAG model loaded successfully! Let’s proceed with querying the model. 🧠🎉
 
+## 📚 **Step 3: Prepare a Query and Retrieve Information**
 
-### 📚 **Step 3: Prepare a Query and Retrieve Information**
-
+### **➕🐍 Add a New Code Cell**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
-<a href="https://chatgpt.com/share/67cafcc4-b258-8004-9f15-5b1e7d1d9419" target="_blank">ChatGPT explanation for the code</a>
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cafcc4-b258-8004-9f15-5b1e7d1d9419)
 
 ```python
 # Define user query
@@ -168,13 +190,17 @@ input_dict = tokenizer.prepare_seq2seq_batch(query, return_tensors="pt")
 retrieved_docs = None  
 ```
 
-3️⃣ Click **Run** (▶) to retrieve documents related to the query.
+3️⃣ **Click Run (▶) to retrieve documents related to the query.**
 
-### ✨ **Step 4: Generate a Response Using the Retrieved Documents**
+✅ Query prepared successfully! Now, let's generate a response. ✨🎉
 
+## ✨ **Step 4: Generate a Response Using the Retrieved Documents**
+
+### **➕🐍 Add a New Code Cell**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
-<a href="https://chatgpt.com/share/67cafd2e-39b4-8004-9c52-ba1ac77e845f" target="_blank">ChatGPT explanation for the code</a>
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67cafd2e-39b4-8004-9c52-ba1ac77e845f)
 
 ```python
 # Generate response based on retrieved documents
@@ -187,11 +213,14 @@ generated_text = output[0]['generated_text']
 print("Generated Answer:", generated_text)  
 ```
 
-3️⃣ Click **Run** (▶) to generate a response based on the retrieved documents.
+3️⃣ **Click Run (▶) to generate a response based on the retrieved documents.**
 
 📌 **Expected Output:**
 
 - The model should generate a relevant and coherent answer about the process of photosynthesis based on the retrieved information.
+
+✅ Response generated successfully! You now have an AI-powered system retrieving and generating answers. 🚀🎉
+
 
 ---
 
