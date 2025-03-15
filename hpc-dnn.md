@@ -119,11 +119,13 @@ We are working with **huge datasets** that require powerful GPUs for efficient c
 - Contains **~1.8 million** images spanning **365 categories**.
 - Needs **significant GPU power** for training deep neural networks.
 
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
+### **➕🐍 Add a New Code Cell**    
+
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
 
 
-[Chatgpt Code Conversation](https://chatgpt.com/share/67d0f4af-9c8c-8008-b2ae-4ca613a0ec40)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f4af-9c8c-8008-b2ae-4ca613a0ec40)
 
 ```python
 import torch
@@ -153,16 +155,20 @@ print(f"Dataset Loaded: Places365 with {len(train_dataset)} training images")
 
 3️⃣ **Click Run (▶) and check the output!** 
 
+✅ Dataset Loaded Successfully! You should now see the number of training images available in the Places365 dataset. 🏞️📊🎉
+
 ---
 
 ## 🏗️ **3. Building and Training a Deep Neural Network on HPC**
 
 ### Define a CNN Model
 
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
+### **➕🐍 Add a New Code Cell**    
 
-[ChatGpt Code Conversation](https://chatgpt.com/share/67d0f4fb-3dc4-8008-8f9e-a42de947400a)
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f4fb-3dc4-8008-8f9e-a42de947400a)
 
 ```python
 import torch.nn as nn
@@ -192,14 +198,17 @@ print("Model created!")
 
 3️⃣ **Click Run (▶) and check the output!** 
 
+✅ Model created successfully! Your deep CNN is now ready for training. 🧠📊🎉
+
 ---
 
 ## 🏗️ **4. Evaluating the Model**
 
 ### Evaluate Model on Test Data
 
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
+### **➕🐍 Add a New Code Cell**    
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:   
 
 [ChatGpt Code Conversation](https://chatgpt.com/share/67d0f58d-e518-8008-b987-d1f14a7de503)
 
@@ -220,16 +229,20 @@ print(f"Test Accuracy: {accuracy:.2f}% 🎯")
 
 3️⃣ **Click Run (▶) and check the output!** 
 
+✅ Model evaluation complete! You should now see the test accuracy displayed as a percentage. 🎯📊🎉
+
 ---
 
 ## 🔮 5. Making Predictions
 
 ### Making Predictions
 
-1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
+### **➕🐍 Add a New Code Cell**    
 
-[ChatGpt Code Conversation](https://chatgpt.com/share/67d0f617-6f1c-8008-8acb-11e241fd52f9)
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:   
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f617-6f1c-8008-8acb-11e241fd52f9)
 
 ```python
 import numpy as np
@@ -241,6 +254,8 @@ print(f"Predicted Class: {predicted_class} 🎯")
 ```
 
 3️⃣ **Click Run (▶) and check the output!** 
+
+✅ Prediction complete! You should now see the predicted class for the random test image. 🎯📊🎉
 
 ---
 
