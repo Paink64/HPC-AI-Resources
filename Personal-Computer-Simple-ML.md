@@ -80,7 +80,8 @@ data
 ```
 
 3️⃣ **Click Run** (▶) and check the dataset!  
-✅ Data loaded successfully! The dataset is now ready for exploration. 🎉
+
+✅ You should now see a table with student ages and scores! The dataset is now ready for exploration. 🎉
 
 ---
 
@@ -107,9 +108,8 @@ model.fit(X, y)
 ```
 
 3️⃣ Click **Run** (▶) to train the ML model!  
-✅ Model trained successfully! Your ML model is now ready to make predictions. 🎉
 
-📌 **What’s Happening?** The model **learns** the pattern between age and scores!  
+✅ Model trained successfully! Your ML model is now ready to make predictions. 🎉
 
 ---
 
@@ -129,7 +129,7 @@ print("Predicted Score for Age 25:", predicted_score[0])
 
 3️⃣ Click **Run** (▶) to see the prediction!  
 
-📌 **Expected Output:** Based on past data, the model will predict a test score for a 25-year-old student.
+✅ You should now see the predicted score for age 25! 🎉
 
 ---
 
@@ -176,7 +176,7 @@ plt.show()
 
 3️⃣ Click **Run** (▶) and check the graph! 🎨📊  
 
-📌 Expected Output: A graph displaying data points along with a prediction line illustrating the trend.
+✅ You should now see a graph with actual data points and a prediction line! 🎉
 
 🎯 **Challenge**
 * Go back to the first code cell and make changes to the dataset.
