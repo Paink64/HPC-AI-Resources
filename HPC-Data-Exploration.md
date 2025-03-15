@@ -167,7 +167,7 @@ plt.show()
 
 ### 📊 Scatter Plot: App Ratings vs. Number of Ratings**
 
-### **Step 2: ➕🐍 Add a New Code Cell***
+### **Step 2: ➕🐍 Add a New Code Cell**
 
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
