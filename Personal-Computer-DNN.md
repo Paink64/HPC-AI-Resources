@@ -15,7 +15,6 @@
 ✅ Hands-on coding with **Google Colab** for easy Python use 💻<br>
 
 ---
-
 ## 📚 1. Key Terminologies in Deep Neural Networks 🧠
 
 ### 🧠 What is a Neuron?
@@ -32,17 +31,51 @@ Source: [Google Images](https://medium.com/data-science-365/overview-of-a-neural
  
 💡 Think: How do these concepts work together to train an AI model? 🤔
 
-Neural networks are a fundamental part of artificial intelligence (AI). They learn by adjusting their internal settings based on data. This process involves two main steps: **forward propagation** (making predictions) and **backward propagation** (learning from mistakes). 
+Neural networks are a fundamental part of artificial intelligence (AI). They learn by adjusting their internal settings based on data. This process involves two main steps **forward propagation** (making predictions) and **backward propagation** (learning from mistakes). 
 
-- Neurons – The building blocks of neural networks that receive inputs, process them, and produce outputs. 🧠
-- Layers – Different levels in a neural network, including input, hidden, and output layers. 🏗️
-- Activation Function – Determines whether a neuron should activate or not (e.g., ReLU, Sigmoid, Softmax). ⚡
-- Weights & Biases – Parameters that are adjusted during training to improve predictions. ⚖️
-- Forward Propagation – The process of passing input data through the network to generate an output. ➡️
-- Loss Function – Measures how well the network's predictions match the actual values (e.g., Mean Squared Error, Cross-Entropy Loss). ❌
-- Optimizer – A method for adjusting weights and biases to minimize loss (e.g., Adam, SGD). 🔄
-- Backpropagation – The technique used to update network parameters by propagating errors backward. 🔙
-- Epochs & Batch Size – Defines how many times the network trains on the entire dataset and how much data is processed at a time. 🔁
+- **Neurons** (🧠): Represented by colored circles (orange, blue, green, and purple).
+Each neuron processes inputs, applies an activation function, and passes the output to the next layer.
+
+- **Layers** (🏗️)
+  - Input Layer: The orange circles on the left take input features (e.g., x1, x2).
+  - Hidden Layers: The blue and green circles process the information between input and output.
+  - Output Layer: The purple circle at the end provides the final prediction.
+
+- **Activation Function** (⚡)
+  - Indicated inside the blue, green, and purple neurons as z, f.
+  - Each neuron applies an activation function (e.g., ReLU, Sigmoid) to determine whether the signal should pass through.
+
+- **Weights & Biases**(⚖️)
+  - Weights are represented by the dashed black arrows connecting neurons.
+  - Bias terms are represented by the gray circles labeled 1.
+These parameters are adjusted during training to improve model accuracy.
+
+- **Forward Propagation** (➡️)
+  - Represented by the red arrow at the top.
+  - The process of passing inputs (x1, x2) through the network to generate Predictions (y').
+  - Information flows from left to right in the network.
+
+- **Loss Function** (❌)
+  - Represented by the blue oval labeled "Loss Function".
+  - It calculates the difference between the Predictions (y') and True Values (y) to measure model accuracy.
+  - Examples include Mean Squared Error (MSE) and Cross-Entropy Loss.
+
+- **Optimizer** (🔄)
+  - Represented by the red oval labeled "Optimizer".
+  - It updates Weights using techniques like Stochastic Gradient Descent (SGD) or Adam to minimize the Loss Function.
+
+- **Backpropagation** (🔙)
+  - Represented by the red arrow at the bottom.
+  - It is the process of adjusting weights and biases by moving backward from the Loss Function to the Optimizer.
+  - Ensures that the model learns by reducing prediction errors iteratively.
+
+- **Epochs & Batch Size** (🔁)
+  - The blue circular arrows indicate the iterative training process.
+  - Epochs: The number of times the entire dataset is processed.
+  - Batch Size: The amount of data used in one training step before updating weights.
+
+---
+
 
 ### 🚀 Step 1: Forward Propagation (Making Predictions)
 
@@ -92,6 +125,7 @@ Neural networks power many AI applications, including:
 By using forward and backward propagation, AI **learns and improves over time**, just like humans learning from experience.
 
 ---
+
 ## 🔍 2. Hands-on: Exploring a Real Dataset
 
 ### Open Google Colab
