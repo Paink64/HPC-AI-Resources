@@ -44,6 +44,7 @@ By the end of this session, you'll know how to **detect bias in AI**, **make AI 
 
 ## 📌 **Step 2: Create a Biased AI Model**  
 
+### **➕🐍 Add a New Code Cell**           
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
  
@@ -65,6 +66,8 @@ print(df)
 ✅ Notice that all males were hired, and all females were rejected—the dataset is biased!
 
 ## 📌 **Step 3: Train the Biased AI Model**  
+
+### **➕🐍 Add a New Code Cell**           
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
@@ -100,7 +103,12 @@ for i, gender in enumerate(['Male', 'Female']):
 
 ## 📌 **Step 4: Fix the AI Bias**  
 
-Now, let’s **train AI with fair data** by **balancing the dataset**.  
+Now, let’s **train AI with fair data** by **balancing the dataset**. 
+
+### **➕🐍 Add a New Code Cell**  
+
+1️⃣ Click **+ Code** in the top left to add a new code cell.        
+2️⃣ Copy and paste the following into the new code cell.             
 
 🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d31f71-a3b0-8008-90d9-ec15fae52e3a)
 
