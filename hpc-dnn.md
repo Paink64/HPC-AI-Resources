@@ -125,7 +125,7 @@ We are working with **huge datasets** that require powerful GPUs for efficient c
 2️⃣ Copy and paste the following code:  
 
 
-🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f4af-9c8c-8008-b2ae-4ca613a0ec40)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d31c30-d214-8008-a4de-4b2ba8a25cea)
 
 ```python
 import torch  # Import PyTorch library
@@ -196,7 +196,7 @@ print(f"Dataset Loaded: Places365 with {len(train_dataset)} training images")
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:  
 
-🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f4fb-3dc4-8008-8f9e-a42de947400a)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d31c73-0a78-8008-9741-6d3899048a62)
 
 ```python
 import torch.nn as nn  # Import neural network module from PyTorch
@@ -251,7 +251,7 @@ print("Model created!")
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:   
 
-[ChatGpt Code Conversation](https://chatgpt.com/share/67d0f58d-e518-8008-b987-d1f14a7de503)
+[ChatGpt Code Conversation](https://chatgpt.com/share/67d31c9f-9fb8-8008-9b5d-6ed60e3c83c4)
 
 ```python
 # Initialize counters for correct predictions and total samples
@@ -291,7 +291,7 @@ print(f"Test Accuracy: {accuracy:.2f}% 🎯")
 1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
 2️⃣ Copy and paste the following code:   
 
-🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d0f617-6f1c-8008-8acb-11e241fd52f9)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d31cbd-fa98-8008-8961-ca1d34ad06d3)
 
 ```python
 import numpy as np  # Import NumPy for numerical operations
