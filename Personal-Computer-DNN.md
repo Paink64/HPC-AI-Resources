@@ -142,7 +142,7 @@ By using forward and backward propagation, AI **learns and improves over time**,
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
 
-[ChatGPT Code Conversation](https://chatgpt.com/share/67c906e3-6300-8008-8dc1-d5aa700b0dce)
+[ChatGPT explanation for the code](https://chatgpt.com/share/67d31825-6e04-8008-bd64-75c3614926f8)、
 
 ```python
 import pandas as pd
@@ -164,7 +164,7 @@ print("Dataset loaded successfully! 🎉")
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
 
-[ChatGPT Code Conversation](https://chatgpt.com/share/67c90811-dfa8-8008-bd94-c63b3bbc4670)
+[ChatGPT explanation for the code](https://chatgpt.com/share/67d3185a-d698-8008-ad06-d48fb046f808)
 
 ```python
 from tensorflow.keras.models import Sequential
@@ -190,7 +190,7 @@ print("DNN model created successfully! 🎉")
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
 
-[ChatGPT Code Conversation](https://chatgpt.com/share/67cb97b0-cc34-8008-a86f-c8bb76ad6758)
+[ChatGPT explanation for the code](https://chatgpt.com/share/67d31928-a3e8-8008-a0ed-02e32823c457)
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -217,7 +217,7 @@ history = model.fit(X_train, y_train_encoded, epochs=50, batch_size=8, validatio
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
 
-[ChatGPT Code Conversation](https://chatgpt.com/share/67cfa74e-b278-8008-8861-7c27a38e8f5f)
+[ChatGPT explanation for the code](https://chatgpt.com/share/67d3193c-0b38-8008-8e2b-5bc090bfdbbe)
 
 ```python
 import matplotlib.pyplot as plt
@@ -245,7 +245,7 @@ The following graph shows the **loss (error) reduction** during training. The lo
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
 
-[ChatGPT Code Conversation](https://chatgpt.com/share/67cfa6c0-43d8-8008-9a03-b6bd05ffbebb)
+[ChatGPT explanation for the code](https://chatgpt.com/share/67d319be-3320-8008-ab28-a49a95ea35f6)
 
 ```python
 loss, accuracy = model.evaluate(X_test, y_test_encoded)
@@ -263,7 +263,7 @@ print(f"Test Accuracy: {accuracy * 100:.2f}% 🎉")
 1️⃣ Click **+ Code** in the top left to add a new code cell.<br>
 2️⃣ Copy and paste the following code into the new code cell.<br>
 
-[ChatGPT Code Conversation](https://chatgpt.com/share/67cfa5c0-d644-8008-9a02-9c1180e2f9c6)
+[ChatGPT explanation for the code](https://chatgpt.com/share/67d319d4-ece8-8008-bd15-9a344375cd8a)
 
 ```python
 import numpy as np
