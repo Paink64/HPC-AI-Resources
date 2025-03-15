@@ -93,10 +93,10 @@ playstore_df.head()
 
 ## 🧹 **4. Cleaning the Data**
 
-### **Run the Following Code in a New Cell**
-
-1️⃣ In the next available cell, add the following code.<br>
-2️⃣ Paste and run the following code:<br>
+### **➕🐍 Add a New Code Cell**     
+                         
+1️⃣ Click **+ Code** in the top left to add a new code cell.        
+2️⃣ Copy and paste the following into the new code cell.   
 
 🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d11701-ff08-8011-8fc1-687e777accba)
 
@@ -125,10 +125,10 @@ print(playstore_df.columns)
 
 ### 📊 **Bar Chart: Trending Video Categories**
 
-### **Step 1: Add a New Code Cell**
+### **Step 1: ➕🐍 Add a New Code Cell**
 
-1️⃣ Click **+ Code** to add another code cell.<br>
-2️⃣ Copy and paste the following code:<br>
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
 
 🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d11733-c80c-8011-9c74-130a75d07642)
 
@@ -167,10 +167,10 @@ plt.show()
 
 ### 📊 Scatter Plot: App Ratings vs. Number of Ratings**
 
-### **Step 2: Add a New Code Cell**
+### **Step 2: ➕🐍 Add a New Code Cell***
 
-1️⃣ Click **+ Code** to add another code cell.<br>
-2️⃣ Copy and paste the following code:<br>
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
 
 🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d11768-5ba8-8011-88dc-47e2fd105b26)
 
@@ -198,10 +198,10 @@ plt.show()
 
 ### 📊 **Histogram: App Ratings**
 
-### **Step 3: Add a New Code Cell**
+### **Step 3: ➕🐍 Add a New Code Cell***
 
-1️⃣ Click **+ Code** to add another code cell.<br>
-2️⃣ Copy and paste the following code:<br>
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
 
 🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d1179a-73b8-8011-918d-11a79164a854)
 
@@ -227,9 +227,9 @@ plt.show()  # Display the plot
 
 ### **Step 1: Save the Cleaned Dataset on HPC**
 
-1️⃣ Click **+ Code** to add another code cell.<br>
-2️⃣ Copy and paste the following code:<br>
-
+### **➕🐍 Add a New Code Cell**          
+1️⃣ Click **+ Code** in Jupyter Notebook to add a new code cell.  
+2️⃣ Copy and paste the following code:  
 
 🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d117e7-ddf8-8011-a918-334fe2d9dde7)
 ```python
