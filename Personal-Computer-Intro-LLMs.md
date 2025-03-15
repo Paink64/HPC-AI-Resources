@@ -56,7 +56,8 @@ A **Large Language Model (LLM)** is a type of AI model that can understand and g
 ### **➕🐍 Add a New Code Cell**         
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
-<a href="https://chatgpt.com/share/67caf38c-8f0c-8004-9dff-1b2441a14b83" target="_blank">ChatGPT explanation for the code</a>
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67caf38c-8f0c-8004-9dff-1b2441a14b83)
 
 ```python
 # Import pipeline from Hugging Face for easy LLM use
@@ -72,7 +73,8 @@ from transformers import pipeline
 ### **➕🐍 Add a New Code Cell**           
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
-<a href="https://chatgpt.com/share/67caf3f2-c6ac-8004-a5d5-a34e8a75b783" target="_blank">ChatGPT explanation for the code</a>
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67caf3f2-c6ac-8004-a5d5-a34e8a75b783)
 
 ```python
 # Define the task as text generation
@@ -92,7 +94,9 @@ generator = pipeline(task, model=model_name)
 ### **➕🐍 Add a New Code Cell**         
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
-<a href="https://chatgpt.com/share/67caf460-e874-8004-a418-040789cda3cf" target="_blank">ChatGPT explanation for the code</a>
+
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67caf460-e874-8004-a418-040789cda3cf)
+
 ```python
 # Define the input text prompt
 prompt_text = "Once upon a time, in a faraway land, there was a magical forest."
@@ -118,8 +122,9 @@ print(generated_text)
 💡 LLMs can also answer questions based on a given context!  
 ### **➕🐍 Add a New Code Cell**           
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
-2️⃣ Copy and paste the following code into the new code cell.  
-<a href="https://chatgpt.com/share/67caf4c1-cfe4-8004-b55c-20ed9f92f25c" target="_blank">ChatGPT explanation for the code</a>
+2️⃣ Copy and paste the following code into the new code cell. 
+ 
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67caf4c1-cfe4-8004-b55c-20ed9f92f25c)
 
 ```python
 # Define the task as question answering
