@@ -35,19 +35,19 @@ By the end of this session, you'll know how to **detect bias in AI**, **make AI 
 
 ## 📚 2. Hands-on Experiment - Detecting AI Bias in Hiring
 
-### 🚀 **Step 1: Open [Google Colab](https://colab.research.google.com/)** 
+## 🚀 **Step 1: Open [Google Colab](https://colab.research.google.com/)** 
  
 1️⃣ **Open your browser** and go to **[Google Colab](https://colab.research.google.com/)**.  
 
 2️⃣ **Click** **+ New notebook** to create a new notebook.  
 
 
-### 📌 **Step 2: Create a Biased AI Model**  
+## 📌 **Step 2: Create a Biased AI Model**  
 
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
  
-[ChatGPT Code Conversation](https://chatgpt.com/share/67cfae07-0420-8008-a914-44279572f647)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d31f37-7644-8008-905c-8cd700608189)
 
 ```python
 import pandas as pd
@@ -62,12 +62,13 @@ print(df)
 
 3️⃣ **Click Run (▶) and check the output!** 
 
+✅ Notice that all males were hired, and all females were rejected—the dataset is biased!
 
-### 📌 **Step 3: Train the Biased AI Model**  
+## 📌 **Step 3: Train the Biased AI Model**  
 1️⃣ Click **+ Code** in the top left to add a new code cell.  
 2️⃣ Copy and paste the following code into the new code cell.  
 
-[ChatGPT Code Conversation](https://chatgpt.com/share/67cfae6e-69e0-8008-8714-9dfb0317e581)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d31f5a-6238-8008-99db-10aa00f80011)
 
 ```python
 from sklearn.tree import DecisionTreeClassifier
@@ -90,15 +91,18 @@ predictions = model.predict(test_data)
 # Display results
 for i, gender in enumerate(['Male', 'Female']):
     print(f"AI Prediction for {gender}: {'Hired' if predictions[i] == 1 else 'Rejected'}")
-``
+
+```
 
 3️⃣ **Click Run (▶) and check the output!** 
 
-### 📌 **Step 4: Fix the AI Bias**  
+✅ The AI continues to reject females because it learned from biased data.
+
+## 📌 **Step 4: Fix the AI Bias**  
 
 Now, let’s **train AI with fair data** by **balancing the dataset**.  
 
-[ChatGPT Code Conversation](https://chatgpt.com/share/67cfaeec-a898-8008-9844-43f62aa835bf)
+🔗 [ChatGPT explanation for the code](https://chatgpt.com/share/67d31f71-a3b0-8008-90d9-ec15fae52e3a)
 
 ```python
 # Create a fair dataset (equal male & female hiring)
