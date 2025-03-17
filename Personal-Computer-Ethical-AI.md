@@ -186,7 +186,7 @@ AI **won't replace humans**, but **it will change jobs**. We must **train AI fai
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)<br>
 ⚠ **Warning:** Please use only the two green buttons (“Previous” and “Next”) to navigate the tutorial. Avoid clicking on other links to prevent being redirected to ads.      
 - [Responsible AI by Microsoft](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/)
-- [Ethical Considerations for the Use of AI](https://s3.eu-west-2.amazonaws.com/uploads-7e3kk3/21232/ethical-considerations-for-the-use-of-ai-2019.b30e9d337af8.pdf)
+- [AI-Ethics by IBM](https://www.ibm.com/impact/ai-ethics)
 
 🚀 Keep exploring AI and **stay curious!**  
 
