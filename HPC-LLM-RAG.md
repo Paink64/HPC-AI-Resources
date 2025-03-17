@@ -17,6 +17,71 @@ Traditional LLMs struggle with retrieving up-to-date information. **RAG enhances
 
 ---
 
+## 🚀 **1. Retrieval-Augmented Generation (RAG) Overvie**
+
+
+## 📌 **Introduction**
+🔹 Retrieval-Augmented Generation (RAG) is an AI framework that enhances **Large Language Models (LLMs)** by integrating **real-time knowledge retrieval** with text generation. Instead of relying solely on pre-trained knowledge, RAG retrieves **relevant external documents 📚** to provide **more accurate, context-aware responses**.
+
+---
+
+## 🏗 **RAG System Architecture**
+### 📊 **Workflow Diagram**
+
+#### 🔹 **Step-by-Step RAG Flow**
+![RAG Flow](https://github.com/user-attachments/assets/28f1e5d6-070b-405f-8a54-87c17ed5fbab)
+_Source: [RAG and LLM Integration](https://apmonitor.com/dde/index.php/Main/RAGLargeLanguageModel)_
+
+#### 🔹 **Detailed RAG Workflow**
+![RAG System](YOUR_IMAGE_LINK_HERE)
+_Source: [RAG System Diagram]_  
+
+---
+
+## ⚙️ **How RAG Works (Aligned with Diagram)**
+### 🔹 **Key Processing Steps**
+1️⃣ **User Input 💬** → The user provides a **query** (e.g., a question or request for information).
+2️⃣ **Query Sent to Retrieval System 🔎** → The system searches an external **knowledge base 📂** for relevant information.
+3️⃣ **Relevant Documents Retrieved 📖** → The system finds the most **contextually relevant documents** and extracts useful content.
+4️⃣ **Enhanced Context Generation 📝** → The **retrieved information is merged** with the original query, creating an enriched prompt.
+5️⃣ **LLM Generates Response 🧠** → The **augmented prompt** is sent to the language model to generate a **fact-based answer**.
+6️⃣ **Final Response ✅** → The user receives a response **grounded in retrieved knowledge**.
+
+### 🔍 **Core Components (Matching Workflow Elements)**
+| **Component**                | **Function** |
+|------------------------------|-------------|
+| **User Query** 💬           | Initial question or request for information |
+| **Search Relevant Information** 🔍 | Finds matching knowledge in external sources |
+| **Knowledge Sources** 📚      | Databases, documents, or repositories storing retrievable data |
+| **Retrieved Context** 📄     | Relevant snippets extracted for augmentation |
+| **Enhanced Prompt** ✍️      | Merged user query + additional context |
+| **LLM Processing** 🧠        | Generates responses using both pre-trained knowledge and retrieved content |
+
+
+## 🎯 **Why Use RAG?**
+✔ **Reduces Hallucination 🚫** – Retrieves **real-time information** instead of making assumptions.  
+✔ **More Context-Aware 📌** – Uses retrieved data to **enhance LLM responses**.  
+✔ **Scalable & Efficient ⚡** – Works with **large document repositories** without retraining the model.  
+✔ **Improves Accuracy 🎯** – Ensures answers **align with verified sources**.  
+
+---
+
+## 🔄 **Example Use Case**
+### **Scenario: AI-powered Research Assistant 📑**
+📌 **User Query:** _“What are the latest advancements in renewable energy?”_
+
+🔍 **Without RAG:**
+- The LLM might generate an **outdated response** based only on its last training data.
+
+✅ **With RAG:**
+- The system **retrieves recent research papers 📰** and trusted articles.
+- The model **incorporates external knowledge**, ensuring a **current and factual answer**.
+
+## 🏁 **Conclusion**
+By combining **retrieval** with **generation**, RAG **significantly improves response accuracy** by grounding LLM outputs in real-world information. This framework is **widely used** in applications like **intelligent search engines 🔍, enterprise AI assistants 🤖, and automated research tools 📊**.
+
+---
+
 ## 🖥️ **1. Why Use HPC Instead of a Local Computer?**
 
 **Limitations of Local Machines:**
