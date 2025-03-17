@@ -28,13 +28,9 @@ Traditional LLMs struggle with retrieving up-to-date information. **RAG enhances
 ## 🏗 **RAG System Architecture**
 ### 📊 **Workflow Diagram**
 
-#### 🔹 **Step-by-Step RAG Flow**
-![RAG Flow](https://github.com/user-attachments/assets/28f1e5d6-070b-405f-8a54-87c17ed5fbab)
-_Source: [RAG and LLM Integration](https://apmonitor.com/dde/index.php/Main/RAGLargeLanguageModel)_
+<img src="https://github.com/user-attachments/assets/acab4adb-8f41-46ed-8cb6-d5d11ab2c072" width="600">
 
-#### 🔹 **Detailed RAG Workflow**
-![RAG System](YOUR_IMAGE_LINK_HERE)
-_Source: [RAG System Diagram]_  
+Source: [What is Retrieval-Augmented Generation?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
 
 ---
 
