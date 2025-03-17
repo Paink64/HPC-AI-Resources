@@ -32,9 +32,9 @@ A **Large Language Model (LLM)** is a type of AI model that can understand and g
 
 ### 🖼️ Retrieval-Augmented Generation (RAG) Visual Representation
 
-![rag_llm_integration](https://github.com/user-attachments/assets/28f1e5d6-070b-405f-8a54-87c17ed5fbab)
+<img src="https://github.com/user-attachments/assets/28f1e5d6-070b-405f-8a54-87c17ed5fbab" width="600">
 
-Source: [Your Source]
+Source: [Your Source](https://apmonitor.com/dde/index.php/Main/RAGLargeLanguageModel)
 
 ### 🧠 How RAG Enhances Large Language Models 🔗  
 
