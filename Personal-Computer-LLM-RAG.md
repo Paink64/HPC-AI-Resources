@@ -71,6 +71,7 @@ Retrieval-Augmented Generation (RAG) is an AI framework that improves large lang
 ✅ **Scalable** – Works with large document collections without needing to retrain the model.  
 ✅ **Efficient** – Uses vector search for fast, **semantic** document matching.  
 
+📖Traditional LLMs generate responses based on probability distributions learned from training data. RAG mitigates hallucinations by injecting real-time knowledge, making responses more factually grounded.
 
 ### 🛠️ How Does RAG Work?  
 RAG enhances LLMs by integrating **retrieval** and **generation** to provide more accurate responses. Instead of relying solely on pre-trained knowledge, it fetches relevant information from external databases before generating a response.
