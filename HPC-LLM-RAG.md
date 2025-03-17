@@ -27,7 +27,7 @@ Traditional LLMs struggle with retrieving up-to-date information. **RAG enhances
 ## 🏗 **RAG System Architecture**
 ### 📊 **Workflow Diagram**
 
-<img src="https://github.com/user-attachments/assets/acab4adb-8f41-46ed-8cb6-d5d11ab2c072" width="600">
+<img src="https://github.com/user-attachments/assets/acab4adb-8f41-46ed-8cb6-d5d11ab2c072" width="550">
 
 Source: [What is Retrieval-Augmented Generation?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
 
