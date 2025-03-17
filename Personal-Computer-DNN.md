@@ -46,7 +46,7 @@ Each neuron processes inputs, applies an activation function, and passes the out
   - Each neuron applies an activation function (e.g., ReLU, Sigmoid) to determine whether the signal should pass through.
 
 - **Weights & Biases**(⚖️)
-  - Weights are represented by the dashed black arrows connecting neurons.
+  - Weights are represented by the solid black arrows connecting neurons.
   - Bias terms are represented by the gray circles labeled 1.
 These parameters are adjusted during training to improve model accuracy.
 
