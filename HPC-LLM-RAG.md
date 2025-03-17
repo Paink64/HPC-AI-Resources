@@ -33,12 +33,12 @@ Source: [What is Retrieval-Augmented Generation?](https://aws.amazon.com/what-is
 
 ## ⚙️ **How RAG Works (Aligned with Diagram)**
 ### 🔹 **Key Processing Steps**
-1️⃣ **User Input 💬** → The user provides a **query** (e.g., a question or request for information).
-2️⃣ **Query Sent to Retrieval System 🔎** → The system searches an external **knowledge base 📂** for relevant information.
-3️⃣ **Relevant Documents Retrieved 📖** → The system finds the most **contextually relevant documents** and extracts useful content.
-4️⃣ **Enhanced Context Generation 📝** → The **retrieved information is merged** with the original query, creating an enriched prompt.
-5️⃣ **LLM Generates Response 🧠** → The **augmented prompt** is sent to the language model to generate a **fact-based answer**.
-6️⃣ **Final Response ✅** → The user receives a response **grounded in retrieved knowledge**.
+1️⃣ **User Input 💬** → The user provides a **query** (e.g., a question or request for information).<br>
+2️⃣ **Query Sent to Retrieval System 🔎** → The system searches an external **knowledge base 📂** for relevant information.<br>
+3️⃣ **Relevant Documents Retrieved 📖** → The system finds the most **contextually relevant documents** and extracts useful content.<br>
+4️⃣ **Enhanced Context Generation 📝** → The **retrieved information is merged** with the original query, creating an enriched prompt.<br>
+5️⃣ **LLM Generates Response 🧠** → The **augmented prompt** is sent to the language model to generate a **fact-based answer**.<br>
+6️⃣ **Final Response ✅** → The user receives a response **grounded in retrieved knowledge**.<br>
 
 ### 🔍 **Core Components (Matching Workflow Elements)**
 | **Component**                | **Function** |
