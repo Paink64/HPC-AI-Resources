@@ -23,7 +23,6 @@ Traditional LLMs struggle with retrieving up-to-date information. **RAG enhances
 ## 📌 **Introduction**
 🔹 Retrieval-Augmented Generation (RAG) is an AI framework that enhances **Large Language Models (LLMs)** by integrating **real-time knowledge retrieval** with text generation. Instead of relying solely on pre-trained knowledge, RAG retrieves **relevant external documents 📚** to provide **more accurate, context-aware responses**.
 
----
 
 ## 🏗 **RAG System Architecture**
 ### 📊 **Workflow Diagram**
@@ -31,8 +30,6 @@ Traditional LLMs struggle with retrieving up-to-date information. **RAG enhances
 <img src="https://github.com/user-attachments/assets/acab4adb-8f41-46ed-8cb6-d5d11ab2c072" width="600">
 
 Source: [What is Retrieval-Augmented Generation?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
-
----
 
 ## ⚙️ **How RAG Works (Aligned with Diagram)**
 ### 🔹 **Key Processing Steps**
@@ -60,7 +57,7 @@ Source: [What is Retrieval-Augmented Generation?](https://aws.amazon.com/what-is
 ✔ **Scalable & Efficient ⚡** – Works with **large document repositories** without retraining the model.  
 ✔ **Improves Accuracy 🎯** – Ensures answers **align with verified sources**.  
 
----
+
 
 ## 🔄 **Example Use Case**
 ### **Scenario: AI-powered Research Assistant 📑**
@@ -76,7 +73,6 @@ Source: [What is Retrieval-Augmented Generation?](https://aws.amazon.com/what-is
 ## 🏁 **Conclusion**
 By combining **retrieval** with **generation**, RAG **significantly improves response accuracy** by grounding LLM outputs in real-world information. This framework is **widely used** in applications like **intelligent search engines 🔍, enterprise AI assistants 🤖, and automated research tools 📊**.
 
----
 
 ## 🖥️ **1. Why Use HPC Instead of a Local Computer?**
 
