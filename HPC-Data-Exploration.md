@@ -1,4 +1,4 @@
-# 🚀✨ **HPC: 📊 Visualize AI Data on HPC!** ✨🚀
+# 🚀✨ **HPC: 📊 Visualize AI Data!** ✨🚀
 
 ## 🎯 **Goal**
 
