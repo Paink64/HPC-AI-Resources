@@ -5,13 +5,13 @@
     - [🤖 Simple ML Model](personal-computer-simple-ml)
     - [🧠 Deep Neural Network (DNN)](personal-computer-dnn)
     - [💬 Introduction to LLMs](personal-computer-intro-llms)
-    - [📚 LLM + RAG (AI-Powered Search)](personal-computer-llm-rag)
+    - [📚 LLM + RAG](personal-computer-llm-rag)
     - [🔍 Ethical AI & Future Trends](personal-computer-ethical-ai)
-  - **💻 2️⃣ Using Supercomputer (HPC)**
-    - [🚀 Intro to HPC, AI & Jupyter](hpc-intro)
+  - **💻 2️⃣ High-Performance Computing (HPC)**
+    - [🚀 AI Magic with Jupyter!](hpc-intro)
     - [📊 Visualize AI Data!](hpc-data-exploration)
     - [🤖 Simple ML Model](hpc-simple-ml)
     - [🧠 Deep Neural Network (DNN)](hpc-dnn)
     - [💬 Introduction to LLMs](hpc-intro-llms)
-    - [📚 LLM + RAG (AI-Powered Search)](hpc-llm-rag)
+    - [📚 LLM + RAG](hpc-llm-rag)
     - [🔍 Ethical AI & Future Trends](hpc-ethical-ai)
