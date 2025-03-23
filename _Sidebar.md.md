@@ -1,5 +1,5 @@
 - **🚀 AI & HPC Workshops**
-  - **🖥️ 1️⃣ Using Personal Computer**
+  - **🖥️ 1️⃣ Using Personal Computer (PC)**
     - [✨ AI Magic with Jupyter!](personal-computer-intro)
     - [📊 Visualize AI Data!](personal-computer-data-exploration)
     - [🤖 Simple ML Model](personal-computer-simple-ml)
