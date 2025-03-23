@@ -1,4 +1,4 @@
-# 🚀✨ **Workshop 2: 📊 Visualize AI Data on HPC!** ✨🚀
+# 🚀✨ **HPC: 📊 Visualize AI Data on HPC!** ✨🚀
 
 ## 🎯 **Goal**
 
