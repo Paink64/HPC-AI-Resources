@@ -1,4 +1,4 @@
-# 🚀✨ **Workshop 2: 📊 Visualize AI Data!** ✨🚀
+# 🚀✨ **PC: 📊 Visualize AI Data!** ✨🚀
 
 ## 🎯 **Goal**
 
