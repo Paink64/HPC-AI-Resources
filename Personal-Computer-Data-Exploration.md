@@ -230,10 +230,8 @@ plt.show()  # Show the graph
 
 ### 🔗 **Additional AI Resources** 📚   
 - [Google Colab Guide](https://colab.research.google.com/)     
-- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)<br>
-⚠ **Warning:** Please use only the two green buttons (“Previous” and “Next”) to navigate the tutorial. Avoid clicking on other links to prevent being redirected to ads.
-- [Get started with Microsoft data analytics](https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/)  
-- [Discover Data Analysis](https://learn.microsoft.com/en-us/training/modules/data-analytics-microsoft/)  
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)<br>(Use only the two green buttons “Previous” and “Next” to navigate the tutorial and avoid ads.)
+- [W3Schools Data Science Introduction](https://www.w3schools.com/datascience/ds_introduction.asp) 
 
 🎉 **You did it! Keep exploring AI, and see you at the next workshop!** 🚀
 
