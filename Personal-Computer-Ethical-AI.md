@@ -1,4 +1,4 @@
-# 🚀✨PC: Ethical AI & Future Trends Workshop 🌍🤖  
+# 🚀✨ PC: Ethical AI & Future Trends Workshop 🌍🤖  
 
 ## 🎯 **Goal**  
 
