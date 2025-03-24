@@ -1,4 +1,4 @@
-# 🚀✨ Workshop 1 (HPC Version): ✨ AI Magic with Jupyter! ✨
+# 🚀✨ HPC: ✨ AI Magic with Jupyter! ✨
 
 ## 🎯 Goal  
 🎉 Learn how AI works through fun demos and hands-on coding! In this interactive workshop, you'll **explore AI concepts, experiment with real-world examples, and write your first AI-powered Python code**—no experience needed—using **CSUSB's High-Performance Computing (HPC) system**. 🤖🔥  
