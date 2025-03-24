@@ -1,4 +1,4 @@
-# 🚀✨**PC: Introduction to Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG)** ✨🚀  
+# 🚀✨ **PC: Introduction to Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG)** ✨🚀  
 
 
 ## 🎯 **Goal**  
