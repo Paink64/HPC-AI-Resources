@@ -268,8 +268,8 @@ playstore_df.to_csv("~/playstore_data/cleaned_playstore_data.csv", index=False)
 
 - [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp) (Use only the two green buttons “Previous” and “Next” to navigate the tutorial and avoid ads.)<br>      
-- [ACCESS CI](https://access-ci.org/) (Free access to HPC for all using the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS) U.S. government program)
 - [Get started with Microsoft data analytics](https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/) 
+- [ACCESS CI](https://access-ci.org/) (Free access to HPC for all using the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS) U.S. government program)
 
 🎉 **You did it! Keep exploring AI, and see you at the next workshop!** 🚀
 
