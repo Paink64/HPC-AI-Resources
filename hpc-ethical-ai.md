@@ -1,4 +1,4 @@
-# 🚀✨ Ethical AI & Future Trends on HPC Workshop! 🌟✨
+# 🚀✨ HPC: Ethical AI & Future Trends on HPC Workshop! 🌟✨
 
 ## 🎯 **Goal**
 
