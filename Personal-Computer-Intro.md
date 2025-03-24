@@ -1,4 +1,4 @@
-# 🚀✨ **Workshop 1: ✨AI Magic with Jupyter!** ✨🚀
+# 🚀✨ **PC: ✨AI Magic with Jupyter!** ✨🚀
 
 ## 🎯 **Goal**
 🎉Welcome, future AI explorer! In this fun and interactive workshop, you'll discover **how AI works, see cool demos, and even write your first AI-powered Python code**—all without any prior experience. 🚀
