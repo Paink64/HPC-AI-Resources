@@ -235,5 +235,15 @@ plt.show()  # Show the graph
 
 🎉 **You did it! Keep exploring AI, and see you at the next workshop!** 🚀
 
+---
+
+## 📝 Workshop Feedback Survey 
+
+Thanks for completing this workshop!🎆
+We'd love to hear what you think so we can make future workshops even better. 💡
+
+📌 **[Survey link will be added here soon – stay tuned! 🔗]**
+
+---
 
 
