@@ -1,4 +1,4 @@
-# 🚀✨ **Workshop: Scalable Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) on CSUSB HPC** ✨🚀  
+# 🚀✨ **HPC: Introduction to Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG)** ✨🚀  
 
 
 ## 🎯 **Goal**  
