@@ -240,9 +240,10 @@ plt.show()  # Show the graph
 ### 📝 Workshop Feedback Survey 
 
 Thanks for completing this workshop!🎆
+
 We'd love to hear what you think so we can make future workshops even better. 💡
 
-📌 **[Survey link will be added here soon – stay tuned! 🔗]**
+📌 **[Survey link]**
 
 ---
 
