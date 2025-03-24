@@ -1,4 +1,4 @@
-# 🚀✨ Workshop: Running Large Language Models (LLMs) on HPC ✨🚀
+# 🚀✨ HPC: Introduction of Large Language Models (LLMs) ✨🚀
 
 ## 🎯 Goal
 🤖 Learn how to efficiently run Large Language Models (LLMs) on **High-Performance Computing (HPC) systems**, leveraging **JupyterLab** for scalable text generation and question-answering tasks. Whether you're new to LLMs or HPC, this hands-on workshop will guide you through the essentials! 🚀
