@@ -1,4 +1,4 @@
-# 🚀✨ Workshop: Introduction to Large Language Models (LLMs) ✨🚀
+# 🚀✨ PC: Introduction to Large Language Models (LLMs) ✨🚀
 
 ## 🎯 Goal
 🤖 Understand what a Large Language Model (LLM) is and how it can be used for text generation, question answering, and more, using Python. No prior experience needed—just bring your curiosity! 🚀
