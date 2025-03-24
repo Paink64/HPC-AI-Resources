@@ -231,7 +231,8 @@ plt.show()  # Show the graph
 ### 🔗 **Additional AI Resources** 📚   
 - [Google Colab Guide](https://colab.research.google.com/)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp) (Use only the two green buttons “Previous” and “Next” to navigate the tutorial and avoid ads.)<br>
-- [W3Schools Data Science Introduction](https://www.w3schools.com/datascience/ds_introduction.asp) 
+- [W3Schools Data Science Introduction](https://www.w3schools.com/datascience/ds_introduction.asp)
+- [Microsoft Foundations of data science for machine learning](https://learn.microsoft.com/en-us/training/paths/machine-learning-foundations-using-data-science/)
 
 🎉 **You did it! Keep exploring AI, and see you at the next workshop!** 🚀
 
