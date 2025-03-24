@@ -273,6 +273,17 @@ playstore_df.to_csv("~/playstore_data/cleaned_playstore_data.csv", index=False)
 
 🎉 **You did it! Keep exploring AI, and see you at the next workshop!** 🚀
 
+---
+
+### 📝 Workshop Feedback Survey 
+
+Thanks for completing this workshop!🎆
+
+We'd love to hear what you think so we can make future workshops even better. 💡
+
+📌 **[Survey link]**
+
+---
 
 
 
