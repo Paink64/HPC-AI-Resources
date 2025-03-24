@@ -1,4 +1,4 @@
-# 🚀✨ High-Performance Computing (HPC) Deep Neural Network (DNN) Workshop! 🌟✨
+# 🚀✨ HPC: Deep Neural Network (DNN) Workshop! 🌟✨
 
 ## 🎯 **Goal**
 📊 Learn how to build, train, and visualize a **Deep Neural Network (DNN)** using **PyTorch and HPC**. We will use the **Places365 dataset** and leverage **multi-GPU distributed training** on **CSUSB's HPC cluster**. No prior experience is needed—just bring your curiosity and creativity! 🚀
