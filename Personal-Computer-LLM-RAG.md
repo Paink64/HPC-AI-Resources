@@ -269,20 +269,6 @@ print("Generated Answer:", generated_text)
 
 ✅ Response generated successfully! You now have an AI-powered system retrieving and generating answers. 🚀🎉
 
-
----
-
-
-🏆 Exercise: Try It Yourself! 🎯
-
-Now that you have learned how to retrieve and generate responses using RAG, try this challenge on your own!
-
-1️⃣ Modify the query to ask about a different topic, such as climate change, machine learning, or the history of AI.    
-2️⃣ Run the code and analyze how the retrieved documents influence the generated response.    
-3️⃣ Experiment by changing the model parameters (e.g., max_length) to see how the output changes.
-
-📌 Bonus Challenge: Try integrating a different retrieval dataset from Hugging Face and see how it impacts the performance! 🚀
-
 ---
 
 ## 🎯 **5. Wrap-Up & Next Steps**  
@@ -299,7 +285,19 @@ Now that you have learned how to retrieve and generate responses using RAG, try 
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp)<br>
 ⚠ **Warning:** Please use only the two green buttons (“Previous” and “Next”) to navigate the tutorial. Avoid clicking on other links to prevent being redirected to ads.      
 - [What is retrieval-augmented generation (RAG)?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-retrieval-augmented-generation-rag)
-- [AWS: What is Retrieval-Augmented Generation (RAG)?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
+- [What is retrieval-augmented generation (RAG)?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-retrieval-augmented-generation-rag)
 
 
 🎉 Keep learning AI, and see you at the next workshop! 🚀
+
+---
+
+### 📝 Workshop Feedback Survey 
+
+Thanks for completing this workshop!🎆
+
+We'd love to hear what you think so we can make future workshops even better. 💡
+
+📌 **[Survey link]**
+
+---
