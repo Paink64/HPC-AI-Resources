@@ -89,30 +89,14 @@ By combining **retrieval** with **generation**, RAG **significantly improves res
 
 ---
 
-## 🔍 **2: Access HPC Terminal via CSUSB HPC Portal**
+## 🔍 **2: Access HPC Terminal via JupyterHub**
 
-Once you sign in to the CSUSB HPC portal, follow these steps to configure and launch your server:
+1️⃣ Go to [CSUSB HPC](https://csusb-hpc.nrp-nautilus.io) if you are a learner or educator at CSUSB. Otherwise, have an educator from your school create an account for you using the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support [ACCESS CI](https://allocations.access-ci.org/get-your-first-project), a U.S. government program that provides free access to HPC resources.<br>
+2️⃣ Click **CI Logon** to log in using your school account.<br>
+3️⃣ Select the GPU model that best fits your needs.<br>
+4️⃣ After logging in, Welcome to JupyterLab.<br>
+✅ You're ready to go!
 
-### Step 1: Access the HPC JupyterHub   
-1️⃣ Log into [CSUSB HPC Portal](https://csusb-hpc.nrp-nautilus.io/) using your school credentials.   
-2️⃣ Click CI Logon and authenticate.  
-
-### Step 2: Configure Your Server   
-1️⃣ Click Start My Server or Launch Server if prompted.   
-2️⃣ Under Advanced Options, adjust the following:   
-
-- GPUs: 2
-- GPU Type: Leave as Any
-- Cores: 4 (default)
-- RAM: 16 GB (default)
- 
-3️⃣ Under Image, select:   
-✅ Stack Datascience   
-### Step 3: Start Your Server   
-1️⃣ Scroll down and click Start to launch the server.   
-2️⃣ Wait for the server to initialize. Once it is ready, JupyterHub will open in a new tab.
-
-✅ Now your server is ready for the workshop! 🚀
 
 ---
 
