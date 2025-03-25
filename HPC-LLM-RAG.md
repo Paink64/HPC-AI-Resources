@@ -284,6 +284,10 @@ retrieved_docs = None
 
 ✅ Query tokenized successfully! Your input is now ready for processing. 🔍🎉
 
+🎯 Challenge: Replace the prompt with something completely unexpected
+
+💡 Extra Tip: Edit the `query = "What are the top categories in Google Playstore?"`
+
 ## Step 4: Generate a Response  
   
 ### **➕🐍 Add a New Code Cell**    
