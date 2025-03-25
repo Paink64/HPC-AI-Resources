@@ -91,7 +91,7 @@ By combining **retrieval** with **generation**, RAG **significantly improves res
 
 ## 🔍 **2: Access HPC Terminal via JupyterHub**
 
-1️⃣ Go to [CSUSB HPC](https://csusb-hpc.nrp-nautilus.io) if you are a learner or educator at CSUSB. Otherwise, have an educator from your school create an account for you using the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support [ACCESS CI](https://allocations.access-ci.org/get-your-first-project), a U.S. government program that provides free access to HPC resources.<br>
+1️⃣ Go to [CSUSB HPC](https://csusb-hpc.nrp-nautilus.io/) if you're a student or teacher at CSUSB. If not, ask a teacher from your school to create an account for you using the [ACCESS CI](https://allocations.access-ci.org/get-your-first-project) program, which provides free access to computing tools like Jupyter for classroom use.<br>
 2️⃣ Click **CI Logon** to log in using your school account.<br>
 3️⃣ Select the GPU model that best fits your needs.<br>
 4️⃣ After logging in, Welcome to JupyterLab.<br>
