@@ -283,8 +283,8 @@ print("Generated Answer:", generated_text)
 
 - [Google Colab Guide](https://colab.research.google.com/)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp) (Use only the two green buttons “Previous” and “Next” to navigate the tutorial and avoid ads.)<br>       
-- [AI for Beginners (Microsoft)](https://microsoft.github.io/AI-For-Beginners/?id=other-curricula)
-- [What is retrieval-augmented generation (RAG)?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-retrieval-augmented-generation-rag)
+- [Microsoft: AI for Beginners](https://microsoft.github.io/AI-For-Beginners/?id=other-curricula)
+- [Microsoft: What is retrieval-augmented generation (RAG)?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-retrieval-augmented-generation-rag)
 
 
 🎉 Keep learning AI, and see you at the next workshop! 🚀
