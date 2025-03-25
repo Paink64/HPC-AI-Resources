@@ -363,7 +363,7 @@ plt.show()
 
 - [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
 - [Python Introduction](https://www.w3schools.com/python/python_intro.asp) (Use only the two green buttons “Previous” and “Next” to navigate the tutorial and avoid ads.)<br>      
-- [AWS: What is Retrieval-Augmented Generation (RAG)?](https://aws.amazon.com/what-is/retrieval-augmented-generation/)
+- [Microsoft: What is retrieval-augmented generation (RAG)?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-retrieval-augmented-generation-rag)
 - [ACCESS CI](https://access-ci.org/) (Free access to HPC for all using the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS) U.S. government program)
 🎉 Keep learning AI, and see you at the next workshop! 🚀
 
