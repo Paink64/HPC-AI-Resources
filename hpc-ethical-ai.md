@@ -43,17 +43,11 @@
 
 ## 🔍 **2: Access HPC Terminal via JupyterHub**
 
-1️⃣ Go to [CSUSB HPC](https://csusb-hpc.nrp-nautilus.io/).<br>
-2️⃣ Click CI Logon to log in using your school account.<br>
-3️⃣ Select GPU & Image.<br>
-
-Once logged in:
-
-- Under **GPU Type**, select **RTX A5000**.
-- Choose **2 GPU cores**.
-- In the **Image selection**, pick **Stack PyTorch 2**.
-
-4️⃣ After logging in, Welcome to JupyterLab.
+1️⃣ Go to [CSUSB HPC](https://csusb-hpc.nrp-nautilus.io) if you are a learner or educator at CSUSB. Otherwise, have an educator from your school create an account for you using the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support [ACCESS CI](https://allocations.access-ci.org/get-your-first-project), a U.S. government program that provides free access to HPC resources.<br>
+2️⃣ Click **CI Logon** to log in using your school account.<br>
+3️⃣ Select the GPU model that best fits your needs.<br>
+4️⃣ After logging in, Welcome to JupyterLab.<br>
+✅ You're ready to go!
 
 ---
 
@@ -228,6 +222,9 @@ print("Training Complete! 🚀")
 
 ✅ Training Complete! Your Vision Transformer model has been trained for 5 epochs. 🚀📊🎉
 
+🎯 Challenge: What if you train longer—or too long? Try doubling the number of epochs or increasing the batch size. Does your model actually get better… or worse? 🤔📉
+💡 Extra Tip: Edit `range(5)` in the training loop and `batch_size=512` in the DataLoader.
+
 ---
 
 ## 🏆 **4. Evaluating Model Fairness & Bias Mitigation**
@@ -299,9 +296,20 @@ print("Fairness Evaluation Results:", fairness_results)
 ### **🔗 Additional AI Resources** 📚
 
 - [Project Jupyter Documentation](https://docs.jupyter.org/en/latest/)     
-- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)<br>
-⚠ **Warning:** Please use only the two green buttons (“Previous” and “Next”) to navigate the tutorial. Avoid clicking on other links to prevent being redirected to ads.      
-- [CSUSB: High-Performance Computing (HPC) Resources](https://www.csusb.edu/faculty-center-for-excellence/idat/high-performance-computing)   
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp) (Use only the two green buttons “Previous” and “Next” to navigate the tutorial and avoid ads.)<br>      
 - [Responsible AI by Microsoft](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/)
+- [ACCESS CI](https://access-ci.org/) (Free access to HPC for all using the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS) U.S. government program)
 
 🚀 Keep learning and see you at the next workshop! 🎉
+
+---
+
+### 📝 Workshop Feedback Survey 
+
+Thanks for completing this workshop!🎆
+
+We'd love to hear what you think so we can make future workshops even better. 💡
+
+📌 **[Survey link]**
+
+---
