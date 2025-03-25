@@ -115,9 +115,6 @@ print(generated_text)
 
 ✅ Text generated successfully! You should now see a creative continuation of your prompt. 📝✨🎉
 
-🎯 Challenge: Try changing the prompt to something funny or mysterious!🔥<br>
-💡 Extra Tip: Edit the prompt_text = "..." line and try your own creative ideas. For example, start with “In a haunted bakery…” or “The cat who ruled the internet…”
-
 ---
 ## 🤖 4. How to use LLMs for answering questions
 💡 LLMs can also answer questions based on a given context!  
