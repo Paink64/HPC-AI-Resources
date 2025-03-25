@@ -171,10 +171,21 @@ print("Answer:", answer_text)
 ### 🔗 Additional AI Resources 📚
 
 - [Google Colab Guide](https://colab.research.google.com/)     
-- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)<br>
-⚠ **Warning:** Please use only the two green buttons (“Previous” and “Next”) to navigate the tutorial. Avoid clicking on other links to prevent being redirected to ads.      
-- [Microsoft Learn: Introduction to large language models](https://learn.microsoft.com/en-us/training/modules/introduction-large-language-models/)
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp) (Use only the two green buttons “Previous” and “Next” to navigate the tutorial and avoid ads.)<br> 
+- [AI for Beginners (Microsoft)](https://microsoft.github.io/AI-For-Beginners/?id=other-curricula)
 - [What is LLM (Large Language Model)?](https://aws.amazon.com/what-is/large-language-model/)
 
 
 🎉 Keep learning AI, and see you at the next workshop! 🚀
+
+---
+
+### 📝 Workshop Feedback Survey 
+
+Thanks for completing this workshop!🎆
+
+We'd love to hear what you think so we can make future workshops even better. 💡
+
+📌 **[Survey link]**
+
+---
