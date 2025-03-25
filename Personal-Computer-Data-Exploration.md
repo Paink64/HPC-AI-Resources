@@ -91,7 +91,7 @@ data
 ✅ A small table should pop up with some missing values (NaN)🎉
 
 
-🎯Challenge: Modify the dataset by adding at least two more students with their Name, Age, and Score values.
+🎯Challenge: Modify the dataset by adding at least two more students with their Name, Age, and Score values.<br>
 💡Extra Tip: Edit the `data = pd.DataFrame({...})` section and include new students.
 ###
 ---
