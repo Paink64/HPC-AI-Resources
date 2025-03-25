@@ -65,6 +65,11 @@ print(df)
 
 ✅ Notice that all males were hired, and all females were rejected—the dataset is biased!
 
+🎯 Challenge: Make your own *intentionally biased* dataset. Try adding only one female and make her always rejected. Or create a world where AI only hires people named "Zorg." 🤖🚫
+
+💡 Extra Tip: Edit the `data = {...}` section and see how badly AI can behave when trained on unfair data!
+
+
 ## 📌 **Step 3: Train the Biased AI Model**  
 
 ### **➕🐍 Add a New Code Cell**           
@@ -183,11 +188,22 @@ AI **won't replace humans**, but **it will change jobs**. We must **train AI fai
 ### 🔗 **Additional AI Resources** 📚   
 
 - [Google Colab: Getting Started](https://colab.research.google.com/#scrollTo=GJBs_flRovLc)     
-- [Python Introduction](https://www.w3schools.com/python/python_intro.asp)<br>
-⚠ **Warning:** Please use only the two green buttons (“Previous” and “Next”) to navigate the tutorial. Avoid clicking on other links to prevent being redirected to ads.      
+- [Python Introduction](https://www.w3schools.com/python/python_intro.asp) (Use only the two green buttons “Previous” and “Next” to navigate the tutorial and avoid ads.)<br>   
+- [AI for Beginners (Microsoft)](https://microsoft.github.io/AI-For-Beginners/?id=other-curricula)
 - [Responsible AI by Microsoft](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/)
-- [AI-Ethics by IBM](https://www.ibm.com/impact/ai-ethics)
 
 🚀 Keep exploring AI and **stay curious!**  
 
 🎉 **That’s how we build Ethical AI for the Future!** 🚀
+
+---
+
+### 📝 Workshop Feedback Survey 
+
+Thanks for completing this workshop!🎆
+
+We'd love to hear what you think so we can make future workshops even better. 💡
+
+📌 **[Survey link]**
+
+---
