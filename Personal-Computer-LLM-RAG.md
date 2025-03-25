@@ -238,6 +238,10 @@ retrieved_docs = None
 
 ✅ Query prepared successfully! Now, let's generate a response. ✨🎉
 
+🎯 Challenge: Swap the prompt for something ridiculous, like “Explain quantum physics to a squirrel” or “Why did the robot fall in love with a toaster?”<br>
+💡 Extra Tip: Edit the `query = "What is the process of photosynthesis?"` line and rerun the generation cell.
+
+
 ## ✨ **Step 4: Generate a Response Using the Retrieved Documents**
 
 ### **➕🐍 Add a New Code Cell**  
